@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">NihonNewWord</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="lesson_name">%1$d</string>
+    <string name="kanji_lesson_name">%1$s</string>
+    <string name="lesson_name_full">lesson %1$d</string>
+    <string name="kanji_lesson_name_full">lesson %1$s</string>
+    <string name="kana">Kana</string>
+    <string name="kanji">Kanji</string>
+    <string name="meaning">Meaning</string>
+    <string name="no_kanji">&lt;= NO KANJI =&gt;</string>
+    <string name="new_word">New word</string>
+</resources>

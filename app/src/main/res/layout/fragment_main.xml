@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="self.lugen.nihonnewword.fragment.MainFragment">
+
+    <LinearLayout
+        android:id="@+id/row_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/main_layout_padding">
+        <self.lugen.nihonnewword.view.SquareRelativeLayout
+            android:id="@+id/rl_new_world"
+            style="@style/MainItem">
+            <TextView
+                style="@style/MainItemTextView"
+                android:text="@string/new_word"/>
+
+        </self.lugen.nihonnewword.view.SquareRelativeLayout>
+        <self.lugen.nihonnewword.view.SquareRelativeLayout
+            android:id="@+id/rl_kanji"
+            style="@style/MainItem">
+            <TextView
+                style="@style/MainItemTextView"
+                android:text="@string/kanji"/>
+
+        </self.lugen.nihonnewword.view.SquareRelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

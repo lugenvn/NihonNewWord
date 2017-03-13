@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:id="@+id/navList"
+              android:layout_width="280dp"
+              android:layout_height="match_parent"
+              android:background="#ffffffff">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp">
+        <TextView
+            android:id="@+id/tv_menu_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Let's learn japanese"
+            android:textSize="20sp"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_menu_kanji"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:padding="10dp"
+        android:background="@drawable/menu_item_selector_1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="20dp"
+            android:text="Kanji Learn"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_menu_new_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:padding="10dp"
+        android:background="@drawable/menu_item_selector_2"
+        android:layout_marginTop="1dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="20dp"
+            android:text="New word"/>
+    </RelativeLayout>
+
+</LinearLayout>

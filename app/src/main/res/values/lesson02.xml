@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lesson2_kana">
+        <item>これ</item>
+        <item>それ</item>
+        <item>あれ</item>
+        <item>この~</item>
+        <item>その~</item>
+
+        <item>あの~</item>
+        <item>ほん</item>
+        <item>じしょ</item>
+        <item>ざっし</item>
+        <item>しんぶん</item>
+
+        <item>ノート</item>
+        <item>てちょう</item>
+        <item>めいし</item>
+        <item>カード</item>
+        <item>テレホンカード</item>
+
+        <item>えんぴつ</item>
+        <item>ボールペン</item>
+        <item>シャープペンシル</item>
+        <item>かぎ</item>
+        <item>とけい</item>
+
+        <item>かさ</item>
+        <item>かばん</item>
+        <item>[カセット]テープ</item>
+        <item>テープレコーダー</item>
+        <item>テレビ</item>
+
+        <item>ラジオ</item>
+        <item>カメラ</item>
+        <item>コンピューター</item>
+        <item>じどうしゃ</item>
+        <item>つくえ</item>
+
+        <item>いす</item>
+        <item>チョコレート</item>
+        <item>コーヒー</item>
+        <item>えいご</item>
+        <item>にほんご</item>
+
+        <item>~ご</item>
+        <item>なん</item>
+        <item>そう</item>
+        <item>ちがいます</item>
+        <item>そうですか。</item>
+
+        <item>あのう</item>
+        <item>ほんのきもちです。</item>
+        <item>どうぞ。</item>
+        <item>どうも</item>
+        <item>[どうも]ありがとう [ございます]。</item>
+
+        <item>これからおせわになります。</item>
+        <item>こちらこそ よろしく。</item>
+    </string-array>
+
+
+    <string-array name="lesson2_kanji">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+
+        <item></item>
+        <item>本</item>
+        <item>辞書</item>
+        <item>雑誌</item>
+        <item>新聞</item>
+
+        <item></item>
+        <item>手帳</item>
+        <item>名刺</item>
+        <item></item>
+        <item></item>
+
+        <item>鉛筆</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>時計</item>
+
+        <item>傘</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>自動車</item>
+        <item>机</item>
+
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>英語</item>
+        <item>日本語</item>
+
+        <item>~語</item>
+        <item>何</item>
+        <item></item>
+        <item>違います</item>
+        <item></item>
+
+        <item></item>
+        <item>ほんの気持ちです。</item>
+        <item></item>
+        <item></item>
+        <item></item>
+
+        <item>これからお世話になります。</item>
+        <item></item>
+    </string-array>
+
+
+    <string-array name="lesson2_meaning">
+        <item>cái này, đây (vật ở gần người nói)</item>
+        <item>cái đó, đó (vật ở gần người nghe)</item>
+        <item>cái kia, kia (vật ở xa cả người nói và người nghe)</item>
+        <item>~ này</item>
+        <item>~ đó</item>
+
+        <item>~ kia</item>
+        <item>sách</item>
+        <item>từ điển</item>
+        <item>tạp chí</item>
+        <item>báo</item>
+
+        <item>vở</item>
+        <item>sổ tay</item>
+        <item>danh thiếp</item>
+        <item>thẻ, cạc</item>
+        <item>thẻ điện thoại</item>
+
+        <item>bút chì</item>
+        <item>bút bi</item>
+        <item>bút chì kim, bút chì bấm</item>
+        <item>chìa khóa</item>
+        <item>đồng hồ</item>
+
+        <item>ô, dù</item>
+        <item>cặp sách, túi sách</item>
+        <item>băng [cát-xét]</item>
+        <item>máy ghi âm</item>
+        <item>tivi</item>
+
+        <item>Radio</item>
+        <item>máy ảnh</item>
+        <item>máy vi tính</item>
+        <item>ô tô, xe hơi</item>
+        <item>Bàn</item>
+
+        <item>Ghế</item>
+        <item>Sô cô la</item>
+        <item>Cà phê</item>
+        <item>Tiếng Anh</item>
+        <item>Tiếng Nhật</item>
+
+        <item>tiếng ~</item>
+        <item>Cái gì</item>
+        <item>đúng, phải, đúng vậy</item>
+        <item>không phải, không đúng, sai rồi</item>
+        <item>Thế à./ Vậy à.</item>
+
+        <item>à, ờ...</item>
+        <item>Chỉ là chút lòng thành thôi</item>
+        <item>Xin mời</item>
+        <item>Cảm ơn</item>
+        <item>[Xin][chân thành] cám ơn./ Xin cám ơn[rất nhiều].</item>
+
+        <item>Từ nay tôi rất mong được sự giúp đỡ của anh/chị.</item>
+        <item>Chính tôi cũng mong được sự giúp đỡ của anh/chị.</item>
+    </string-array>
+</resources>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lesson5_kana">
+        <item>いきます</item>
+        <item>きます</item>
+        <item>かえります</item>
+        <item>がっこう</item>
+        <item>スーパー</item>
+
+        <item>えき</item>
+        <item>ひこうき</item>
+        <item>ふね</item>
+        <item>でんしゃ</item>
+        <item>ちかてつ</item>
+
+        <item>しんかんせん</item>
+        <item>バス</item>
+        <item>タクシー</item>
+        <item>じてんしゃ</item>
+        <item>あるいて</item>
+
+        <item>ひと</item>
+        <item>ともだち</item>
+        <item>かれ</item>
+        <item>かのじょ</item>
+        <item>かぞく</item>
+
+        <item>ひとりで</item>
+        <item>せんしゅう</item>
+        <item>こんしゅう</item>
+        <item>らいしゅう</item>
+        <item>せんげつ</item>
+
+        <item>こんげつ</item>
+        <item>らいげつ</item>
+        <item>きょねん</item>
+        <item>ことし</item>
+        <item>らいねん</item>
+
+        <item>―がつ</item>
+        <item>なんがつ</item>
+        <item>ついたち</item>
+        <item>ふつか</item>
+        <item>みっか</item>
+
+        <item>よっか</item>
+        <item>いつか</item>
+        <item>むいか</item>
+        <item>なのか</item>
+        <item>ようか</item>
+
+        <item>ここのか</item>
+        <item>とおか</item>
+        <item>じゅうよっか</item>
+        <item>はつか</item>
+        <item>にじゅうよっか</item>
+
+        <item>―にち</item>
+        <item>なんにち</item>
+        <item>いつ</item>
+        <item>たんじょうび</item>
+        <item>ふつう</item>
+
+        <item>きゅうこう</item>
+        <item>とっきゅう</item>
+        <item>つぎの</item>
+        <item>どういたしまして。</item>
+        <item>―ばんせん</item>
+
+        <item>はかた</item>
+        <item>ふしみ</item>
+        <item>こうしえん</item>
+        <item>おおさかじょう</item>
+    </string-array>
+
+
+    <string-array name="lesson5_kanji">
+        <item>行きます</item>
+        <item>来ます</item>
+        <item>帰ります</item>
+        <item>学校</item>
+        <item></item>
+
+        <item>駅</item>
+        <item>飛行機</item>
+        <item>船</item>
+        <item>電車</item>
+        <item>地下鉄</item>
+
+        <item>新幹線</item>
+        <item></item>
+        <item></item>
+        <item>自転車</item>
+        <item>歩いて</item>
+
+        <item>人</item>
+        <item>友達</item>
+        <item>彼</item>
+        <item>彼女</item>
+        <item>家族</item>
+
+        <item>一人で</item>
+        <item>先週</item>
+        <item>今週</item>
+        <item>来週</item>
+        <item>先月</item>
+
+        <item>今月</item>
+        <item>来月</item>
+        <item>去年</item>
+        <item></item>
+        <item>来年</item>
+
+        <item>―月</item>
+        <item>何月</item>
+        <item>1日</item>
+        <item>2日</item>
+        <item>3日</item>
+
+        <item>4日</item>
+        <item>5日</item>
+        <item>6日</item>
+        <item>7日</item>
+        <item>8日</item>
+
+        <item>9日</item>
+        <item>10日</item>
+        <item>14日</item>
+        <item>20日</item>
+        <item>24日</item>
+
+        <item>―日</item>
+        <item>何日</item>
+        <item></item>
+        <item>誕生日</item>
+        <item>普通</item>
+
+        <item>急行</item>
+        <item>特急</item>
+        <item>次の</item>
+        <item></item>
+        <item>―番線</item>
+
+        <item>博多</item>
+        <item>伏見</item>
+        <item>甲子園</item>
+        <item>大阪城</item>
+    </string-array>
+
+
+    <string-array name="lesson5_meaning">
+        <item>đi</item>
+        <item>đến</item>
+        <item>về</item>
+        <item>trường học</item>
+        <item>siêu thị</item>
+
+        <item>ga, nhà ga</item>
+        <item>máy bay</item>
+        <item>thuyền, tàu thủy</item>
+        <item>tàu điện</item>
+        <item>tàu điện ngầm</item>
+
+        <item>tàu điện siêu tốc của Nhật</item>
+        <item>xe Buýt</item>
+        <item>tắc-xi</item>
+        <item>xe đạp</item>
+        <item>đi bộ</item>
+
+        <item>người</item>
+        <item>bạn, bạn bè</item>
+        <item>anh ấy, bạn trai</item>
+        <item>chị ấy, bạn gái</item>
+        <item>gia đình</item>
+
+        <item>một mình</item>
+        <item>tuần trước</item>
+        <item>tuần này</item>
+        <item>tuần sau</item>
+        <item>tháng trước</item>
+
+        <item>tháng này</item>
+        <item>tháng sau</item>
+        <item>năm ngoái</item>
+        <item>năm nay</item>
+        <item>năm sau</item>
+
+        <item>tháng -</item>
+        <item>tháng mấy</item>
+        <item>ngày mồng 1</item>
+        <item>ngày mồng 2, 2 ngày</item>
+        <item>ngày mồng 3, 3 ngày</item>
+
+        <item>ngày mồng 4, 4 ngày</item>
+        <item>ngày mồng 5, 5 ngày</item>
+        <item>ngày mồng 6, 6 ngày</item>
+        <item>ngày mồng 7, 7 ngày</item>
+        <item>ngày mồng 8, 8 ngày</item>
+
+        <item>ngày mồng 9, 9 ngày</item>
+        <item>ngày mồng 10, 10 ngày</item>
+        <item>ngày 14, 14 ngày</item>
+        <item>ngày 20, 20 ngày</item>
+        <item>ngày 24, 24 ngày</item>
+
+        <item>ngày -, - ngày</item>
+        <item>ngày mấy, ngày bao nhiêu, mấy ngày, bao nhiêu ngày</item>
+        <item>bao giờ, khi nào</item>
+        <item>sinh nhật</item>
+        <item>tàu thường (dừng cả ở các ga lẻ)</item>
+
+        <item>tàu tốc hành</item>
+        <item>tàu tốc hành đặc biệt</item>
+        <item>tiếp theo</item>
+        <item>Không có gì.</item>
+        <item>sân ga số-</item>
+
+        <item>tên một khu phố ở Kyushu</item>
+        <item>tên một khu phố ở Kyoto</item>
+        <item>tên một khu phố ở Osaka</item>
+        <item>Lâu đài Osaka, một lâu đài nổi tiếng ở Osaka</item>
+    </string-array>
+</resources>

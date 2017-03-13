@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lesson8_kana">
+        <item>ハンサム[な]</item>
+        <item>きれい[な]</item>
+        <item>しずか[な]</item>
+        <item>にぎやか[な]</item>
+        <item>ゆうめい[な]</item>
+
+        <item>しんせつ[な]</item>
+        <item>げんき[な]</item>
+        <item>ひま[な]</item>
+        <item>べんり[な]</item>
+        <item>すてき[な]</item>
+
+        <item>すてき[な]</item>
+        <item>おおきい</item>
+        <item>ちいさい</item>
+        <item>あたらしい</item>
+        <item>ふるい</item>
+
+        <item>いい(よい)</item>
+        <item>わるい</item>
+        <item>あつい</item>
+        <item>さむい</item>
+        <item>つめたい</item>
+
+        <item>むずかしい</item>
+        <item>やさしい</item>
+        <item>たかい</item>
+        <item>やすい</item>
+        <item>ひくい</item>
+
+        <item>おもしろい</item>
+        <item>おいしい</item>
+        <item>いそがしい</item>
+        <item>たのしい</item>
+        <item>しろい</item>
+
+        <item>くろい</item>
+        <item>あかい</item>
+        <item>あおい</item>
+        <item>さくら</item>
+        <item>やま</item>
+
+        <item>まち</item>
+        <item>たべもの</item>
+        <item>くるま</item>
+        <item>ところ</item>
+        <item>りょう</item>
+
+        <item>べんきょう</item>
+        <item>せいかつ</item>
+        <item>[お]しごと</item>
+        <item>どう</item>
+        <item>どんな~</item>
+
+        <item>どれ</item>
+        <item>とても</item>
+        <item>あまり</item>
+        <item>そして</item>
+        <item>~が、~</item>
+
+        <item>おげんきですか。</item>
+        <item>そうですね。</item>
+        <item>にほんのせいかつになれましたか。</item>
+        <item>[~、]もういっぱい いかがですか。</item>
+        <item>いいえ、けっこうです。</item>
+
+        <item>もう~です[ね]。</item>
+        <item>そろそろしつれいします。</item>
+        <item>また いらっしゃってください。</item>
+        <item>ふじさん</item>
+        <item>びわこ</item>
+
+        <item>シャンハイ</item>
+        <item>しちにんのさむらい</item>
+        <item>きんかくじ</item>
+    </string-array>
+
+
+    <string-array name="lesson8_kanji">
+        <item></item>
+        <item></item>
+        <item>静か[な]</item>
+        <item></item>
+        <item>有名[な]</item>
+
+        <item>親切[な]</item>
+        <item>元気[な]</item>
+        <item>暇[な]</item>
+        <item>便利[な]</item>
+        <item></item>
+
+        <item></item>
+        <item>大きい</item>
+        <item>小さい</item>
+        <item>新しい</item>
+        <item>古い</item>
+
+        <item></item>
+        <item>悪い</item>
+        <item>暑い、熱い</item>
+        <item>寒い</item>
+        <item>冷たい</item>
+
+        <item>難しい</item>
+        <item>易しい</item>
+        <item>高い</item>
+        <item>安い</item>
+        <item>低い</item>
+
+        <item></item>
+        <item></item>
+        <item>忙しい</item>
+        <item>楽しい</item>
+        <item>白い</item>
+
+        <item>黒い</item>
+        <item>赤い</item>
+        <item>青い</item>
+        <item>桜</item>
+        <item>山</item>
+
+        <item>町</item>
+        <item>食べ物</item>
+        <item>車</item>
+        <item>所</item>
+        <item>寮</item>
+
+        <item>勉強</item>
+        <item>生活</item>
+        <item>[お]仕事</item>
+        <item></item>
+        <item></item>
+
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+
+        <item>お元気ですか。</item>
+        <item></item>
+        <item>日本の生活に慣れましたか。</item>
+        <item>[~、]もう一杯 いかがですか。</item>
+        <item></item>
+
+        <item></item>
+        <item>そろそろ失礼します。</item>
+        <item></item>
+        <item>富士山</item>
+        <item>琵琶湖</item>
+
+        <item>上海</item>
+        <item>七人の 侍</item>
+        <item>金閣寺</item>
+    </string-array>
+
+
+    <string-array name="lesson8_meaning">
+        <item>đẹp trai</item>
+        <item>đẹp, sạch</item>
+        <item>yên tĩnh</item>
+        <item>náo nhiệt</item>
+        <item>nổi tiếng</item>
+
+        <item>tốt bụng, thân thiện</item>
+        <item>khỏe</item>
+        <item>rảnh rỗi</item>
+        <item>tiện lợi</item>
+        <item>đẹp, hay</item>
+
+        <item>đẹp, hay</item>
+        <item>lớn, to</item>
+        <item>bé, nhỏ</item>
+        <item>mới</item>
+        <item>cũ</item>
+
+        <item>tốt</item>
+        <item>xấu</item>
+        <item>nóng</item>
+        <item>lạnh, rét (dùng cho thời tiết)</item>
+        <item>lạnh, buốt (dùng cho cảm giác)</item>
+
+        <item>khó</item>
+        <item>dễ</item>
+        <item>đắt, cao</item>
+        <item>rẻ</item>
+        <item>thấp</item>
+
+        <item>thú vị, hay</item>
+        <item>ngon</item>
+        <item>bận</item>
+        <item>vui</item>
+        <item>trắng</item>
+
+        <item>đen</item>
+        <item>đỏ</item>
+        <item>xanh da trời</item>
+        <item>anh đào (hoa, cây)</item>
+        <item>núi</item>
+
+        <item>thị trấn, thị xã, thành phố</item>
+        <item>đồ ăn</item>
+        <item>xe ô tô</item>
+        <item>nơi, chỗ</item>
+        <item>kí túc xá</item>
+
+        <item>học</item>
+        <item>cuộc sống, sinh hoạt</item>
+        <item>công việc (~をします:làm việc)</item>
+        <item>thế nào</item>
+        <item>~ như thế nào</item>
+
+        <item>cái nào</item>
+        <item>rất, lắm</item>
+        <item>không ~ lắm</item>
+        <item>và, thêm nữa (dùng để nối 2 câu)</item>
+        <item>~, nhưng ~</item>
+
+        <item>Anh/chị có khỏe không?</item>
+        <item>Thế à./ Để tôi xem. (cách nói trong lúc suy nghĩ câu trả lời)</item>
+        <item>Anh/Chị đã quen với cuộc sống ở Nhật chưa?</item>
+        <item>Anh/ chị dùng thêm một chén [~] nữa được không ạ?</item>
+        <item>Không, đủ rồi ạ.</item>
+
+        <item>Đã ~ rồi nhỉ./ Đã ~ rồi, đúng không ạ?</item>
+        <item>Sắp đến lúc tôi phải xin phép rồi./ Đã đến lúc tôi phải về.</item>
+        <item>Lần sau anh/ chị lại đến chơi nhé.</item>
+        <item>Núi Phú Sĩ (ngọn núi cao nhất Nhật Bản)</item>
+        <item>Hồ Biwa</item>
+
+        <item>Thượng Hải</item>
+        <item>“bảy chàng võ sĩ Samurai” (tên một bộ phim kinh điển của đạo diễn Kurosawa Akira)</item>
+        <item>Chùa Kinkaku-ji (chùa vàng)</item>
+    </string-array>
+</resources>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lesson3_kana">
+        <item>ここ</item>
+        <item>そこ</item>
+        <item>あそこ</item>
+        <item>どこ</item>
+        <item>こちら</item>
+
+        <item>そちら</item>
+        <item>あちら</item>
+        <item>どちら</item>
+        <item>きょうしつ</item>
+        <item>しょくどう</item>
+
+        <item>じむしょ</item>
+        <item>かいぎしつ</item>
+        <item>うけつけ</item>
+        <item>ロビー</item>
+        <item>へや</item>
+
+        <item>トイレ</item>
+        <item>おてあらい</item>
+        <item>かいだん</item>
+        <item>エレベーター</item>
+        <item>エスカレーター</item>
+
+        <item>[お]くに</item>
+        <item>かいしゃ</item>
+        <item>うち</item>
+        <item>でんわ</item>
+        <item>くつ</item>
+
+        <item>ネクタイ</item>
+        <item>ワイン</item>
+        <item>たばこ</item>
+        <item>うりば</item>
+        <item>ちか</item>
+
+        <item>―かい(-がい)</item>
+        <item>なんがい</item>
+        <item>―えん</item>
+        <item>いくら</item>
+        <item>ひゃく</item>
+
+        <item>せん</item>
+        <item>まん</item>
+        <item>すみません。</item>
+        <item>~でございます。</item>
+        <item>[~を]みせてください</item>
+
+        <item>じゃ</item>
+        <item>[~を]ください</item>
+        <item>しんおおさか</item>
+        <item>イタリア</item>
+        <item>スイス</item>
+    </string-array>
+
+
+    <string-array name="lesson3_kanji">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>教室</item>
+        <item>食堂</item>
+
+        <item>事務所</item>
+        <item>会議室</item>
+        <item>受付</item>
+        <item></item>
+        <item>部屋</item>
+
+        <item></item>
+        <item>お手洗い</item>
+        <item>階段</item>
+        <item></item>
+        <item></item>
+
+        <item>[お]国</item>
+        <item>会社</item>
+        <item></item>
+        <item>電話</item>
+        <item>靴</item>
+
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>売り場</item>
+        <item></item>
+
+        <item>-階</item>
+        <item>何階</item>
+        <item>―円</item>
+        <item></item>
+        <item>百</item>
+
+        <item>千</item>
+        <item>万</item>
+        <item></item>
+        <item></item>
+        <item>[~を]見せてください</item>
+
+        <item></item>
+        <item></item>
+        <item>新大阪</item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+
+    <string-array name="lesson3_meaning">
+        <item>Chỗ này, đây</item>
+        <item>chỗ đó, đó</item>
+        <item>chỗ kia, kia</item>
+        <item>chỗ nào, đâu</item>
+        <item>phía này, đằng này, chỗ này, đây (cách nói lịch sự của 「ここ」)</item>
+
+        <item>phía đó, đằng đó, chỗ đó, đó (cách nói lịch sự của 「そこ」)</item>
+        <item>Phía kia, đằng kia, chỗ kia, kia (cách nói lịch sự của 「あそ こ」)</item>
+        <item>Phía nào, đằng nào, chỗ nào, đâu (cách nói lịch sự của 「どこ」)</item>
+        <item>lớp học, phòng học</item>
+        <item>nhà ăn</item>
+
+        <item>văn phòng</item>
+        <item>phòng họp</item>
+        <item>bộ phận tiếp tân, phòng thường trực</item>
+        <item>hành lang, đại sảnh</item>
+        <item>căn phòng</item>
+
+        <item>nhà vệ sinh, phòng vệ sinh, toa- lét</item>
+        <item>nhà vệ sinh, phòng vệ sinh (traditional)</item>
+        <item>Cầu thang</item>
+        <item>thang máy</item>
+        <item>thang cuốn</item>
+
+        <item>đất nước (của anh/chị)</item>
+        <item>công ty</item>
+        <item>nhà</item>
+        <item>máy điện thoại, điện thoại</item>
+        <item>giầy</item>
+
+        <item>cà vạt</item>
+        <item>rượu vang</item>
+        <item>thuốc lá</item>
+        <item>quầy bán (trong một cửa hàng bách hóa)</item>
+        <item>tầng hầm, dưới mặt đất</item>
+
+        <item>tầng thứ -</item>
+        <item>tầng mấy</item>
+        <item>- yên</item>
+        <item>bao nhiêu tiền</item>
+        <item>trăm</item>
+
+        <item>nghìn</item>
+        <item>mười nghìn, vạn</item>
+        <item>Xin lỗi</item>
+        <item>(cách nói lịch sự của 「です」)</item>
+        <item>cho tôi xem [~]</item>
+
+        <item>thế thì, vậy thì</item>
+        <item>cho tôi [~]</item>
+        <item>tên một nhà ga ở Osaka</item>
+        <item>Ý</item>
+        <item>Thụy Sĩ</item>
+    </string-array>
+</resources>

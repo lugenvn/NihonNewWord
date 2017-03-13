@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lesson7_kana">
+        <item>きります</item>
+        <item>おくります</item>
+        <item>あげます</item>
+        <item>もらいます</item>
+        <item>かします</item>
+
+        <item>かります</item>
+        <item>おしえます</item>
+        <item>ならいます</item>
+        <item>[でんわを~] かけます</item>
+        <item>て</item>
+
+        <item>はし</item>
+        <item>スプーン</item>
+        <item>ナイフ</item>
+        <item>フォーク</item>
+        <item>はさみ</item>
+
+        <item>ファクス</item>
+        <item>ワープロ</item>
+        <item>パソコン</item>
+        <item>パンチ</item>
+        <item>ホッチキス</item>
+
+        <item>セロテープ</item>
+        <item>けしゴム</item>
+        <item>かみ</item>
+        <item>はな</item>
+        <item>シャツ</item>
+
+        <item>プレゼント</item>
+        <item>にもつ</item>
+        <item>おかね</item>
+        <item>きっぷ</item>
+        <item>クリスマス</item>
+
+        <item>ちち</item>
+        <item>はは</item>
+        <item>おとうさん</item>
+        <item>おかあさん</item>
+        <item>もう</item>
+
+        <item>まだ</item>
+        <item>これから</item>
+        <item>[~、]すてきですね。</item>
+        <item>ごめんください。</item>
+        <item>いらっしゃい。</item>
+
+        <item>どうぞ おあがりください。</item>
+        <item>しつれいします</item>
+        <item>[~は]いかがですか。</item>
+        <item>いただきます。</item>
+        <item>りょこう</item>
+
+        <item>おみやげ</item>
+        <item>ヨーロッパ</item>
+        <item>スペイン</item>
+    </string-array>
+
+
+    <string-array name="lesson7_kanji">
+        <item>切ります</item>
+        <item>送ります</item>
+        <item></item>
+        <item></item>
+        <item>貸します</item>
+
+        <item>借ります</item>
+        <item>教えます</item>
+        <item>習います</item>
+        <item>[電話を~] かけます</item>
+        <item>手</item>
+
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+
+        <item></item>
+        <item></item>
+        <item>紙</item>
+        <item>花</item>
+        <item></item>
+
+        <item></item>
+        <item>荷物</item>
+        <item>お金</item>
+        <item>切符</item>
+        <item></item>
+
+        <item>父</item>
+        <item>母</item>
+        <item>お父さん</item>
+        <item>お母さん</item>
+        <item></item>
+
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+
+        <item>どうぞ お上がりください。</item>
+        <item>失礼します</item>
+        <item></item>
+        <item></item>
+        <item>旅行</item>
+
+        <item>お土産</item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+
+    <string-array name="lesson7_meaning">
+        <item>cắt</item>
+        <item>gửi</item>
+        <item>cho, tặng</item>
+        <item>nhận</item>
+        <item>cho mượn, cho vay</item>
+
+        <item>mượn, vay</item>
+        <item>dạy</item>
+        <item>học, tập</item>
+        <item>gọi [điện thoại]</item>
+        <item>tay</item>
+
+        <item>đũa</item>
+        <item>thìa</item>
+        <item>dao</item>
+        <item>dĩa</item>
+        <item>kéo</item>
+
+        <item>Fax</item>
+        <item>Máy đánh chữ</item>
+        <item>máy vi tính cá nhân</item>
+        <item>cái đục lỗ</item>
+        <item>cái dập ghim</item>
+
+        <item>băng dính</item>
+        <item>cái tẩy</item>
+        <item>giấy</item>
+        <item>hoa</item>
+        <item>áo sơ mi</item>
+
+        <item>quà tặng, tặng phẩm</item>
+        <item>đồ đạc, hành lý</item>
+        <item>tiền</item>
+        <item>vé</item>
+        <item>giáng Sinh</item>
+
+        <item>bố (dùng khi nói về bố mình)</item>
+        <item>mẹ (dùng khi nói về mẹ mình)</item>
+        <item>bố (dùng khi nói về bố người khác và dùng khi xưng hô với bố mình)</item>
+        <item>Mẹ (dùng khi nói về mẹ người khác và dùng khi xưng hô với mẹ mình)</item>
+        <item>đã, rồi</item>
+
+        <item>chưa</item>
+        <item>từ bây giờ, sau đây</item>
+        <item>[~] hay nhỉ./ đẹp nhỉ.</item>
+        <item>Xin lỗi, có ai ở nhà không?/ Tôi có thể vào được chứ?</item>
+        <item>Rất hoan nghênh anh/ chị đã đến chơi./ Chào mừng anh/chị đã đến chơi.</item>
+
+        <item>Mời anh/chị vào.</item>
+        <item>Xin phéo tôi vào./ xin phép ~.\n(dùng khi bước vào nhà của người khác)</item>
+        <item>Anh/chị dùng [~] có được không?\n(dùng khi mời ai đó cái gì)</item>
+        <item>Mời anh/chị dùng ~.\n(cách nói dùng trước khi ăn hoặc uống)</item>
+        <item>Du lịch, chuyến du lịch (~をし ます: đi du lịch)</item>
+
+        <item>quà (mua khi đi xa về hoặc mang đi khi thăm nhà người nào đó)</item>
+        <item>Châu Âu</item>
+        <item>Tây Ban Nha</item>
+    </string-array>
+</resources>

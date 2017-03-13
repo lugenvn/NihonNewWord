@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lesson9_kana">
+        <item>わかります</item>
+        <item>あります</item>
+        <item>すき[な]</item>
+        <item>きらい[な]</item>
+        <item>じょうず[な]</item>
+
+        <item>へた[な]</item>
+        <item>りょうり</item>
+        <item>のみもの</item>
+        <item>スポーツ</item>
+        <item>やきゅう</item>
+
+        <item>ダンス</item>
+        <item>おんがく</item>
+        <item>うた</item>
+        <item>クラシック</item>
+        <item>ジャズ</item>
+
+        <item>コンサート</item>
+        <item>カラオケ</item>
+        <item>かぶき</item>
+        <item>え</item>
+        <item>じ</item>
+
+        <item>かんじ</item>
+        <item>ひらがな</item>
+        <item>かたかな</item>
+        <item>ローマじ</item>
+        <item>こまかいおかね</item>
+
+        <item>チケット</item>
+        <item>じかん</item>
+        <item>ようじ</item>
+        <item>やくそく</item>
+        <item>ごしゅじん</item>
+
+        <item>おっと/しゅじん</item>
+        <item>おくさん</item>
+        <item>つま/かない</item>
+        <item>こども</item>
+        <item>よく</item>
+
+        <item>だいたい</item>
+        <item>たくさん</item>
+        <item>すこし</item>
+        <item>ぜんぜん</item>
+        <item>はやく</item>
+
+        <item>~から</item>
+        <item>どうして</item>
+        <item>ざんねんです[ね]。</item>
+        <item>すみません。</item>
+        <item>もしもし</item>
+
+        <item>ああ</item>
+        <item>いっしょにいかがですか。</item>
+        <item>[~は]ちょっと....。</item>
+        <item>だめですか。</item>
+        <item>またこんどおねがいします。</item>
+
+        <item>おざわせいじ</item>
+    </string-array>
+
+
+    <string-array name="lesson9_kanji">
+        <item></item>
+        <item></item>
+        <item>好き[な]</item>
+        <item>嫌い[な]</item>
+        <item>上手[な]</item>
+
+        <item>下手[な]</item>
+        <item>料理</item>
+        <item>飲み物</item>
+        <item></item>
+        <item>野球</item>
+
+        <item></item>
+        <item>音楽</item>
+        <item>歌</item>
+        <item></item>
+        <item></item>
+
+        <item></item>
+        <item></item>
+        <item>歌舞伎</item>
+        <item>絵</item>
+        <item>字</item>
+
+        <item>漢字</item>
+        <item></item>
+        <item></item>
+        <item>ローマ字</item>
+        <item>細かいお金</item>
+
+        <item></item>
+        <item>時間</item>
+        <item>用事</item>
+        <item>約束</item>
+        <item>ご囚人</item>
+
+        <item>夫/主人</item>
+        <item>奥さん</item>
+        <item>妻/家内</item>
+        <item>子ども</item>
+        <item></item>
+
+        <item></item>
+        <item></item>
+        <item>少し</item>
+        <item>全然</item>
+        <item>早く/速く</item>
+
+        <item></item>
+        <item></item>
+        <item>残念です[ね]。</item>
+        <item></item>
+        <item></item>
+
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>また今度お願いします。</item>
+
+        <item>小沢征爾</item>
+    </string-array>
+
+
+    <string-array name="lesson9_meaning">
+        <item>hiểu, nắm được</item>
+        <item>có (sở hữu)</item>
+        <item>thích</item>
+        <item>ghét, không thích</item>
+        <item>giỏi, khéo</item>
+
+        <item>kém</item>
+        <item>món ăn, việc nấu ăn</item>
+        <item>đồ uống</item>
+        <item>thể thao (~をします:chơi thể thao)</item>
+        <item>bóng chày (~をします:chơi bóng chày)</item>
+
+        <item>nhảy, khiêu vũ (~をします: nhảy, khiêu vũ)</item>
+        <item>âm nhạc</item>
+        <item>bài hát</item>
+        <item>nhạc cổ điển</item>
+        <item>nhạc jazz</item>
+
+        <item>buổi hòa nhạc</item>
+        <item>karaoke</item>
+        <item>Kabuki (một loại ca kịch truyền thống của Nhật)</item>
+        <item>Tranh, hội họa</item>
+        <item>chữ</item>
+
+        <item>chữ hán</item>
+        <item>chữ Hiragana</item>
+        <item>Chữ Katakana</item>
+        <item>chữ La Mã</item>
+        <item>tiền lẻ</item>
+
+        <item>vé (xem hòa nhạc, xem phim)</item>
+        <item>thời gian</item>
+        <item>việc bận, công chuyện</item>
+        <item>cuộc hẹn, lời hứa</item>
+        <item>chồng (dùng khi nói về chồng người khác)</item>
+
+        <item>chồng (dùng khi nói về chồng mình)</item>
+        <item>vợ (dùng khi nói về vợ người khác)</item>
+        <item>vợ (dùng khi nói về vợ mình)</item>
+        <item>con cái</item>
+        <item>tốt, rõ (chỉ mức độ)</item>
+
+        <item>đại khái, đại thể</item>
+        <item>nhiều</item>
+        <item>ít, một ít</item>
+        <item>hoàn toàn ~ không</item>
+        <item>sớm, nhanh</item>
+
+        <item>vì ~</item>
+        <item>tại sao</item>
+        <item>Thật đáng tiếc nhỉ./ buồn nhỉ.</item>
+        <item>Xin lỗi.</item>
+        <item>a-lô</item>
+
+        <item>a (cách nói khi đã gặp được đúng người trên điện thoại)</item>
+        <item>Anh/chị cùng ~ (làm cái gì đó) với chúng tôi được không?</item>
+        <item>[~ thì] có lẽ không được rồi.</item>
+        <item>Không được à?</item>
+        <item>Hẹn Anh/Chị lần sau vậy.</item>
+
+        <item>Ozawa Seiji (1935 ~ ), một nhạc trưởng nổi tiếng của Nhật</item>
+    </string-array>
+</resources>

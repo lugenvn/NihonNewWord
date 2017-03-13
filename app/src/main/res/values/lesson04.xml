@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lesson4_kana">
+        <item>おきます</item>
+        <item>ねます</item>
+        <item>はたらきます</item>
+        <item>やすみます</item>
+        <item>べんきょうします</item>
+
+        <item>おわります</item>
+        <item>デパート</item>
+        <item>ぎんこう</item>
+        <item>ゆうびんきょく</item>
+        <item>としょかん</item>
+
+        <item>びじゅつかん</item>
+        <item>いま</item>
+        <item>―じ</item>
+        <item>―ふん(-ぷん)</item>
+        <item>はん</item>
+
+        <item>なんじ</item>
+        <item>なんぷん</item>
+        <item>ごぜん</item>
+        <item>ごご</item>
+        <item>あさ</item>
+
+        <item>ひる</item>
+        <item>ばん</item>
+        <item>よる</item>
+        <item>おととい</item>
+        <item>きのう</item>
+
+        <item>きょう</item>
+        <item>あした</item>
+        <item>あさって</item>
+        <item>けさ</item>
+        <item>こんばん</item>
+
+        <item>やすみ</item>
+        <item>ひるやすみ</item>
+        <item>まいあさ</item>
+        <item>まいばん</item>
+        <item>まいにち</item>
+
+        <item>げつようび</item>
+        <item>かようび</item>
+        <item>すいようび</item>
+        <item>もくようび</item>
+        <item>きにょうび</item>
+
+        <item>どようび</item>
+        <item>にちようび</item>
+        <item>なんようび</item>
+        <item>ばんごう</item>
+        <item>なんばん</item>
+
+        <item>~から</item>
+        <item>~まで</item>
+        <item>~と~</item>
+        <item>そちら</item>
+        <item>たいへんですね。</item>
+
+        <item>えーと</item>
+        <item>おねがいします。</item>
+        <item>かしこまりました。</item>
+        <item>おといあわせのばんごう</item>
+        <item>[どうも]ありがとうございました。</item>
+
+        <item>ニューヨーク</item>
+        <item>ペキン</item>
+        <item>ロンドン</item>
+        <item>バンコク</item>
+        <item>ロサンゼルス</item>
+    </string-array>
+
+
+    <string-array name="lesson4_kanji">
+        <item>起きます</item>
+        <item>寝ます</item>
+        <item>働きます</item>
+        <item>休みます</item>
+        <item>勉強します</item>
+
+        <item>終わります</item>
+        <item></item>
+        <item>銀行</item>
+        <item>郵便局</item>
+        <item>図書館</item>
+
+        <item>美術館</item>
+        <item>今</item>
+        <item>-時</item>
+        <item>―分</item>
+        <item>半</item>
+
+        <item>何時</item>
+        <item>何分</item>
+        <item>午前</item>
+        <item>午後</item>
+        <item>朝</item>
+
+        <item>昼</item>
+        <item>晩</item>
+        <item>夜</item>
+        <item></item>
+        <item></item>
+
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>今晩</item>
+
+        <item>休み</item>
+        <item>昼休み</item>
+        <item>毎朝</item>
+        <item>毎晩</item>
+        <item>毎日</item>
+
+        <item>月曜日</item>
+        <item>火曜日</item>
+        <item>水曜日</item>
+        <item>木曜日</item>
+        <item>金曜日</item>
+
+        <item>土曜日</item>
+        <item>日曜日</item>
+        <item>何曜日</item>
+        <item>番号</item>
+        <item>何番</item>
+
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>大変ですね。</item>
+
+        <item></item>
+        <item>お願いします。</item>
+        <item></item>
+        <item>お問い合わせの番号</item>
+        <item></item>
+
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+
+    <string-array name="lesson4_meaning">
+        <item>dậy, thức dậy</item>
+        <item>ngủ, đi ngủ</item>
+        <item>làm việc</item>
+        <item>nghỉ, nghỉ ngơi</item>
+        <item>học</item>
+
+        <item>hết, kết thúc, xong</item>
+        <item>bách hóa</item>
+        <item>ngân hàng</item>
+        <item>bưu điện</item>
+        <item>thư viện</item>
+
+        <item>bảo tàng mỹ thuật</item>
+        <item>bây giờ</item>
+        <item>-giờ</item>
+        <item>- phút</item>
+        <item>rưỡi, nửa</item>
+
+        <item>mấy giờ</item>
+        <item>mấy phút</item>
+        <item>sáng, trước 12 giờ trưa</item>
+        <item>chiều, sau 12 giờ trưa</item>
+        <item>buổi sáng, sáng</item>
+
+        <item>buổi trưa, trưa</item>
+        <item>buổi tối</item>
+        <item>tối</item>
+        <item>hôm kia</item>
+        <item>hôm qua</item>
+
+        <item>hôm nay</item>
+        <item>ngày mai</item>
+        <item>ngày kia</item>
+        <item>sáng nay</item>
+        <item>tối nay</item>
+
+        <item>nghỉ, nghỉ phép, ngày nghỉ</item>
+        <item>nghỉ trưa</item>
+        <item>hàng sáng, mỗi sáng</item>
+        <item>hàng tối, mỗi tối</item>
+        <item>hàng ngày, mỗi ngày</item>
+
+        <item>thứ hai</item>
+        <item>thứ ba</item>
+        <item>thứ tư</item>
+        <item>thứ năm</item>
+        <item>thứ sáu</item>
+
+        <item>thứ bảy</item>
+        <item>chủ Nhật</item>
+        <item>thứ mấy</item>
+        <item>số (số điện thoại, số phòng)</item>
+        <item>số bao nhiêu, số mấy</item>
+
+        <item>~ từ</item>
+        <item>~ đến</item>
+        <item>~ và</item>
+        <item>ông/bà, phía ông/ phía bà</item>
+        <item>Anh/chị vất vả quá.</item>
+
+        <item>ừ, à (từ đệm trong hội thoại khi đang nghĩ điều muốn nói)</item>
+        <item>Nhờ anh/chị. Phiền anh/chị. Xin vui lòng giúp đỡ</item>
+        <item>Tôi hiểu rồi ạ./ vâng, được rồi ạ.</item>
+        <item>Số điện thoại mà ông/ bà muốn hỏi</item>
+        <item>Xin cám ơn ông/bà</item>
+
+        <item>New York</item>
+        <item>Bắc Kinh</item>
+        <item>Luân Đôn</item>
+        <item>Băng Cốc</item>
+        <item>Los Angeles</item>
+    </string-array>
+</resources>
