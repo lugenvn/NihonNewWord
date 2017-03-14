@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="kanji_lesson_n4_kanji">
+        <item>長</item>
+        <item>明</item>
+        <item>好</item>
+        <item>友</item>
+        <item>入</item>
+
+        <item>出</item>
+        <item>市</item>
+        <item>町</item>
+        <item>村</item>
+        <item>雨</item>
+
+        <item>半</item>
+        <item>国</item>
+        <item>電</item>
+        <item>車</item>
+        <item>馬</item>
+
+        <item>駅</item>
+        <item>社</item>
+        <item>効</item>
+        <item>店</item>
+        <item>銀</item>
+
+        <item>病</item>
+        <item>院</item>
+        <item>休</item>
+        <item>走</item>
+        <item>起</item>
+
+        <item>貝</item>
+        <item>買</item>
+        <item>売</item>
+        <item>読</item>
+        <item>書</item>
+
+        <item>帰</item>
+        <item>勉</item>
+        <item>弓</item>
+        <item>虫</item>
+        <item>強</item>
+
+        <item>持</item>
+        <item>心</item>
+        <item>名</item>
+        <item>語</item>
+        <item>春</item>
+
+        <item>夏</item>
+        <item>秋</item>
+        <item>冬</item>
+        <item>朝</item>
+        <item>昼</item>
+
+        <item>夕</item>
+        <item>方</item>
+        <item>晚</item>
+        <item>夜</item>
+        <item>手</item>
+
+        <item>足</item>
+        <item>体</item>
+        <item>首</item>
+        <item>道</item>
+        <item>山</item>
+
+        <item>川</item>
+        <item>林</item>
+        <item>森</item>
+        <item>空</item>
+        <item>海</item>
+
+        <item>化</item>
+        <item>花</item>
+        <item>天</item>
+        <item>赤</item>
+        <item>青</item>
+
+        <item>白</item>
+        <item>黒</item>
+        <item>色</item>
+        <item>魚</item>
+        <item>犬</item>
+
+        <item>料</item>
+        <item>理</item>
+        <item>反</item>
+        <item>飯</item>
+        <item>牛</item>
+
+        <item>豚</item>
+        <item>鳥</item>
+        <item>肉</item>
+        <item>茶</item>
+        <item>予</item>
+
+        <item>野</item>
+        <item>菜</item>
+        <item>切</item>
+        <item>作</item>
+        <item>未</item>
+
+        <item>味</item>
+        <item>音</item>
+        <item>楽</item>
+        <item>歌</item>
+        <item>自</item>
+    </string-array>
+
+    <string-array name="kanji_lesson_n4_meaning">
+        <item>trường</item>
+        <item>minh</item>
+        <item>hảo</item>
+        <item>hữu</item>
+        <item>nhập</item>
+
+        <item>xuất</item>
+        <item>thị</item>
+        <item>đinh</item>
+        <item>thôn</item>
+        <item>vũ</item>
+
+        <item>bán</item>
+        <item>quốc</item>
+        <item>điện</item>
+        <item>xa</item>
+        <item>mã</item>
+
+        <item>dịch</item>
+        <item>xã</item>
+        <item>hiệu</item>
+        <item>điếm</item>
+        <item>ngân</item>
+
+        <item>bệnh</item>
+        <item>viện</item>
+        <item>hưu</item>
+        <item>tẩu</item>
+        <item>khởi</item>
+
+        <item>bối</item>
+        <item>mãi</item>
+        <item>mại</item>
+        <item>độc</item>
+        <item>thư</item>
+
+        <item>quy</item>
+        <item>miễn</item>
+        <item>cung</item>
+        <item>trùng</item>
+        <item>cường</item>
+
+        <item>trì</item>
+        <item>tâm</item>
+        <item>danh</item>
+        <item>ngữ</item>
+        <item>xuân</item>
+
+        <item>hạ</item>
+        <item>thu</item>
+        <item>đông</item>
+        <item>triều</item>
+        <item>trú</item>
+
+        <item>tịch</item>
+        <item>phương</item>
+        <item>vãn</item>
+        <item>dạ</item>
+        <item>thủ</item>
+
+        <item>túc</item>
+        <item>thể</item>
+        <item>thủ</item>
+        <item>đạo</item>
+        <item>sơn</item>
+
+        <item>xuyên</item>
+        <item>lâm</item>
+        <item>sâm</item>
+        <item>không</item>
+        <item>hải</item>
+
+        <item>hóa</item>
+        <item>hoa</item>
+        <item>thiên</item>
+        <item>xích</item>
+        <item>thanh</item>
+
+        <item>bạch</item>
+        <item>hắc</item>
+        <item>sắc</item>
+        <item>ngư</item>
+        <item>khuyển</item>
+
+        <item>liệu</item>
+        <item>lí</item>
+        <item>phản</item>
+        <item>phạn</item>
+        <item>ngưu</item>
+
+        <item>đồn</item>
+        <item>điểu</item>
+        <item>nhục</item>
+        <item>trà</item>
+        <item>dự</item>
+
+        <item>dã</item>
+        <item>thái</item>
+        <item>thiết</item>
+        <item>tác</item>
+        <item>vị</item>
+
+        <item>vị</item>
+        <item>âm</item>
+        <item>nhạc</item>
+        <item>ca</item>
+        <item>tự</item>
+    </string-array>
+</resources>
