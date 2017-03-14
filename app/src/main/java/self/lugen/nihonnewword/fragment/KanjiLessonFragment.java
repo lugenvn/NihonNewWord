@@ -112,9 +112,7 @@ public class KanjiLessonFragment extends BaseFragment implements View.OnClickLis
     }
 
     private void initView() {
-        Random r = new Random();
-        int pos = r.nextInt(mCurrent.size());
-        displayValue(pos);
+        displayValue(KanjiDataUtils.POS_KANJI);
     }
 
     private void displayValue(int pos) {

@@ -6,8 +6,109 @@
         <item>三</item>
         <item>四</item>
         <item>五</item>
-    </string-array>
 
+        <item>六</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+        <item>十</item>
+
+        <item>百</item>
+        <item>千</item>
+        <item>万</item>
+        <item>円</item>
+        <item>目</item>
+
+        <item>火</item>
+        <item>日</item>
+        <item>月</item>
+        <item>水</item>
+        <item>木</item>
+
+        <item>本</item>
+        <item>金</item>
+        <item>土</item>
+        <item>曜</item>
+        <item>寺</item>
+
+        <item>今</item>
+        <item>人</item>
+        <item>刀</item>
+        <item>分</item>
+        <item>時</item>
+
+        <item>口</item>
+        <item>上</item>
+        <item>下</item>
+        <item>中</item>
+        <item>外</item>
+
+        <item>右</item>
+        <item>工</item>
+        <item>左</item>
+        <item>前</item>
+        <item>後</item>
+
+        <item>門</item>
+        <item>間</item>
+        <item>午</item>
+        <item>東</item>
+        <item>西</item>
+
+        <item>南</item>
+        <item>北</item>
+        <item>田</item>
+        <item>力</item>
+        <item>男</item>
+
+        <item>女</item>
+        <item>子</item>
+        <item>学</item>
+        <item>生</item>
+        <item>先</item>
+
+        <item>何</item>
+        <item>父</item>
+        <item>母</item>
+        <item>年</item>
+        <item>去</item>
+
+        <item>毎</item>
+        <item>王</item>
+        <item>見</item>
+        <item>行</item>
+        <item>米</item>
+
+        <item>来</item>
+        <item>良</item>
+        <item>食</item>
+        <item>飲</item>
+        <item>会</item>
+
+        <item>耳</item>
+        <item>聞</item>
+        <item>言</item>
+        <item>話</item>
+        <item>立</item>
+
+        <item>待</item>
+        <item>周</item>
+        <item>週</item>
+        <item>大</item>
+        <item>小</item>
+
+        <item>高</item>
+        <item>安</item>
+        <item>新</item>
+        <item>古</item>
+        <item>元</item>
+
+        <item>気</item>
+        <item>多</item>
+        <item>少</item>
+        <item>広</item>
+        <item>早</item>
+    </string-array>
 
     <string-array name="kanji_lesson_n5_meaning">
         <item>nhất</item>
@@ -15,5 +116,107 @@
         <item>tam</item>
         <item>tứ</item>
         <item>ngũ</item>
+
+        <item>lục</item>
+        <item>thất</item>
+        <item>bát</item>
+        <item>cửu</item>
+        <item>thập</item>
+
+        <item>bách</item>
+        <item>thiên</item>
+        <item>vạn</item>
+        <item>viên</item>
+        <item>mục</item>
+
+        <item>hỏa</item>
+        <item>nhật</item>
+        <item>nguyệt</item>
+        <item>thủy</item>
+        <item>mộc</item>
+
+        <item>bản</item>
+        <item>kim</item>
+        <item>thổ</item>
+        <item>diệu</item>
+        <item>tự</item>
+
+        <item>kim</item>
+        <item>nhân</item>
+        <item>đao</item>
+        <item>phân</item>
+        <item>thì, thời</item>
+
+        <item>khẩu</item>
+        <item>thượng</item>
+        <item>hạ</item>
+        <item>trung</item>
+        <item>ngoại</item>
+
+        <item>hữu</item>
+        <item>công</item>
+        <item>tả</item>
+        <item>tiền</item>
+        <item>hậu</item>
+
+        <item>môn</item>
+        <item>gian</item>
+        <item>ngọ</item>
+        <item>đông</item>
+        <item>tây</item>
+
+        <item>nam</item>
+        <item>bắc</item>
+        <item>điền</item>
+        <item>lực</item>
+        <item>nam</item>
+
+        <item>nữ</item>
+        <item>tử</item>
+        <item>học</item>
+        <item>sinh</item>
+        <item>tiên</item>
+
+        <item>hà</item>
+        <item>phụ</item>
+        <item>mẫu</item>
+        <item>niên</item>
+        <item>khứ</item>
+
+        <item>mỗi</item>
+        <item>vương</item>
+        <item>kiến</item>
+        <item>hành</item>
+        <item>mễ</item>
+
+        <item>lai</item>
+        <item>lương</item>
+        <item>thực</item>
+        <item>ẩm</item>
+        <item>hội</item>
+
+        <item>nhĩ</item>
+        <item>văn</item>
+        <item>ngôn</item>
+        <item>thoại</item>
+        <item>lập</item>
+
+        <item>đãi</item>
+        <item>chu</item>
+        <item>chu</item>
+        <item>đại</item>
+        <item>tiểu</item>
+
+        <item>cao</item>
+        <item>an</item>
+        <item>tân</item>
+        <item>cổ</item>
+        <item>nguyên</item>
+
+        <item>khí</item>
+        <item>đa</item>
+        <item>thiếu</item>
+        <item>quảng</item>
+        <item>tảo</item>
     </string-array>
 </resources>
