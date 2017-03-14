@@ -16,8 +16,9 @@ import self.lugen.nihonnewword.R;
 import self.lugen.nihonnewword.utils.KanjiDataUtils;
 import self.lugen.nihonnewword.utils.KanjiDataUtils;
 import self.lugen.nihonnewword.utils.NativeData;
+import self.lugen.nihonnewword.view.SessionDialog;
 
-public class KanjiLessonFragment extends BaseFragment implements View.OnClickListener {
+public class KanjiLessonFragment extends BaseFragment implements View.OnClickListener, SessionDialog.IOnSelectSessionDone {
     private static final String FIRST_INIT = "FIRST_INIT";
     private static final String DATA_UTILS = "DATA_UTILS";
     private static final String CURRENT_VALUE = "CURRENT_VALUE";
@@ -28,6 +29,7 @@ public class KanjiLessonFragment extends BaseFragment implements View.OnClickLis
     TextView tvLessonTitle;
     TextView tvContent;
     Button btnNext;
+    Button btnSession;
     Button btnKanji;
     Button btnMeaning;
     KanjiDataUtils dataUtils;
@@ -68,12 +70,14 @@ public class KanjiLessonFragment extends BaseFragment implements View.OnClickLis
         btnKanji = (Button) view.findViewById(R.id.btn_kanji);
         btnMeaning = (Button) view.findViewById(R.id.btn_meaning);
         btnNext = (Button) view.findViewById(R.id.btn_next);
+        btnSession = (Button) view.findViewById(R.id.btn_session);
 
         tvLessonTitle.setText(String.format(getString(R.string.kanji_lesson_name_full), mCurrentLesson));
 
         btnKanji.setOnClickListener(this);
         btnMeaning.setOnClickListener(this);
         btnNext.setOnClickListener(this);
+        btnSession.setOnClickListener(this);
         if (init) {
             initView();
             init = false;
@@ -138,7 +142,16 @@ public class KanjiLessonFragment extends BaseFragment implements View.OnClickLis
             case R.id.btn_next:
                 next();
                 break;
+            case R.id.btn_session:
+                openSessionDialog();
+                break;
         }
+    }
+
+    private void openSessionDialog() {
+        SessionDialog dialog = SessionDialog.newInstance(dataUtils.getSessionNumber(), dataUtils.getNumberInsession
+                (getContext()), dataUtils.getCurrentEnableSessions(), getClass().getName());
+        dialog.show(getFragmentManager(), dialog.getClass().getName());
     }
 
     private void next() {
@@ -166,5 +179,11 @@ public class KanjiLessonFragment extends BaseFragment implements View.OnClickLis
         mCurrentDisplayPos = pos;
         tvTitle.setText(titleID);
         tvContent.setText(contentData);
+    }
+
+    @Override
+    public void onSelectSessionDone(ArrayList<Integer> sessionList) {
+        dataUtils.updateSessionList(getContext(), sessionList);
+        next();
     }
 }

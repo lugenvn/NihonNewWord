@@ -15,4 +15,7 @@
     <string name="meaning">Meaning</string>
     <string name="no_kanji">&lt;= NO KANJI =&gt;</string>
     <string name="new_word">New word</string>
+    <string name="study_mode">Study mode</string>
+    <string name="session_item">session %d</string>
+    <string name="dl_number_in_session">number in session : %d</string>
 </resources>

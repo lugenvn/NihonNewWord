@@ -15,16 +15,41 @@ public class NewWordDataUtils implements Parcelable {
 
     static final String STRING_ARRAY = "array";
 
-    private ArrayList<Integer> availBank;
-    private int lessonId;
-
     public static final int POS_KANA = 0;
     public static final int POS_KANJI = 1;
     public static final int POS_MEANING = 2;
 
+    private ArrayList<Integer> availBank;
+    private ArrayList<Integer> sessionList;
+    private int sessionNumber = 1;
+    private int lessonId;
+
     public NewWordDataUtils(Context context, int lesson) {
         this.lessonId = lesson;
         availBank = new ArrayList<>();
+        sessionNumber = getSessionNumber(context);
+        sessionList = new ArrayList<>();
+        initSessionList();
+        setup(context);
+    }
+
+    private void initSessionList() {
+        sessionList.clear();
+        for (int i = 0; i < sessionNumber; i++) {
+            sessionList.add(i);
+        }
+    }
+
+    public ArrayList<Integer> getCurrentEnableSessions() {
+        return sessionList;
+    }
+
+    public int getSessionNumber() {
+        return sessionNumber;
+    }
+    public void updateSessionList(Context context, ArrayList<Integer> sessionLst) {
+        sessionList.clear();
+        sessionList.addAll(sessionLst);
         setup(context);
     }
 
@@ -37,13 +62,62 @@ public class NewWordDataUtils implements Parcelable {
         return returnValue;
     }
 
-    private void setup(Context context){
+    public int getNumberInsession(Context context) {
+        int currentLength = getCurrentListLength(context);
+        int numberInSession = currentLength / sessionNumber;
+        return numberInSession;
+    }
+
+    private int getCurrentListLength(Context context) {
         int id = Utils.getResourceId(context, LESSON + lessonId + KANA, STRING_ARRAY,context.getApplicationContext().getPackageName());
         String[] kana = context.getResources().getStringArray(id);
+        return kana.length;
+    }
 
-        for (int i = 0; i < kana.length; i++) {
-            availBank.add(i);
+    private int getSessionNumber(Context context) {
+        int length = getCurrentListLength(context);
+        int maxDiv = length / NativeData.SESSION_MIN;
+
+        if (maxDiv > 2) {
+            for (int i = 2; i < maxDiv; i++) {
+                for (int j = NativeData.SESSION_MIN; j <= NativeData.SESSION_MAX; j++) {
+                    int lastSession = length - (i*j);
+                    if (lastSession >= NativeData.SESSION_MIN && lastSession <= NativeData.SESSION_MAX) {
+                        return i+1;
+                    }
+                }
+            }
         }
+        return 1;
+    }
+
+    private void setup(Context context){
+        availBank.clear();
+        int currentLength = getCurrentListLength(context);
+
+        for (int i = 0; i < currentLength; i++) {
+            if (isInSessionList(i, currentLength)) {
+                availBank.add(i);
+            }
+        }
+    }
+
+    private boolean isInSessionList(int checkValue, int length) {
+        if (checkValue >= length || checkValue < 0) {
+            return false;
+        }
+
+        int numberInSession = length / sessionNumber;
+        for (Integer sess :
+                sessionList) {
+            int min = numberInSession * sess;
+            int max = numberInSession * sess + numberInSession;
+            if (min <= checkValue && checkValue < max) {// start from 0
+                return true;
+            }
+        }
+
+        return false;
     }
 
     private ArrayList<String> getRealData(Context context, int pos){
@@ -72,11 +146,17 @@ public class NewWordDataUtils implements Parcelable {
     @Override
     public void writeToParcel(Parcel dest, int flags) {
         dest.writeInt(lessonId);
+        dest.writeInt(sessionNumber);
+        dest.writeList(this.sessionList);
         dest.writeList(this.availBank);
     }
 
     private NewWordDataUtils(Parcel in) {
         lessonId = in.readInt();
+        sessionNumber = in.readInt();
+
+        this.sessionList = new ArrayList<>();
+        in.readList(sessionList, Integer.class.getClassLoader());
         this.availBank = new ArrayList<>();
         in.readList(this.availBank, Integer.class.getClassLoader());
     }

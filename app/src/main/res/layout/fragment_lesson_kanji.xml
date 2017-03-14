@@ -59,4 +59,12 @@
         android:layout_alignParentRight="true"
         android:text="next"/>
 
+    <Button
+        android:id="@+id/btn_session"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/ll_switch_bar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:text="session"/>
 </RelativeLayout>

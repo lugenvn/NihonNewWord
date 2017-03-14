@@ -5,10 +5,13 @@ import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.RelativeLayout;
-import android.widget.Toast;
 
 import self.lugen.nihonnewword.R;
+import self.lugen.nihonnewword.utils.Constants;
+import self.lugen.nihonnewword.utils.Utils;
 
 public class MainFragment extends BaseFragment implements View.OnClickListener {
 

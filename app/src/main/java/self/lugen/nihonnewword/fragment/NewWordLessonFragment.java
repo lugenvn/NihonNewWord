@@ -10,12 +10,16 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 import self.lugen.nihonnewword.R;
 import self.lugen.nihonnewword.utils.NewWordDataUtils;
+import self.lugen.nihonnewword.view.SessionDialog;
 
-public class NewWordLessonFragment extends BaseFragment implements View.OnClickListener {
+public class NewWordLessonFragment extends BaseFragment implements View.OnClickListener,
+        SessionDialog.IOnSelectSessionDone
+{
     private static final String FIRST_INIT = "FIRST_INIT";
     private static final String DATA_UTILS = "DATA_UTILS";
     private static final String CURRENT_VALUE = "CURRENT_VALUE";
@@ -26,6 +30,7 @@ public class NewWordLessonFragment extends BaseFragment implements View.OnClickL
     TextView tvLessonTitle;
     TextView tvContent;
     Button btnNext;
+    Button btnSession;
     Button btnKana;
     Button btnKanji;
     Button btnMeaning;
@@ -68,6 +73,7 @@ public class NewWordLessonFragment extends BaseFragment implements View.OnClickL
         btnKanji = (Button) view.findViewById(R.id.btn_kanji);
         btnMeaning = (Button) view.findViewById(R.id.btn_meaning);
         btnNext = (Button) view.findViewById(R.id.btn_next);
+        btnSession = (Button) view.findViewById(R.id.btn_session);
 
         tvLessonTitle.setText(String.format(getString(R.string.lesson_name_full), mCurrentLesson));
 
@@ -75,6 +81,7 @@ public class NewWordLessonFragment extends BaseFragment implements View.OnClickL
         btnKanji.setOnClickListener(this);
         btnMeaning.setOnClickListener(this);
         btnNext.setOnClickListener(this);
+        btnSession.setOnClickListener(this);
         if (init) {
             initView();
             init = false;
@@ -155,7 +162,16 @@ public class NewWordLessonFragment extends BaseFragment implements View.OnClickL
             case R.id.btn_next:
                 next();
                 break;
+            case R.id.btn_session:
+                openSessionDialog();
+                break;
         }
+    }
+
+    private void openSessionDialog() {
+        SessionDialog dialog = SessionDialog.newInstance(dataUtils.getSessionNumber(), dataUtils.getNumberInsession
+                (getContext()), dataUtils.getCurrentEnableSessions(), getClass().getName());
+        dialog.show(getFragmentManager(), dialog.getClass().getName());
     }
 
     private void next() {
@@ -187,5 +203,11 @@ public class NewWordLessonFragment extends BaseFragment implements View.OnClickL
         mCurrentDisplayPos = pos;
         tvTitle.setText(titleID);
         tvContent.setText(contentData);
+    }
+
+    @Override
+    public void onSelectSessionDone(ArrayList<Integer> sessionList) {
+        dataUtils.updateSessionList(getContext(), sessionList);
+        next();
     }
 }
