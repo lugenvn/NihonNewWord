@@ -45,6 +45,7 @@ public class KanjiDataUtils implements Parcelable {
     public int getSessionNumber() {
         return sessionNumber;
     }
+
     public void updateSessionList(Context context, ArrayList<Integer> sessionLst) {
         sessionList.clear();
         sessionList.addAll(sessionLst);

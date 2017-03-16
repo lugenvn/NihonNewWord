@@ -41,7 +41,7 @@ public class NewWordDataUtils implements Parcelable {
     }
 
     public ArrayList<Integer> getCurrentEnableSessions() {
-        return sessionList;
+        return new ArrayList<>(sessionList);
     }
 
     public int getSessionNumber() {

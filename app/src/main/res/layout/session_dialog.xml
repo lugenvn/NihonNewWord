@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:padding="@dimen/main_layout_padding">
 
     <TextView
@@ -11,16 +11,17 @@
         android:text="show session number"
         android:textSize="18sp"/>
 
+    <Button
+        android:id="@+id/dl_btn_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="OK"/>
     <android.support.v7.widget.RecyclerView
         android:id="@+id/dl_rv_session"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:clipChildren="true"
-        android:layout_below="@id/dl_tv_session_number"/>
-    <Button
-        android:id="@+id/dl_btn_ok"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/dl_rv_session"
-        android:text="OK"/>
+        android:layout_below="@id/dl_tv_session_number"
+        android:layout_above="@id/dl_btn_ok"/>
 </RelativeLayout>
