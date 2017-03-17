@@ -4,7 +4,7 @@ public class NativeData {
     public static final int NEW_WORD_LESSON_NUMBER = 50;
     public static final int KANJI_MAIN_LESSON_NUMBER = 5;
     public static final int SESSION_MIN = 4;
-    public static final int SESSION_MAX = 6;
+    public static final int SESSION_MAX = 7;
 
     public static final String KANJI_N5 = "n5";
     public static final String KANJI_N4 = "n4";
