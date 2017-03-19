@@ -1,4 +1,4 @@
-package self.lugen.nihonnewword.utils;
+package self.lugen.nihonnewword.datamanager;
 
 public class NativeData {
     public static final int NEW_WORD_LESSON_NUMBER = 50;

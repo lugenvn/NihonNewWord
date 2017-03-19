@@ -10,11 +10,10 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Random;
 
 import self.lugen.nihonnewword.R;
-import self.lugen.nihonnewword.utils.NewWordDataUtils;
+import self.lugen.nihonnewword.datamanager.NewWordDataUtils;
 import self.lugen.nihonnewword.view.SessionDialog;
 
 public class NewWordLessonFragment extends BaseFragment implements View.OnClickListener,
@@ -169,8 +168,8 @@ public class NewWordLessonFragment extends BaseFragment implements View.OnClickL
     }
 
     private void openSessionDialog() {
-        SessionDialog dialog = SessionDialog.newInstance(dataUtils.getSessionNumber(), dataUtils.getNumberInsession
-                (getContext()), dataUtils.getCurrentEnableSessions(), getClass().getName());
+        SessionDialog dialog = SessionDialog.newInstance(dataUtils.getSessionCount(), dataUtils.getItemCountInSession
+                (), dataUtils.getCurrentEnableSessions(), getClass().getName());
         dialog.show(getFragmentManager(), dialog.getClass().getName());
     }
 

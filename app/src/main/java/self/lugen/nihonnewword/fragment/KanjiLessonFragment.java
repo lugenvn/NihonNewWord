@@ -10,15 +10,16 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import java.util.ArrayList;
-import java.util.Random;
 
 import self.lugen.nihonnewword.R;
-import self.lugen.nihonnewword.utils.KanjiDataUtils;
-import self.lugen.nihonnewword.utils.KanjiDataUtils;
-import self.lugen.nihonnewword.utils.NativeData;
+import self.lugen.nihonnewword.datamanager.KanjiDataUtils;
+import self.lugen.nihonnewword.datamanager.NativeData;
+import self.lugen.nihonnewword.view.GroupDialog;
 import self.lugen.nihonnewword.view.SessionDialog;
 
-public class KanjiLessonFragment extends BaseFragment implements View.OnClickListener, SessionDialog.IOnSelectSessionDone {
+public class KanjiLessonFragment extends BaseFragment implements View.OnClickListener,
+        SessionDialog.IOnSelectSessionDone, GroupDialog.IOnSelectGroupDone
+{
     private static final String FIRST_INIT = "FIRST_INIT";
     private static final String DATA_UTILS = "DATA_UTILS";
     private static final String CURRENT_VALUE = "CURRENT_VALUE";
@@ -30,6 +31,7 @@ public class KanjiLessonFragment extends BaseFragment implements View.OnClickLis
     TextView tvContent;
     Button btnNext;
     Button btnSession;
+    Button btnGroup;
     Button btnKanji;
     Button btnMeaning;
     KanjiDataUtils dataUtils;
@@ -71,6 +73,7 @@ public class KanjiLessonFragment extends BaseFragment implements View.OnClickLis
         btnMeaning = (Button) view.findViewById(R.id.btn_meaning);
         btnNext = (Button) view.findViewById(R.id.btn_next);
         btnSession = (Button) view.findViewById(R.id.btn_session);
+        btnGroup = (Button) view.findViewById(R.id.btn_group);
 
         tvLessonTitle.setText(String.format(getString(R.string.kanji_lesson_name_full), mCurrentLesson));
 
@@ -78,11 +81,16 @@ public class KanjiLessonFragment extends BaseFragment implements View.OnClickLis
         btnMeaning.setOnClickListener(this);
         btnNext.setOnClickListener(this);
         btnSession.setOnClickListener(this);
+        btnGroup.setOnClickListener(this);
         if (init) {
             initView();
             init = false;
         } else {
             displayValue(mCurrentDisplayPos);
+        }
+
+        if (dataUtils.getGroupCount() <=1) {
+            btnGroup.setVisibility(View.GONE);
         }
     }
 
@@ -145,12 +153,21 @@ public class KanjiLessonFragment extends BaseFragment implements View.OnClickLis
             case R.id.btn_session:
                 openSessionDialog();
                 break;
+            case R.id.btn_group:
+                openGroupDialog();
+                break;
         }
     }
 
+    private void openGroupDialog() {
+        GroupDialog dialog = GroupDialog.newInstance(dataUtils.getGroupCount(),
+                dataUtils.getGroupList(), getClass().getName());
+        dialog.show(getFragmentManager(), dialog.getClass().getName());
+    }
+
     private void openSessionDialog() {
-        SessionDialog dialog = SessionDialog.newInstance(dataUtils.getSessionNumber(), dataUtils.getNumberInsession
-                (getContext()), dataUtils.getCurrentEnableSessions(), getClass().getName());
+        SessionDialog dialog = SessionDialog.newInstance(dataUtils.getSessionCount(), dataUtils.getItemCountInSession(),
+                dataUtils.getCurrentEnableSessions(), getClass().getName());
         dialog.show(getFragmentManager(), dialog.getClass().getName());
     }
 
@@ -184,6 +201,12 @@ public class KanjiLessonFragment extends BaseFragment implements View.OnClickLis
     @Override
     public void onSelectSessionDone(ArrayList<Integer> sessionList) {
         dataUtils.updateSessionList(getContext(), sessionList);
+        next();
+    }
+
+    @Override
+    public void onSelectGroupDone(ArrayList<Character> groupList) {
+        dataUtils.updateGroupList(getContext(), groupList);
         next();
     }
 }

@@ -31,4 +31,8 @@ public class Utils {
         boolean returnValue = pref.getBoolean(key, false);
         return returnValue;
     }
+
+    public static Character getChar(int id) {
+        return (char) (Constants.FIRST_CHARACTER_A + id);
+    }
 }

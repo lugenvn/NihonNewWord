@@ -17,5 +17,7 @@
     <string name="new_word">New word</string>
     <string name="study_mode">Study mode</string>
     <string name="session_item">session %d</string>
+    <string name="group_item">group %s</string>
     <string name="dl_number_in_session">number in session : %d</string>
+    <string name="dl_number_in_group">number in group : %d</string>
 </resources>

@@ -4,7 +4,6 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.DialogFragment;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -15,7 +14,6 @@ import android.widget.CompoundButton;
 import android.widget.TextView;
 
 import java.util.ArrayList;
-import java.util.List;
 
 import self.lugen.nihonnewword.R;
 import self.lugen.nihonnewword.view.adapter.SessionAdapter;
@@ -33,6 +31,8 @@ public class SessionDialog extends DialogFragment {
     private TextView tvNumberInSession;
     private RecyclerView rvSession;
     private Button btnOK;
+    private Button btnSelectAll;
+    private Button btnDeselectAll;
     private SessionAdapter mAdapter;
 
     public static SessionDialog newInstance(int sessionNumber, int numberInSession, ArrayList<Integer> currentList, String callbackTag) {
@@ -67,6 +67,8 @@ public class SessionDialog extends DialogFragment {
         tvNumberInSession = (TextView) v.findViewById(R.id.dl_tv_session_number);
         rvSession = (RecyclerView) v.findViewById(R.id.dl_rv_session);
         btnOK = (Button) v.findViewById(R.id.dl_btn_ok);
+        btnSelectAll = (Button) v.findViewById(R.id.dl_btn_select_all);
+        btnDeselectAll = (Button) v.findViewById(R.id.dl_btn_deselect_all);
 
         tvNumberInSession.setText(String.format(getString(R.string.dl_number_in_session), numberInSession));
 
@@ -86,13 +88,37 @@ public class SessionDialog extends DialogFragment {
                 dismiss();
             }
         });
+
+        btnSelectAll.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mAdapter.selectAll();
+            }
+        });
+
+        btnDeselectAll.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mAdapter.deselectAll();
+            }
+        });
+
         mAdapter.setListenner(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if (currentList.isEmpty()) {
+                    btnDeselectAll.setEnabled(false);
                     btnOK.setEnabled(false);
+                    btnSelectAll.setEnabled(true);
                 } else {
                     btnOK.setEnabled(true);
+                    btnDeselectAll.setEnabled(true);
+                    if (currentList.size() == sessionNumber) {
+                        btnSelectAll.setEnabled(false);
+                    } else {
+                        btnSelectAll.setEnabled(true);
+                    }
+
                 }
             }
         });

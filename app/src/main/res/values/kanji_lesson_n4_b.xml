@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="kanji_lesson_n4_b_kanji">
+        <item>転</item>
+        <item>乗</item>
+        <item>写</item>
+        <item>真</item>
+        <item>台</item>
+
+        <item>央</item>
+        <item>映</item>
+        <item>画</item>
+        <item>羊</item>
+        <item>洋</item>
+
+        <item>服</item>
+        <item>着</item>
+        <item>家</item>
+        <item>矢</item>
+        <item>族</item>
+
+        <item>親</item>
+        <item>兄</item>
+        <item>姉</item>
+        <item>弟</item>
+        <item>妹</item>
+
+        <item>私</item>
+        <item>夫</item>
+        <item>妻</item>
+        <item>主</item>
+        <item>住</item>
+
+        <item>糸</item>
+        <item>氏</item>
+        <item>紙</item>
+        <item>教</item>
+        <item>室</item>
+
+        <item>羽</item>
+        <item>習</item>
+        <item>漢</item>
+        <item>字</item>
+        <item>式</item>
+
+        <item>試</item>
+        <item>験</item>
+        <item>宿</item>
+        <item>題</item>
+        <item>文</item>
+
+        <item>英</item>
+        <item>質</item>
+        <item>問</item>
+        <item>説</item>
+        <item>遠</item>
+
+        <item>近</item>
+        <item>者</item>
+        <item>暑</item>
+        <item>寒</item>
+        <item>重</item>
+
+        <item>軽</item>
+        <item>低</item>
+        <item>弱</item>
+        <item>悪</item>
+        <item>暗</item>
+
+        <item>太</item>
+        <item>豆</item>
+        <item>短</item>
+        <item>光</item>
+        <item>風</item>
+
+        <item>運</item>
+        <item>動</item>
+        <item>止</item>
+        <item>步</item>
+        <item>使</item>
+
+        <item>送</item>
+        <item>洗</item>
+        <item>急</item>
+        <item>開</item>
+        <item>閉</item>
+
+        <item>押</item>
+        <item>引</item>
+        <item>思</item>
+        <item>知</item>
+        <item>考</item>
+
+        <item>死</item>
+        <item>医</item>
+        <item>始</item>
+        <item>終</item>
+        <item>石</item>
+
+        <item>研</item>
+        <item>究</item>
+        <item>留</item>
+        <item>有</item>
+        <item>産</item>
+
+        <item>鄴</item>
+        <item>薬</item>
+        <item>働</item>
+        <item>員</item>
+        <item>士</item>
+    </string-array>
+
+    <string-array name="kanji_lesson_n4_b_meaning">
+        <item>chuyển</item>
+        <item>thừa</item>
+        <item>tả</item>
+        <item>chân</item>
+        <item>đài</item>
+
+        <item>ương</item>
+        <item>ánh</item>
+        <item>họa, hoạch</item>
+        <item>dương</item>
+        <item>dương</item>
+
+        <item>phục</item>
+        <item>trước</item>
+        <item>gia</item>
+        <item>thỉ</item>
+        <item>tộc</item>
+
+        <item>thân</item>
+        <item>huynh</item>
+        <item>tỉ</item>
+        <item>đệ</item>
+        <item>muội</item>
+
+        <item>tư</item>
+        <item>phu</item>
+        <item>thê</item>
+        <item>thủ</item>
+        <item>trụ, trú</item>
+
+        <item>mịch</item>
+        <item>thị, chi</item>
+        <item>giấy</item>
+        <item>giáo</item>
+        <item>thất</item>
+
+        <item>vũ</item>
+        <item>tập</item>
+        <item>hán</item>
+        <item>tự</item>
+        <item>thức</item>
+
+        <item>thí</item>
+        <item>nghiệm</item>
+        <item>túc</item>
+        <item>đề</item>
+        <item>văn</item>
+
+        <item>anh</item>
+        <item>chất</item>
+        <item>vấn</item>
+        <item>thuyết</item>
+        <item>viễn</item>
+
+        <item>cận</item>
+        <item>giả</item>
+        <item>thử</item>
+        <item>hàn</item>
+        <item>trọng</item>
+
+        <item>khinh</item>
+        <item>đê</item>
+        <item>nhược</item>
+        <item>ác</item>
+        <item>ám</item>
+
+        <item>thái</item>
+        <item>đậu</item>
+        <item>đoản</item>
+        <item>quang</item>
+        <item>phong</item>
+
+        <item>vận</item>
+        <item>động</item>
+        <item>chỉ</item>
+        <item>bộ</item>
+        <item>sử</item>
+
+        <item>tống</item>
+        <item>tẩy</item>
+        <item>cấp</item>
+        <item>khai</item>
+        <item>bế</item>
+
+        <item>áp</item>
+        <item>dẫn, dấn</item>
+        <item>tư</item>
+        <item>tri</item>
+        <item>khảo</item>
+
+        <item>tử</item>
+        <item>y</item>
+        <item>thủy</item>
+        <item>chung</item>
+        <item>thạch</item>
+
+        <item>nghiên</item>
+        <item>cứu</item>
+        <item>lưu</item>
+        <item>hữu</item>
+        <item>sản</item>
+
+        <item>nghiệp</item>
+        <item>dược</item>
+        <item>động</item>
+        <item>viên</item>
+        <item>sĩ</item>
+    </string-array>
+</resources>

@@ -11,7 +11,7 @@ import android.view.ViewGroup;
 import android.widget.Toast;
 
 import self.lugen.nihonnewword.R;
-import self.lugen.nihonnewword.utils.NewWordLessonUtils;
+import self.lugen.nihonnewword.datamanager.NewWordLessonUtils;
 import self.lugen.nihonnewword.view.adapter.LessonAdapter;
 
 public class NewWordFragment extends BaseFragment implements LessonAdapter.OnClickedListener {

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="kanji_lesson_n4_kanji">
+    <string-array name="kanji_lesson_n4_a_kanji">
         <item>長</item>
         <item>明</item>
         <item>好</item>
@@ -110,7 +110,7 @@
         <item>自</item>
     </string-array>
 
-    <string-array name="kanji_lesson_n4_meaning">
+    <string-array name="kanji_lesson_n4_a_meaning">
         <item>trường</item>
         <item>minh</item>
         <item>hảo</item>

@@ -11,24 +11,26 @@ import android.widget.CompoundButton;
 import java.util.ArrayList;
 
 import self.lugen.nihonnewword.R;
+import self.lugen.nihonnewword.utils.Constants;
+import self.lugen.nihonnewword.utils.Utils;
 
 /**
  * Created by lugen on 3/15/17.
  */
 
-public class SessionAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
+public class GroupAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
-    private int sessionNumber;
-    private ArrayList<Integer> currentList;
+    private int groupNumber;
+    private ArrayList<Character> currentList;
 
     private LayoutInflater mInflater;
     private Context mContext;
     private CompoundButton.OnCheckedChangeListener listenner;
 
-    public SessionAdapter(Context context, int sessNum, ArrayList<Integer> currentList) {
+    public GroupAdapter(Context context, int sessNum, ArrayList<Character> currentList) {
         mContext = context;
         this.mInflater = LayoutInflater.from(context);
-        sessionNumber = sessNum;
+        groupNumber = sessNum;
         this.currentList = currentList;
     }
 
@@ -43,15 +45,14 @@ public class SessionAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
         if (holder instanceof ViewHolder) {
-            ((ViewHolder) holder).checkBox.setChecked(currentList.contains(position));
-            ((ViewHolder) holder).checkBox.setText(String.format(mContext.getString(R.string.session_item), position
-                    + 1));
+            ((ViewHolder) holder).checkBox.setChecked(currentList.contains(Utils.getChar(position)));
+            ((ViewHolder) holder).checkBox.setText(String.format(mContext.getString(R.string.group_item), Utils.getChar(position)));
         }
     }
 
     @Override
     public int getItemCount() {
-        return sessionNumber;
+        return groupNumber;
     }
 
     public void setListenner(CompoundButton.OnCheckedChangeListener listenner) {
@@ -69,19 +70,19 @@ public class SessionAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
         public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
             if (b) {
                 boolean check = false;
-                for (Integer i :
+                for (Character i :
                         currentList) {
-                    if (i == viewHolder.getAdapterPosition()) {
+                    if (i == Utils.getChar(viewHolder.getAdapterPosition())) {
                         check = true;
                         break;
                     }
                 }
                 if (!check) {
-                    currentList.add(viewHolder.getAdapterPosition());
+                    currentList.add((char) (Constants.FIRST_CHARACTER_A + viewHolder.getAdapterPosition()));
                 }
             } else {
                 for (int i = 0; i < currentList.size(); i++) {
-                    if (viewHolder.getAdapterPosition() == currentList.get(i)) {
+                    if (Utils.getChar(viewHolder.getAdapterPosition()) == currentList.get(i)) {
                         currentList.remove(i);
                         break;
                     }
@@ -89,19 +90,6 @@ public class SessionAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
             }
             if (listenner != null) listenner.onCheckedChanged(compoundButton, b);
         }
-    }
-
-    public void selectAll() {
-        currentList.clear();
-        for (int i = 0; i < sessionNumber; i++) {
-            currentList.add(i);
-        }
-        notifyDataSetChanged();
-    }
-
-    public void deselectAll() {
-        currentList.clear();
-        notifyDataSetChanged();
     }
 
     class ViewHolder extends RecyclerView.ViewHolder {

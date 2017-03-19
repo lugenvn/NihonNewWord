@@ -1,10 +1,13 @@
-package self.lugen.nihonnewword.utils;
+package self.lugen.nihonnewword.datamanager;
 
 import android.content.Context;
 import android.os.Parcel;
 import android.os.Parcelable;
 
 import java.util.ArrayList;
+
+import self.lugen.nihonnewword.utils.Constants;
+import self.lugen.nihonnewword.utils.Utils;
 
 public class NewWordLessonUtils implements Parcelable {
 
@@ -15,7 +18,7 @@ public class NewWordLessonUtils implements Parcelable {
         if (mData == null) {
             mData = new ArrayList<>();
             for (int i = 0; i < NativeData.NEW_WORD_LESSON_NUMBER; i++) {
-                mData.add(i+1);
+                mData.add(i + 1);
             }
         }
         return mData;
@@ -53,7 +56,8 @@ public class NewWordLessonUtils implements Parcelable {
 
     public boolean checkValid(Context context, int pos) {
 
-        int id = Utils.getResourceId(context, NewWordDataUtils.LESSON + pos + NewWordDataUtils.KANA, NewWordDataUtils.STRING_ARRAY,context.getApplicationContext().getPackageName());
+        int id = Utils.getResourceId(context, NewWordDataUtils.LESSON + pos + Constants.KANA, Constants.STRING_ARRAY,
+                context.getApplicationContext().getPackageName());
 
         return id > 0;
     }

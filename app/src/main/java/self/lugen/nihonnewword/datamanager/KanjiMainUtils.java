@@ -1,10 +1,13 @@
-package self.lugen.nihonnewword.utils;
+package self.lugen.nihonnewword.datamanager;
 
 import android.content.Context;
 import android.os.Parcel;
 import android.os.Parcelable;
 
 import java.util.ArrayList;
+
+import self.lugen.nihonnewword.utils.Constants;
+import self.lugen.nihonnewword.utils.Utils;
 
 public class KanjiMainUtils implements Parcelable {
 
@@ -70,7 +73,12 @@ public class KanjiMainUtils implements Parcelable {
 
     public boolean checkValid(Context context, String pos) {
 
-        int id = Utils.getResourceId(context, KanjiDataUtils.LESSON + pos + KanjiDataUtils.KANJI, KanjiDataUtils.STRING_ARRAY,context.getApplicationContext().getPackageName());
+        int id = Utils.getResourceId(context, KanjiDataUtils.LESSON + pos + Constants.KANJI, Constants
+                .STRING_ARRAY, context.getApplicationContext().getPackageName());
+        if (id <= 0) {
+            id = Utils.getResourceId(context, KanjiDataUtils.LESSON + pos + "_" + Constants.FIRST_CHARACTER_A +
+                    Constants.KANJI, Constants.STRING_ARRAY, context.getApplicationContext().getPackageName());
+        }
 
         return id > 0;
     }
