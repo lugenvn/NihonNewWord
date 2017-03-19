@@ -65,7 +65,7 @@ public class NewWordLessonFragment extends BaseFragment implements View.OnClickL
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        tvTitle = (TextView) view.findViewById(R.id.tv_title);
+        tvTitle = (TextView) view.findViewById(R.id.tv_type_title);
         tvLessonTitle = (TextView) view.findViewById(R.id.tv_lesson_title);
         tvContent = (TextView) view.findViewById(R.id.tv_card_content);
         btnKana = (Button) view.findViewById(R.id.btn_kana);

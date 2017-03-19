@@ -23,13 +23,12 @@ public class Utils {
         SharedPreferences pref = context.getApplicationContext().getSharedPreferences(Constants.APP_PREF, Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = pref.edit();
         editor.putBoolean(key, value);
-        editor.commit();
+        editor.apply();
     }
 
     public static boolean getSharePreferenceBooleanValue(Context context, String key) {
         SharedPreferences pref = context.getApplicationContext().getSharedPreferences(Constants.APP_PREF, Context.MODE_PRIVATE);
-        boolean returnValue = pref.getBoolean(key, false);
-        return returnValue;
+        return pref.getBoolean(key, false);
     }
 
     public static Character getChar(int id) {

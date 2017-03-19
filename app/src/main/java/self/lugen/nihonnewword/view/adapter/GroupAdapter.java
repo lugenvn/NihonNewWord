@@ -14,10 +14,6 @@ import self.lugen.nihonnewword.R;
 import self.lugen.nihonnewword.utils.Constants;
 import self.lugen.nihonnewword.utils.Utils;
 
-/**
- * Created by lugen on 3/15/17.
- */
-
 public class GroupAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
     private int groupNumber;
@@ -59,10 +55,10 @@ public class GroupAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
         this.listenner = listenner;
     }
 
-    class OnCheckChangeListener implements CompoundButton.OnCheckedChangeListener {
+    private class OnCheckChangeListener implements CompoundButton.OnCheckedChangeListener {
         ViewHolder viewHolder;
 
-        public OnCheckChangeListener(ViewHolder holder) {
+        OnCheckChangeListener(ViewHolder holder) {
             viewHolder = holder;
         }
 
@@ -92,10 +88,10 @@ public class GroupAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
         }
     }
 
-    class ViewHolder extends RecyclerView.ViewHolder {
+    private class ViewHolder extends RecyclerView.ViewHolder {
         CheckBox checkBox;
 
-        public ViewHolder(View itemView) {
+        ViewHolder(View itemView) {
             super(itemView);
             checkBox = (CheckBox) itemView.findViewById(R.id.item_check);
         }
