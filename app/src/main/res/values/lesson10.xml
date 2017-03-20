@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lesson10_kana">
+        <item>います</item>
+        <item>あります</item>
+        <item>いろいろ[な]</item>
+        <item>おとこのひと</item>
+        <item>おんなのひと</item>
+
+        <item>おとこのこ</item>
+        <item>おんなのこ</item>
+        <item>いぬ</item>
+        <item>ねこ</item>
+        <item>き</item>
+
+        <item>もの</item>
+        <item>フィルム</item>
+        <item>でんち</item>
+        <item>はこ</item>
+        <item>スイッチ</item>
+
+        <item>れいぞうこ</item>
+        <item>テーブル</item>
+        <item>ベッド</item>
+        <item>たな</item>
+        <item>ドア</item>
+
+        <item>まど</item>
+        <item>ポスト</item>
+        <item>ビル</item>
+        <item>こうえん</item>
+        <item>きっさてん</item>
+
+        <item>ほんや</item>
+        <item>~や</item>
+        <item>のりば</item>
+        <item>けん</item>
+        <item>うえ</item>
+
+        <item>した</item>
+        <item>まえ</item>
+        <item>うしろ</item>
+        <item>みぎ</item>
+        <item>ひだり</item>
+
+        <item>なか</item>
+        <item>そと</item>
+        <item>となり</item>
+        <item>ちかく</item>
+        <item>あいだ</item>
+
+        <item>~や~[など]</item>
+        <item>いちばん~</item>
+        <item>―だんめ</item>
+        <item>[どうも]すみません</item>
+        <item>チリソース</item>
+
+        <item>おく</item>
+        <item>スパイス・コーナー</item>
+        <item>とうきょうディズニーランド</item>
+    </string-array>
+
+
+    <string-array name="lesson10_kanji">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>男の人</item>
+        <item>女の人</item>
+
+        <item>男の子</item>
+        <item>女の子</item>
+        <item>犬</item>
+        <item>猫</item>
+        <item>木</item>
+
+        <item>物</item>
+        <item></item>
+        <item>電池</item>
+        <item>箱</item>
+        <item></item>
+
+        <item>冷蔵庫</item>
+        <item></item>
+        <item></item>
+        <item>棚</item>
+        <item></item>
+
+        <item>窓</item>
+        <item></item>
+        <item></item>
+        <item>公園</item>
+        <item>喫茶店</item>
+
+        <item>本屋</item>
+        <item>~屋</item>
+        <item>乗り場</item>
+        <item>県</item>
+        <item>上</item>
+
+        <item>下</item>
+        <item>前</item>
+        <item></item>
+        <item>右</item>
+        <item>左</item>
+
+        <item>中</item>
+        <item>外</item>
+        <item>隣</item>
+        <item>近く</item>
+        <item>間</item>
+
+        <item></item>
+        <item></item>
+        <item>―段目</item>
+        <item></item>
+        <item></item>
+
+        <item>奥</item>
+        <item></item>
+        <item>東京ディズニーランド</item>
+    </string-array>
+
+
+    <string-array name="lesson10_meaning">
+        <item>có, ở (tồn tại, dùng cho người và động vật)</item>
+        <item>có (tồn tại, dùng cho đồ vật)</item>
+        <item>nhiều, đa dạng</item>
+        <item>người đàn ông</item>
+        <item>người đàn bà</item>
+
+        <item>cậu con trai</item>
+        <item>cô con gái</item>
+        <item>chó</item>
+        <item>mèo</item>
+        <item>cây, gỗ</item>
+
+        <item>vật, đồ vật</item>
+        <item>phim</item>
+        <item>Pin</item>
+        <item>hộp</item>
+        <item>công tắc</item>
+
+        <item>tủ lạnh</item>
+        <item>bàn</item>
+        <item>giường</item>
+        <item>giá sách</item>
+        <item>cửa</item>
+
+        <item>cửa sổ</item>
+        <item>hộp thư, hòm thư</item>
+        <item>toà nhà</item>
+        <item>công viên</item>
+        <item>quán giải khát, quán cà-phê</item>
+
+        <item>hiệu sách</item>
+        <item>hiệu ~, cửa hàng ~</item>
+        <item>bến xe, điểm lên xuống xe</item>
+        <item>tỉnh</item>
+        <item>trên</item>
+
+        <item>dưới</item>
+        <item>trước</item>
+        <item>sau</item>
+        <item>phải</item>
+        <item>trái</item>
+
+        <item>trong, giữa</item>
+        <item>ngoài</item>
+        <item>bên cạnh</item>
+        <item>gần</item>
+        <item>giữa</item>
+
+        <item>~ và ~, [v.v.]</item>
+        <item>~ nhất (いちばん うえ:vị trí cao nhất)</item>
+        <item>giá thứ -, tầng thứ - (「だん」 được dùng cho giá sách v.v.)</item>
+        <item>Cám ơn</item>
+        <item>tương ớt (chili sauce)</item>
+
+        <item>bên trong cùng, phía sâu bên trong</item>
+        <item>góc gia vị (sprice corner)</item>
+        <item>Công viên Tokyo Disneyland</item>
+    </string-array>
+</resources>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lesson11_kana">
+        <item>います\n[こどもが~]</item>
+        <item>います\n[にほんに~]</item>
+        <item>かかります</item>
+        <item>やすみます\n[かいしゃを~]</item>
+        <item>ひとつ</item>
+
+        <item>ふたつ</item>
+        <item>みっつ</item>
+        <item>よっつ</item>
+        <item>いつつ</item>
+        <item>むっつ</item>
+
+        <item>ななつ</item>
+        <item>やっつ</item>
+        <item>ここのつ</item>
+        <item>とお</item>
+        <item>いくつ</item>
+
+        <item>ひとり</item>
+        <item>ふたり</item>
+        <item>―にん</item>
+        <item>―だい</item>
+        <item>―まい</item>
+
+        <item>―かい</item>
+        <item>りんご</item>
+        <item>みかん</item>
+        <item>サンドイッチ</item>
+        <item>カレー[ライス]</item>
+
+        <item>アイスクリーム</item>
+        <item>きって</item>
+        <item>はがみ</item>
+        <item>ふうとう</item>
+        <item>そくたつ</item>
+
+        <item>かきとめ</item>
+        <item>エアメール\n(こうくうびん)</item>
+        <item>ふなびん</item>
+        <item>りょうしん</item>
+        <item>きょうだい</item>
+
+        <item>あに</item>
+        <item>おにいさん</item>
+        <item>あね</item>
+        <item>おねえさん</item>
+        <item>おとうと</item>
+
+        <item>おとうとさん</item>
+        <item>いもうと</item>
+        <item>いもうとさん</item>
+        <item>がいこく</item>
+        <item>―じかん</item>
+
+        <item>―しゅうかん</item>
+        <item>―かげつ</item>
+        <item>―ねん</item>
+        <item>~ぐらい</item>
+        <item>どのぐらい</item>
+
+        <item>ぜんぶで</item>
+        <item>みんな</item>
+        <item>~だけ</item>
+        <item>いらっしゃいませ。</item>
+        <item>いい[お]てんきですね。</item>
+
+        <item>おでかけですか。</item>
+        <item>ちょっと ~まで。</item>
+        <item>いっていらっしゃい。</item>
+        <item>いってまいります。</item>
+        <item>それから</item>
+
+        <item>オーストラリア</item>
+    </string-array>
+
+
+    <string-array name="lesson11_kanji">
+        <item>います\n[子供が~]</item>
+        <item>います\n[日本に~]</item>
+        <item></item>
+        <item>休みます\n[会社を~]</item>
+        <item>1つ</item>
+
+        <item>2つ</item>
+        <item>3つ</item>
+        <item>4つ</item>
+        <item>5つ</item>
+        <item>6つ</item>
+
+        <item>7つ</item>
+        <item>8つ</item>
+        <item>9つ</item>
+        <item>10</item>
+        <item></item>
+
+        <item>1人</item>
+        <item>2人</item>
+        <item>-人</item>
+        <item>-台</item>
+        <item>-枚</item>
+
+        <item>―回</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+
+        <item></item>
+        <item>切手</item>
+        <item></item>
+        <item>封筒</item>
+        <item>速達</item>
+
+        <item>書留</item>
+        <item>エアメール\n(航空便)</item>
+        <item>船便</item>
+        <item>両親</item>
+        <item>兄弟</item>
+
+        <item>兄</item>
+        <item>お兄さん</item>
+        <item>姉</item>
+        <item>お姉さん</item>
+        <item>弟</item>
+
+        <item>弟さん</item>
+        <item>妹</item>
+        <item>妹さん</item>
+        <item>外国</item>
+        <item>―時間</item>
+
+        <item>―週間</item>
+        <item>-か月</item>
+        <item>―年</item>
+        <item></item>
+        <item></item>
+
+        <item>全部で</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>いい[お]天気ですね。</item>
+
+        <item>お出かけですか。</item>
+        <item></item>
+        <item>行っていらっしゃい。</item>
+        <item>行ってまいります。</item>
+        <item></item>
+
+        <item></item>
+    </string-array>
+
+
+    <string-array name="lesson11_meaning">
+        <item>có [con]</item>
+        <item>ở [Nhật]</item>
+        <item>mất, tốn (thời gian, tiền bạc)</item>
+        <item>nghỉ [làm việc]</item>
+        <item>một cái (dùng để đếm đồ vật)</item>
+
+        <item>hai cái</item>
+        <item>ba cái</item>
+        <item>bốn cái</item>
+        <item>năm cái</item>
+        <item>sáu cái</item>
+
+        <item>bảy cái</item>
+        <item>tám cái</item>
+        <item>chín cái</item>
+        <item>mười cái</item>
+        <item>mấy cái, bao nhiêu cái</item>
+
+        <item>một người</item>
+        <item>hai người</item>
+        <item>- người</item>
+        <item>- cái (dùng để đếm máy móc, xe cộ v.v.)</item>
+        <item>- tờ, tấm (dùng để đếm những vật mỏng như giấy, con tem v.v.)</item>
+
+        <item>- lần</item>
+        <item>táo</item>
+        <item>quýt</item>
+        <item>bánh San Uých</item>
+        <item>món [cơm] ca-ri</item>
+
+        <item>kem</item>
+        <item>tem</item>
+        <item>bưu thiếp</item>
+        <item>phong bì</item>
+        <item>(bưu phẩm) gửi nhanh</item>
+
+        <item>(bưu phẩm) gửi bảo đảm</item>
+        <item>gửi bằng đường hàng không</item>
+        <item>gửi bằng đường biển</item>
+        <item>bố mẹ</item>
+        <item>anh chị em</item>
+
+        <item>anh trai</item>
+        <item>anh trai (dùng cho người khác)</item>
+        <item>chị gái</item>
+        <item>chị gái (dùng cho người khác)</item>
+        <item>em trai</item>
+
+        <item>em trai (dùng cho người khác)</item>
+        <item>em gái</item>
+        <item>em gái (dùng cho người khác)</item>
+        <item>nước ngoài</item>
+        <item>- tiếng</item>
+
+        <item>- tuần</item>
+        <item>- tháng</item>
+        <item>- năm</item>
+        <item>khoảng ~</item>
+        <item>bao lâu</item>
+
+        <item>tổng cộng</item>
+        <item>tất cả</item>
+        <item>chỉ ~</item>
+        <item>Xin mời vào./ xin chào quý khách.</item>
+        <item>Trời đẹp nhỉ.</item>
+
+        <item>Anh/ chị đi ra ngoài đấy à?</item>
+        <item>Tôi đi ~ một chút.</item>
+        <item>Anh/chị đi nhé. (nguyên nghĩa: anh/chị đi rồi lại về nhé.)</item>
+        <item>Tôi đi đây. (nguyên nghĩa: tôi đi rồi sẽ về.)</item>
+        <item>sau đó, tiếp nữa</item>
+
+        <item>Úc</item>
+    </string-array>
+</resources>
