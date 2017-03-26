@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lesson13_kana">
+        <item>あそびます</item>
+        <item>およぎます</item>
+        <item>むかえます</item>
+        <item>つかれます</item>
+        <item>だします\n[てがみを~]</item>
+
+        <item>はいります\n[きっさてんに~]</item>
+        <item>でます\n[きっさてんを~]</item>
+        <item>けっこんします</item>
+        <item>かいものします</item>
+        <item>しょくじします</item>
+
+        <item>さんぽします\n[こうえんを~]</item>
+        <item>たいへん「な」</item>
+        <item>ほしい</item>
+        <item>さびしい</item>
+        <item>ひろい</item>
+
+        <item>せまい</item>
+        <item>しやくしょ</item>
+        <item>プール</item>
+        <item>かわ</item>
+        <item>けいざい</item>
+
+        <item>びじゅつ</item>
+        <item>つり</item>
+        <item>スキー</item>
+        <item>かいぎ</item>
+        <item>とうろく</item>
+
+        <item>しゅうまつ</item>
+        <item>~ごろ</item>
+        <item>なにか</item>
+        <item>どこか</item>
+        <item>おなかが すきました。</item>
+
+        <item>おなかが いっぱいです。</item>
+        <item>のどが かわきました。</item>
+        <item>そうですね。</item>
+        <item>そうしましょう。</item>
+        <item>ごちゅうもんは?</item>
+
+        <item>ていしょく</item>
+        <item>ぎゅうどん</item>
+        <item>[しょうしょう] あまちください。</item>
+        <item>べつべつに</item>
+    </string-array>
+
+
+    <string-array name="lesson13_kanji">
+        <item>遊びます</item>
+        <item>泳ぎます</item>
+        <item>迎えます</item>
+        <item>疲れます</item>
+        <item>出します\n[手紙を~]</item>
+
+        <item>入ります\n[喫茶店に~]</item>
+        <item>出ます\n[喫茶店を~]</item>
+        <item>結婚します</item>
+        <item>買い物します</item>
+        <item>食事します</item>
+
+        <item>散歩します\n[公園を~]</item>
+        <item>大変「な」</item>
+        <item>欲しい</item>
+        <item>寂しい</item>
+        <item>広い</item>
+
+        <item>狭い</item>
+        <item>市役所</item>
+        <item></item>
+        <item>川</item>
+        <item>経済</item>
+
+        <item>美術</item>
+        <item>釣り</item>
+        <item></item>
+        <item>会議</item>
+        <item>登録</item>
+
+        <item>週末</item>
+        <item></item>
+        <item>何か</item>
+        <item></item>
+        <item></item>
+
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>ご注文は?</item>
+
+        <item>定食</item>
+        <item>牛どん</item>
+        <item>[少々] お待ちください。</item>
+        <item>別々に</item>
+    </string-array>
+
+
+    <string-array name="lesson13_meaning">
+        <item>chơi</item>
+        <item>bơi</item>
+        <item>đón</item>
+        <item>mệt</item>
+        <item>gửi[thư]</item>
+
+        <item>vào [quán giải khát]</item>
+        <item>ra, ra khỏi [quán giải khát]</item>
+        <item>kết hôn, lập gia đình, cưới</item>
+        <item>mua hàng</item>
+        <item>ăn cơm</item>
+
+        <item>đi dạo [ở công viên]</item>
+        <item>vất vả, khó khăn, khổ</item>
+        <item>muốn có</item>
+        <item>buồn, cô đơn</item>
+        <item>rộng</item>
+
+        <item>chật, hẹp</item>
+        <item>văn phòng hành chính quận, thành phố</item>
+        <item>bể bơi</item>
+        <item>sông</item>
+        <item>kinh tế</item>
+
+        <item>mỹ thuật</item>
+        <item>việc câu cá (~をします:câu cá)</item>
+        <item>việc trượt tuyết (~をします: trượt tuyết)</item>
+        <item>họp, cuộc họp (~をします: họp, tổ chức cuộc họp)</item>
+        <item>việc đăng ký (~をします:đăng ký)</item>
+
+        <item>cuối tuần</item>
+        <item>Khoảng ~ (dùng cho thời gian)</item>
+        <item>cái gì đó</item>
+        <item>đâu đó, chỗ nào đó</item>
+        <item>(tôi) đói rồi.</item>
+
+        <item>(tôi) no rồi.</item>
+        <item>(tôi) khát.</item>
+        <item>Đúng thế.</item>
+        <item>Nhất trí./ Chúng ta thống nhất như thế.</item>
+        <item>Anh/Chị dùng món gì ạ</item>
+
+        <item>Cơm suất, cơm phần</item>
+        <item>món cơm thịt bò</item>
+        <item>Xin anh/chị vui lòng đợi [một chút].</item>
+        <item>riêng ra/ để riêng</item>
+    </string-array>
+</resources>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lesson12_kana">
+        <item>かんたん「な」</item>
+        <item>ちかい</item>
+        <item>とおい</item>
+        <item>はやい</item>
+        <item>おそい</item>
+
+        <item>おおい\n[ひとが~]</item>
+        <item>すくない\n[ひとが~]</item>
+        <item>あたたかい</item>
+        <item>すずしい</item>
+        <item>あまい</item>
+
+        <item>からい</item>
+        <item>おもい</item>
+        <item>かるい</item>
+        <item>いい\n[コーヒーが~]</item>
+        <item>きせつ</item>
+
+        <item>はる</item>
+        <item>なつ</item>
+        <item>あき</item>
+        <item>ふゆ</item>
+        <item>てんき</item>
+
+        <item>あめ</item>
+        <item>ゆき</item>
+        <item>くもり</item>
+        <item>ホテル</item>
+        <item>くうこう</item>
+
+        <item>うみ</item>
+        <item>せかい</item>
+        <item>パーティー</item>
+        <item>「お」まつり</item>
+        <item>しけん</item>
+
+        <item>すきやき</item>
+        <item>さしみ</item>
+        <item>「お」すし</item>
+        <item>てんぷら</item>
+        <item>いけばな</item>
+
+        <item>もみじ</item>
+        <item>どちら</item>
+        <item>どちらも</item>
+        <item>ずっと</item>
+        <item>はじめて</item>
+
+        <item>ただいま。</item>
+        <item>おかえりなさい。</item>
+        <item>すごいですね。</item>
+        <item>でも</item>
+        <item>つかれました。</item>
+    </string-array>
+
+
+    <string-array name="lesson12_kanji">
+        <item>簡単「な」</item>
+        <item>近い</item>
+        <item>遠い</item>
+        <item>速い、早い</item>
+        <item>遅い</item>
+
+        <item>多い\n[人が~]</item>
+        <item>少ない\n[人が~]</item>
+        <item>温かい、暖かい</item>
+        <item>涼しい</item>
+        <item>甘い</item>
+
+        <item>辛い</item>
+        <item>重い</item>
+        <item>軽い</item>
+        <item></item>
+        <item>季節</item>
+
+        <item>春</item>
+        <item>夏</item>
+        <item>秋</item>
+        <item>冬</item>
+        <item>天気</item>
+
+        <item>雨</item>
+        <item>雪</item>
+        <item>曇り</item>
+        <item></item>
+        <item>空港</item>
+
+        <item>海</item>
+        <item>政界</item>
+        <item></item>
+        <item>「お」祭り</item>
+        <item>試験</item>
+
+        <item>すき焼き</item>
+        <item>刺身</item>
+        <item></item>
+        <item></item>
+        <item>生け花</item>
+
+        <item>紅葉</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>初めて</item>
+
+        <item></item>
+        <item>お帰りなさい。</item>
+        <item></item>
+        <item></item>
+        <item>疲れました。</item>
+    </string-array>
+
+
+    <string-array name="lesson12_meaning">
+        <item>Đơn giản, dễ</item>
+        <item>gần</item>
+        <item>xa</item>
+        <item>nhanh, sớm</item>
+        <item>chậm, muộn</item>
+
+        <item>nhiều [người]</item>
+        <item>ít [người]</item>
+        <item>ấm</item>
+        <item>mát</item>
+        <item>ngọt</item>
+
+        <item>cay</item>
+        <item>nặng</item>
+        <item>nhẹ</item>
+        <item>thích, chọn, dùng [cafe]</item>
+        <item>mùa</item>
+
+        <item>mùa xuân</item>
+        <item>mùa hè</item>
+        <item>mùa thu</item>
+        <item>mùa đông</item>
+        <item>thời tiết</item>
+
+        <item>mưa</item>
+        <item>tuyết</item>
+        <item>có mây</item>
+        <item>khách sạn</item>
+        <item>sân bay</item>
+
+        <item>biển, đại dương</item>
+        <item>thế giới</item>
+        <item>tiệc (~をします:tổ chức tiệc)</item>
+        <item>lễ hội</item>
+        <item>kỳ thi, bài thi</item>
+
+        <item>Sukiyaki (món thịt bò nấu rau)</item>
+        <item>Sashimi (món gỏi cá sống)</item>
+        <item>Sushi</item>
+        <item>Tempura (món hải sản và rau chiên tẩm bột)</item>
+        <item>Nghệ thuật cắm hoa (~をします:cắm hoa)</item>
+
+        <item>lá đỏ</item>
+        <item>cái nào</item>
+        <item>cả hai</item>
+        <item>(hơn) hẳn (dùng để nhấn mạnh sự khác biệt giữa hai đối tượng)</item>
+        <item>lần đầu tiên</item>
+
+        <item>Tôi đã về đây. (dùng nói khi về đến nhà)</item>
+        <item>Anh/Chị đã về đấy à. (dùng để nói với ai đó mới về đến nhà)</item>
+        <item>Ghê quá nhỉ./ hay quá nhỉ.</item>
+        <item>Nhưng</item>
+        <item>Tôi mệt rồi</item>
+    </string-array>
+</resources>

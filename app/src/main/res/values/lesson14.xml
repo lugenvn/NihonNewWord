@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lesson14_kana">
+        <item>つけます II</item>
+        <item>けしますI</item>
+        <item>あけます II</item>
+        <item>しめます II</item>
+        <item>いそぎます I</item>
+
+        <item>まちます I</item>
+        <item>とめます II</item>
+        <item>まがります I\n[みぎへ~]</item>
+        <item>もちます I</item>
+        <item>とります I</item>
+
+        <item>てつだいます I</item>
+        <item>よびます I</item>
+        <item>はなします I</item>
+        <item>みせます II</item>
+        <item>おしえます II\n[じゅうしょを~]</item>
+
+        <item>はじめます II</item>
+        <item>ふります I\n[あめが~]</item>
+        <item>コピーします III</item>
+        <item>エアコン</item>
+        <item>パスポート</item>
+
+        <item>なまえ</item>
+        <item>じゅうしょ</item>
+        <item>ちず</item>
+        <item>しお</item>
+        <item>さとう</item>
+
+        <item>よみかた</item>
+        <item>~かた</item>
+        <item>ゆっくり</item>
+        <item>すぐ</item>
+        <item>また</item>
+
+        <item>あとで</item>
+        <item>もう すこし</item>
+        <item>もう~</item>
+        <item>いいですよ。</item>
+        <item>さあ</item>
+
+        <item>あれ?</item>
+        <item>しんごうをみぎへまがってください</item>
+        <item>まっすぐ</item>
+        <item>これでおねがいします</item>
+        <item>おつり</item>
+    </string-array>
+
+
+    <string-array name="lesson14_kanji">
+        <item></item>
+        <item>消します</item>
+        <item>開けます</item>
+        <item>閉めます</item>
+        <item>急ぎます</item>
+
+        <item>待ちます</item>
+        <item>止めます</item>
+        <item>曲がります\n[右へ~]</item>
+        <item>持ちます</item>
+        <item>取ります</item>
+
+        <item>手伝います</item>
+        <item>呼びます</item>
+        <item>話します</item>
+        <item>見せます</item>
+        <item>教えます\n[住所を~]</item>
+
+        <item>始めます</item>
+        <item>降ります\n[雤が~]</item>
+        <item></item>
+        <item></item>
+        <item></item>
+
+        <item>名前</item>
+        <item>住所</item>
+        <item>地図</item>
+        <item>塩</item>
+        <item>砂糖</item>
+
+        <item>読み方</item>
+        <item>~方</item>
+        <item></item>
+        <item></item>
+        <item></item>
+
+        <item></item>
+        <item>もう 少し</item>
+        <item></item>
+        <item></item>
+        <item></item>
+
+        <item></item>
+        <item>信号を右へ曲がってください。</item>
+        <item></item>
+        <item>これでお願いします。</item>
+        <item>お釣り</item>
+    </string-array>
+
+
+    <string-array name="lesson14_meaning">
+        <item>bật (điện, máy điều hòa)</item>
+        <item>tắt (điện, máy điều hòa)</item>
+        <item>mở (cửa, cửa sổ)</item>
+        <item>đóng (cửa, cửa sổ)</item>
+        <item>vội, gấp</item>
+
+        <item>đợi, chờ</item>
+        <item>dừng (băng, ôt ô), đỗ (ôtô)</item>
+        <item>rẽ, quẹo [phải]</item>
+        <item>mang, cầm</item>
+        <item>lấy (muối)</item>
+
+        <item>giúp (làm việc)</item>
+        <item>gọi (taxi, tên)</item>
+        <item>nói, nói chuyện</item>
+        <item>cho xem, trình</item>
+        <item>nói, cho biết [địa chỉ]</item>
+
+        <item>bắt đầu</item>
+        <item>rơi [mưa, tuyết~]</item>
+        <item>copy</item>
+        <item>máy điều hòa</item>
+        <item>hộ chiếu</item>
+
+        <item>tên</item>
+        <item>địa chỉ</item>
+        <item>bản đồ</item>
+        <item>muối</item>
+        <item>đường</item>
+
+        <item>cách đọc</item>
+        <item>cách ~</item>
+        <item>chậm, thong thả, thoải mái</item>
+        <item>ngay, lập tức</item>
+        <item>lại (~đến)</item>
+
+        <item>sau</item>
+        <item>thêm một chút nữa thôi</item>
+        <item>thêm~</item>
+        <item>Được chứ./được ạ.</item>
+        <item>thôi,/nào, (dùng để thúc giục hoặc khuyến khích ai làm gì.)</item>
+
+        <item>Ô! </item>
+        <item>Anh/ Chị rẽ phải ở chổ đèn tín hiệu.</item>
+        <item>thẳng</item>
+        <item>Gởi anh tiền này.</item>
+        <item>tiền lẻ</item>
+    </string-array>
+</resources>
