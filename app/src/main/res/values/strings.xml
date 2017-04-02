@@ -20,4 +20,5 @@
     <string name="group_item">group %s</string>
     <string name="dl_number_in_session">number in session : %d</string>
     <string name="dl_number_in_group">number in group : %d</string>
+    <string name="number_left">current left : %d</string>
 </resources>

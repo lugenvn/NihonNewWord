@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lesson17_kana">
+        <item>おぼえます</item>
+        <item>わすれます</item>
+        <item>なくします</item>
+        <item>だします\n[レポートを~]</item>
+        <item>はらいます</item>
+
+        <item>かえします</item>
+        <item>でかけます</item>
+        <item>ぬぎます</item>
+        <item>もっていきます</item>
+        <item>もってきます</item>
+
+        <item>しんぱいします</item>
+        <item>ざんぎょうします</item>
+        <item>しゅっちょうします</item>
+        <item>のみます\n[くすりを~]</item>
+        <item>はいります\n[おふろに~]</item>
+
+        <item>たいせつ[な]</item>
+        <item>だいじょうぶ[な]</item>
+        <item>あぶない</item>
+        <item>もんだい</item>
+        <item>こたえ</item>
+
+        <item>きんえん</item>
+        <item>[けんこう]ほけんしょう</item>
+        <item>かぜ</item>
+        <item>ねつ</item>
+        <item>びょうき</item>
+
+        <item>くすり</item>
+        <item>[お]ふろ</item>
+        <item>うわぎ</item>
+        <item>したぎ</item>
+        <item>せんせい</item>
+
+        <item>2，3にち</item>
+        <item>2，3~</item>
+        <item>~までに</item>
+        <item>ですから</item>
+        <item>どうしましたか。</item>
+
+        <item>[~が]いたいです。</item>
+        <item>のど</item>
+        <item>おだいじに</item>
+    </string-array>
+
+
+    <string-array name="lesson17_kanji">
+        <item>覚えます</item>
+        <item>忘れます</item>
+        <item></item>
+        <item>出します</item>
+        <item>払います</item>
+
+        <item>返します</item>
+        <item>出かけます</item>
+        <item>脱ぎます</item>
+        <item>持って行きます</item>
+        <item>持って来ます</item>
+
+        <item>心配します</item>
+        <item>残業します</item>
+        <item>出張します</item>
+        <item>飲みます\n[薬を~]</item>
+        <item>入ります</item>
+
+        <item>大切[な]</item>
+        <item>大丈夫[な]</item>
+        <item>危ない</item>
+        <item>問題</item>
+        <item>答え</item>
+
+        <item>禁煙</item>
+        <item>[健康]保険証</item>
+        <item></item>
+        <item>熱</item>
+        <item>病気</item>
+
+        <item>薬</item>
+        <item></item>
+        <item>上着</item>
+        <item>下着</item>
+        <item>先生</item>
+
+        <item>2，3日</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+
+        <item>[~が]痛いです。</item>
+        <item></item>
+        <item>お大事に。</item>
+    </string-array>
+
+
+    <string-array name="lesson17_meaning">
+        <item>nhớ</item>
+        <item>quên</item>
+        <item>mất, đánh mất</item>
+        <item>nộp[bản/bài báo cáo]</item>
+        <item>trả tiền</item>
+
+        <item>trả lại</item>
+        <item>ra ngoài</item>
+        <item>cởi (quần áo, giầy)</item>
+        <item>mang đi, mang theo</item>
+        <item>mang đến</item>
+
+        <item>lo lắng</item>
+        <item>làm thêm, làm quá giờ</item>
+        <item>đi công tác</item>
+        <item>uống [thuốc]</item>
+        <item>tắm bồn [vào bồn tắm]</item>
+
+        <item>quan trọng, quý giá</item>
+        <item>không sao, không có vấn đề gì</item>
+        <item>nguy hiểm</item>
+        <item>vấn đề</item>
+        <item>câu trả lời</item>
+
+        <item>cấm hút thuốc</item>
+        <item>thẻ bảo hiểm [y tế]</item>
+        <item>cảm, cúm</item>
+        <item>sốt</item>
+        <item>ốm, bệnh</item>
+
+        <item>thuốc</item>
+        <item>bồn tắm</item>
+        <item>áo khoác</item>
+        <item>quần áo lót</item>
+        <item>bác sĩ (cách gọi bác sĩ)</item>
+
+        <item>vài ngày</item>
+        <item>vài~ (“~” là hậu tố chỉ cách đếm)</item>
+        <item>trước ~ (chỉ thời hạn)</item>
+        <item>vì thế, vì vậy, do đó</item>
+        <item>Có vần đề gì?/Anh/chị bị làm sao? (cách bác sĩ hỏi bệnh nhân)</item>
+
+        <item>Tôi bị đau [~].</item>
+        <item>họng</item>
+        <item>Anh/chị nhớ giữ gìn sức khỏe.(câu nói với người ốm hoặc bị bệnh)</item>
+    </string-array>
+</resources>

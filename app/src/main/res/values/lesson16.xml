@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lesson16_kana">
+        <item>のります\n[でんしゃに~]</item>
+        <item>おります\n[でんしゃに~]</item>
+        <item>のりかえます</item>
+        <item>あびます\n[シャワーを~]</item>
+        <item>いれます</item>
+
+        <item>だします</item>
+        <item>はいります\n[だいがくに~]</item>
+        <item>でます\n[だいがくを~]</item>
+        <item>やめます\n[かいしゃを~]</item>
+        <item>おします</item>
+
+        <item>わかい</item>
+        <item>ながい</item>
+        <item>みじかい</item>
+        <item>あかるい</item>
+        <item>くらい</item>
+
+        <item>せがたかい</item>
+        <item>あたまがいい</item>
+        <item>からだ</item>
+        <item>あたま</item>
+        <item>かみ</item>
+
+        <item>かお</item>
+        <item>め</item>
+        <item>みみ</item>
+        <item>くち</item>
+        <item>は</item>
+
+        <item>おなか</item>
+        <item>あし</item>
+        <item>サービス</item>
+        <item>ジョギング</item>
+        <item>シャワー</item>
+
+        <item>みどり</item>
+        <item>[お]てら</item>
+        <item>じんじゃ</item>
+        <item>りゅうがくせい</item>
+        <item>一ばん</item>
+
+        <item>どうやって</item>
+        <item>どの~</item>
+        <item>[いいえ、]まだまだです。</item>
+        <item>おひきだしですか。</item>
+        <item>まず</item>
+
+        <item>キャッシュカード</item>
+        <item>あんしょうばんごう</item>
+        <item>つぎに</item>
+        <item>きんがく</item>
+        <item>かくにん</item>
+
+        <item>ボタン</item>
+    </string-array>
+
+
+    <string-array name="lesson16_kanji">
+        <item>乗ります\n[電車に~]</item>
+        <item>降ります\n[電車に~]</item>
+        <item>乗り換えます</item>
+        <item>浴びます</item>
+        <item>入れます</item>
+
+        <item>出します</item>
+        <item>入ります\n[大学に~]</item>
+        <item>出ます\n[大学に~]</item>
+        <item></item>
+        <item>押します</item>
+
+        <item>若い</item>
+        <item>長い</item>
+        <item>短い</item>
+        <item>明るい</item>
+        <item>暗い</item>
+
+        <item>背が高い</item>
+        <item>頭がいい</item>
+        <item>体</item>
+        <item>頭</item>
+        <item>髪</item>
+
+        <item>顔</item>
+        <item>目</item>
+        <item>耳</item>
+        <item>口</item>
+        <item>歯</item>
+
+        <item></item>
+        <item>足</item>
+        <item></item>
+        <item></item>
+        <item></item>
+
+        <item>緑</item>
+        <item>[お]寺</item>
+        <item>神社</item>
+        <item>留学生</item>
+        <item>一番</item>
+
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>お引き出しですか。</item>
+        <item></item>
+
+        <item></item>
+        <item>暗証番号</item>
+        <item>次に</item>
+        <item>金額</item>
+        <item>確認</item>
+
+        <item></item>
+    </string-array>
+
+
+    <string-array name="lesson16_meaning">
+        <item>đi, lên [tàu]</item>
+        <item>xuống [tàu]</item>
+        <item>chuyển, đổi (tàu)</item>
+        <item>tắm [vòi hoa sen]</item>
+        <item>cho vào, bỏ vào</item>
+
+        <item>lấy ra, rút (tiền)</item>
+        <item>vào, nhập học [đại học]</item>
+        <item>ra, tốt nghiệp [đại học]</item>
+        <item>bỏ, thôi [việc công ty]</item>
+        <item>bấm, ấn (nút)</item>
+
+        <item>trẻ</item>
+        <item>dài</item>
+        <item>ngắn</item>
+        <item>sáng</item>
+        <item>tối</item>
+
+        <item>cao (dùng cho người)</item>
+        <item>thông minh</item>
+        <item>người, cơ thể</item>
+        <item>đầu</item>
+        <item>tóc</item>
+
+        <item>mặt</item>
+        <item>mắt</item>
+        <item>tai</item>
+        <item>miệng</item>
+        <item>răng</item>
+
+        <item>bụng</item>
+        <item>chân</item>
+        <item>dịch vụ</item>
+        <item>việc chạy bộ (~をします: chạy bộ)</item>
+        <item>vòi hoa sen</item>
+
+        <item>màu xanh lá cây</item>
+        <item>chùa</item>
+        <item>đền thờ đạo thần</item>
+        <item>lưu học sinh, du học sinh</item>
+        <item>số―</item>
+
+        <item>làm thế nào~</item>
+        <item>cái nào~ (dùng với trường hợp từ ba thứ trở lên)</item>
+        <item>[không,] tôi còn kém lắm. </item>
+        <item>Anh/ chị rút tiền ạ?</item>
+        <item>trước hết, đầu tiên</item>
+
+        <item>thẻ ngân hàng, thẻ ATM</item>
+        <item>mã số bí mật (mật khẩu)</item>
+        <item>tiếp theo</item>
+        <item>số tiền, khoản tiền</item>
+        <item>sự xác nhận, sự kiểm tra (~します:xác nhận)</item>
+
+        <item>nút</item>
+    </string-array>
+</resources>

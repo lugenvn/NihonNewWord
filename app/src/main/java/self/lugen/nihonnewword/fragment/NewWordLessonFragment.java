@@ -28,6 +28,7 @@ public class NewWordLessonFragment extends BaseFragment implements View.OnClickL
     TextView tvTitle;
     TextView tvLessonTitle;
     TextView tvContent;
+    TextView tvNumberLeft;
     Button btnNext;
     Button btnSession;
     Button btnKana;
@@ -68,6 +69,7 @@ public class NewWordLessonFragment extends BaseFragment implements View.OnClickL
         tvTitle = (TextView) view.findViewById(R.id.tv_type_title);
         tvLessonTitle = (TextView) view.findViewById(R.id.tv_lesson_title);
         tvContent = (TextView) view.findViewById(R.id.tv_card_content);
+        tvNumberLeft = (TextView) view.findViewById(R.id.tv_number_left);
         btnKana = (Button) view.findViewById(R.id.btn_kana);
         btnKanji = (Button) view.findViewById(R.id.btn_kanji);
         btnMeaning = (Button) view.findViewById(R.id.btn_meaning);
@@ -133,6 +135,7 @@ public class NewWordLessonFragment extends BaseFragment implements View.OnClickL
     }
 
     private void displayValue(int pos) {
+        tvNumberLeft.setText(String.format(getString(R.string.number_left), dataUtils.getNumberLeft()));
         switch (pos) {
             case NewWordDataUtils.POS_KANA:
                 showKana();

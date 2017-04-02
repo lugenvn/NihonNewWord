@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lesson15_kana">
+        <item>たちます</item>
+        <item>すわります</item>
+        <item>つかいます</item>
+        <item>おきます</item>
+        <item>つくります</item>
+
+        <item>うります</item>
+        <item>しります</item>
+        <item>すみます</item>
+        <item>けんきゅうします</item>
+        <item>しって います</item>
+
+        <item>すんで います\n[おおさかに~]</item>
+        <item>しりょう</item>
+        <item>カタログ</item>
+        <item>じこくひょう</item>
+        <item>ふく</item>
+
+        <item>せいひん</item>
+        <item>ソフト</item>
+        <item>せんもん</item>
+        <item>はいしゃ</item>
+        <item>とこや</item>
+
+        <item>プレイガイド</item>
+        <item>どくしん</item>
+        <item>とくに</item>
+        <item>おもいだします</item>
+        <item>ごかぞく</item>
+
+        <item>いらっしゃいます</item>
+        <item>こうこう</item>
+    </string-array>
+
+
+    <string-array name="lesson15_kanji">
+        <item>立ちます</item>
+        <item>座ります</item>
+        <item>使います</item>
+        <item>置きます</item>
+        <item>作ります，造ります</item>
+
+        <item>売ります</item>
+        <item>知ります</item>
+        <item>住みます</item>
+        <item>研究します</item>
+        <item>知って います</item>
+
+        <item>住んで います\n[大阪に~]</item>
+        <item>資料</item>
+        <item></item>
+        <item>時刻表</item>
+        <item>服</item>
+
+        <item>製品</item>
+        <item></item>
+        <item>専門</item>
+        <item>歯医者</item>
+        <item>床屋</item>
+
+        <item></item>
+        <item>独身</item>
+        <item>特に</item>
+        <item>思い出します</item>
+        <item>ご家族</item>
+
+        <item></item>
+        <item>高校</item>
+    </string-array>
+
+
+    <string-array name="lesson15_meaning">
+        <item>đứng</item>
+        <item>ngồi</item>
+        <item>dùng, sử dụng</item>
+        <item>đặt, để</item>
+        <item>làm, chế tạo, sản xuất</item>
+
+        <item>bán</item>
+        <item>biết</item>
+        <item>sống, ở</item>
+        <item>nghiên cứu</item>
+        <item>biết</item>
+
+        <item>sống [ở Osaka]</item>
+        <item>tài liệu, tư liệu</item>
+        <item>ca-ta-lô</item>
+        <item>bảng giờ tàu chạy</item>
+        <item>quần áo</item>
+
+        <item>sản phẩm</item>
+        <item>phần mềm</item>
+        <item>chuyên môn</item>
+        <item>nha sĩ</item>
+        <item>hiệu cắt tóc</item>
+
+        <item>quầy bán vé (trong nhà hát)</item>
+        <item>độc thân</item>
+        <item>đặc biệt</item>
+        <item>nhớ lại, hồi tưởng</item>
+        <item>gia đình (dùng cho người khác)</item>
+
+        <item>thể kính trọng của 「います」</item>
+        <item>trường trung học phổ thông</item>
+    </string-array>
+
+</resources>

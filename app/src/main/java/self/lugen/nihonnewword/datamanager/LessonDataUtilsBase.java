@@ -121,6 +121,12 @@ public class LessonDataUtilsBase implements Parcelable {
         }
     }
 
+    public int getNumberLeft() {
+        if (availBank != null)
+            return availBank.size();
+        else return 0;
+    }
+
     protected int getCurrentListLength(Context context) {
         return 0;
     }
@@ -155,7 +161,8 @@ public class LessonDataUtilsBase implements Parcelable {
         in.readList(this.availBank, Integer.class.getClassLoader());
     }
 
-    public static final Parcelable.Creator<LessonDataUtilsBase> CREATOR = new Parcelable.Creator<LessonDataUtilsBase>() {
+    public static final Parcelable.Creator<LessonDataUtilsBase> CREATOR = new Parcelable.Creator<LessonDataUtilsBase>
+            () {
         @Override
         public LessonDataUtilsBase createFromParcel(Parcel source) {
             return new LessonDataUtilsBase(source);
