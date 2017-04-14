@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lesson18_kana">
+        <item>できます</item>
+        <item>あらいます</item>
+        <item>ひきます</item>
+        <item>うたいます</item>
+        <item>あつめます</item>
+
+        <item>すてます</item>
+        <item>かえます</item>
+        <item>うんてんします</item>
+        <item>よやくします</item>
+        <item>けんがくします</item>
+
+        <item>ピアノ</item>
+        <item>―メートル</item>
+        <item>こくさい~</item>
+        <item>げんきん</item>
+        <item>しゅみ</item>
+
+        <item>にっき</item>
+        <item>[お]いのり</item>
+        <item>かちょう</item>
+        <item>ぶちょう</item>
+        <item>しゃちょう</item>
+
+        <item>どうぶつ</item>
+        <item>うま</item>
+        <item>へえ</item>
+        <item>それはおもしろいですね</item>
+        <item>なかなか</item>
+
+        <item>ぼくじょう</item>
+        <item>ほんとうですか。</item>
+        <item>ぜひ</item>
+    </string-array>
+
+
+    <string-array name="lesson18_kanji">
+        <item></item>
+        <item>洗います</item>
+        <item>弾きます</item>
+        <item>歌います</item>
+        <item>集めます</item>
+
+        <item>捨てます</item>
+        <item>換えます</item>
+        <item>運転します</item>
+        <item>予約します</item>
+        <item>見学します</item>
+
+        <item></item>
+        <item></item>
+        <item>国際~</item>
+        <item>現金</item>
+        <item>趣味</item>
+
+        <item>日記</item>
+        <item>[お]祈り</item>
+        <item>課長</item>
+        <item>部長</item>
+        <item>社長</item>
+
+        <item>動物</item>
+        <item>馬</item>
+        <item></item>
+        <item></item>
+        <item></item>
+
+        <item>牧場</item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+
+    <string-array name="lesson18_meaning">
+        <item>có thể</item>
+        <item>rửa</item>
+        <item>chơi (nhạc cụ)</item>
+        <item>hát</item>
+        <item>sưu tầm, thu thập</item>
+
+        <item>vứt, bỏ đi</item>
+        <item>đổi</item>
+        <item>lái</item>
+        <item>đặt chỗ, đặt trước</item>
+        <item>thăm quan với mục đích học tập</item>
+
+        <item>đàn Piano</item>
+        <item>― mét</item>
+        <item>~ quốc tế</item>
+        <item>tiền mặt</item>
+        <item>sở thích, thú vui</item>
+
+        <item>nhật ký</item>
+        <item>việc cầu nguyện (~をします: cầu nguyện)</item>
+        <item>tổ trưởng</item>
+        <item>trưởng phòng</item>
+        <item>giám đốc</item>
+
+        <item>động vật</item>
+        <item>ngựa</item>
+        <item>thế à! (dùng để biểu thị sự ngạc nhiên hoặc quan tâm)</item>
+        <item>Hay thật nhỉ.</item>
+        <item>khó mà~, không dễ, mãi mà (dùng với thể phủ định)</item>
+
+        <item>trang trại chăn nuôi</item>
+        <item>Thật không ạ?</item>
+        <item>nhất định, rất</item>
+    </string-array>
+</resources>
