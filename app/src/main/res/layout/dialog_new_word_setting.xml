@@ -12,49 +12,6 @@
         android:textColor="@android:color/black"
         android:text="@string/which_one"/>
 
-    <RadioGroup
-        android:id="@+id/group_priority"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/title">
-        <RadioButton
-            android:id="@+id/radio_kana"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="2dp"
-            android:paddingLeft="10dp"
-            android:text="@string/kana"/>
-        <RadioButton
-            android:id="@+id/radio_kanji"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="2dp"
-            android:paddingLeft="10dp"
-            android:text="@string/kanji"/>
-        <RadioButton
-            android:id="@+id/radio_meaning"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="2dp"
-            android:paddingLeft="10dp"
-            android:text="@string/meaning"/>
-        <RadioButton
-            android:id="@+id/radio_reading"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="2dp"
-            android:paddingLeft="10dp"
-            android:text="@string/reading"/>
-        <RadioButton
-            android:id="@+id/radio_random"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="2dp"
-            android:paddingLeft="10dp"
-            android:text="@string/random"/>
-    </RadioGroup>
-
-
     <Button
         android:id="@+id/dl_btn_ok"
         android:layout_width="wrap_content"
@@ -69,5 +26,59 @@
         android:layout_alignParentBottom="true"
         android:layout_toRightOf="@id/dl_btn_ok"
         android:text="cancel"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_above="@id/dl_btn_ok"
+        android:layout_marginBottom="10dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioGroup
+                android:id="@+id/group_priority"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/radio_kana"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:paddingLeft="10dp"
+                    android:text="@string/kana"/>
+                <RadioButton
+                    android:id="@+id/radio_kanji"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:paddingLeft="10dp"
+                    android:text="@string/kanji"/>
+                <RadioButton
+                    android:id="@+id/radio_meaning"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:paddingLeft="10dp"
+                    android:text="@string/meaning"/>
+                <RadioButton
+                    android:id="@+id/radio_reading"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:paddingLeft="10dp"
+                    android:text="@string/reading"/>
+                <RadioButton
+                    android:id="@+id/radio_random"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:paddingLeft="10dp"
+                    android:text="@string/random"/>
+            </RadioGroup>
+
+        </RelativeLayout>
+    </ScrollView>
 
 </RelativeLayout>

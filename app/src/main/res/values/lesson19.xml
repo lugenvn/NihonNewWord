@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lesson19_kana">
+        <item>のぼります</item>
+        <item>とまります</item>
+        <item>そうじします</item>
+        <item>せんたくします</item>
+        <item>れんしゅうします</item>
+
+        <item>なります</item>
+        <item>ねむい</item>
+        <item>つよい</item>
+        <item>よわい</item>
+        <item>ちょうしが いい</item>
+
+        <item>ちょうしが わるい</item>
+        <item>ちょうし</item>
+        <item>ゴルフ</item>
+        <item>すもう</item>
+        <item>パチンコ</item>
+
+        <item>おちゃ</item>
+        <item>ひ</item>
+        <item>いちど</item>
+        <item>いちども</item>
+        <item>だんだん</item>
+
+        <item>もうすぐ</item>
+        <item>おかげさまで</item>
+        <item>かんぱい</item>
+        <item>じつは</item>
+        <item>ダイエット</item>
+
+        <item>なんかいも</item>
+        <item>しかし</item>
+        <item>むり</item>
+        <item>からだ</item>
+        <item>ケーキ</item>
+    </string-array>
+
+
+    <string-array name="lesson19_kanji">
+        <item>登ります</item>
+        <item>泊まります</item>
+        <item>掃除します</item>
+        <item>洗濯します</item>
+        <item>練習します</item>
+
+        <item></item>
+        <item>眠い</item>
+        <item>強い</item>
+        <item>弱い</item>
+        <item>調子が いい</item>
+
+        <item>調子が わるい</item>
+        <item>調子</item>
+        <item></item>
+        <item>相撲</item>
+        <item></item>
+
+        <item>お茶</item>
+        <item>日</item>
+        <item>一度</item>
+        <item>一度も</item>
+        <item></item>
+
+        <item></item>
+        <item></item>
+        <item>乾杯</item>
+        <item>実は</item>
+        <item></item>
+
+        <item>何回も</item>
+        <item></item>
+        <item>無理[な]</item>
+        <item>体にいい</item>
+        <item></item>
+    </string-array>
+
+
+    <string-array name="lesson19_meaning">
+        <item>leo</item>
+        <item>trọ</item>
+        <item>dọn vệ sinh</item>
+        <item>giặt</item>
+        <item>luyện tập, thực hành</item>
+
+        <item>trở thành, trở nên</item>
+        <item>buồn ngủ</item>
+        <item>mạnh</item>
+        <item>yếu</item>
+        <item>trong tình trạng tốt</item>
+
+        <item>trong tình trạng xấu</item>
+        <item>tình trạng, trạng thái</item>
+        <item>gôn (～をします:chơi gôn)</item>
+        <item>vật Sumo</item>
+        <item>trò chơi Pachinko (～をします: chơi trò chơi Pachinko)</item>
+
+        <item>trà đạo</item>
+        <item>ngày</item>
+        <item>một lần</item>
+        <item>chưa lần nào</item>
+        <item>dần dần</item>
+
+        <item>sắp</item>
+        <item>cám ơn anh/ chị</item>
+        <item>nâng cốc!/cạn chén</item>
+        <item>thật ra là/sự tình là</item>
+        <item>việc ăn kiêng, chế độ giảm cân (～をします:ăn kiêng)</item>
+
+        <item>nhiều lần</item>
+        <item>nhưng, tuy nhiên</item>
+        <item>không thể, quá sức</item>
+        <item>tốt cho sức khỏe</item>
+        <item>bánh ga-tô, bánh ngọt</item>
+    </string-array>
+</resources>

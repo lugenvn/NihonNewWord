@@ -22,6 +22,7 @@ import self.lugen.nihonnewword.view.adapter.SessionAdapter;
 
 public class SettingDialog extends DialogFragment {
     private static final String CURRENT_STATE = "CURRENT_STATE";
+    private static final String HAS_AUDIO = "HAS_AUDIO";
     private static final String CALLBACK_TAG = "CALLBACK_TAG";
 
     public static final int PRIORITY_RANDOM = 0;
@@ -36,11 +37,13 @@ public class SettingDialog extends DialogFragment {
     private Button btnCancel;
     private RadioGroup settingGroup;
     private int chosenID = PRIORITY_RANDOM;
+    private boolean hasAudio;
 
-    public static SettingDialog newInstance(int currentState, String callbackTag) {
+    public static SettingDialog newInstance(int currentState, boolean hasAudio, String callbackTag) {
         SettingDialog dialog = new SettingDialog();
         Bundle b = new Bundle();
         b.putInt(CURRENT_STATE, currentState);
+        b.putBoolean(HAS_AUDIO, hasAudio);
         b.putString(CALLBACK_TAG, callbackTag);
         dialog.setArguments(b);
         return dialog;
@@ -51,6 +54,7 @@ public class SettingDialog extends DialogFragment {
         super.onCreate(savedInstanceState);
         if (getArguments() != null) {
             currentState = getArguments().getInt(CURRENT_STATE);
+            hasAudio = getArguments().getBoolean(HAS_AUDIO);
             callbackTag = getArguments().getString(CALLBACK_TAG);
         }
         setStyle(DialogFragment.STYLE_NO_TITLE , android.R.style.Theme_Holo_Light_Dialog);
@@ -76,6 +80,10 @@ public class SettingDialog extends DialogFragment {
                 dismiss();
             }
         });
+        if (!hasAudio) {
+            View radioReading = v.findViewById(R.id.radio_reading);
+            radioReading.setVisibility(View.GONE);
+        }
 
         btnCancel.setOnClickListener(new View.OnClickListener() {
             @Override

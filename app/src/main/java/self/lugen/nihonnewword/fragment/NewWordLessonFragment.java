@@ -227,7 +227,7 @@ public class NewWordLessonFragment extends BaseFragment implements View.OnClickL
     }
 
     private void openSettingDialog() {
-        SettingDialog dialog = SettingDialog.newInstance(prioritySetting, getClass().getName());
+        SettingDialog dialog = SettingDialog.newInstance(prioritySetting, hasAudio, getClass().getName());
         dialog.show(getFragmentManager(), dialog.getClass().getName());
     }
 

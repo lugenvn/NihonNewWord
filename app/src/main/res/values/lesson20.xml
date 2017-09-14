@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lesson20_kana">
+        <item>いります</item>
+        <item>しらべます</item>
+        <item>なおします</item>
+        <item>しゅうりします</item>
+        <item>でんわします</item>
+
+        <item>ぼく</item>
+        <item>きみ</item>
+        <item>～くん</item>
+        <item>うん</item>
+        <item>ううん</item>
+
+        <item>サラリーマン</item>
+        <item>ことば</item>
+        <item>ぶっか</item>
+        <item>きもの</item>
+        <item>ビザ</item>
+
+        <item>はじめ</item>
+        <item>おわり</item>
+        <item>こっち</item>
+        <item>そっち</item>
+        <item>あっち</item>
+
+        <item>どっち</item>
+        <item>このあいだ</item>
+        <item>みんなで</item>
+        <item>～けど</item>
+        <item>くにえかえるの？</item>
+
+        <item>どうするの？</item>
+        <item>どうしようかな。</item>
+        <item>よかったら</item>
+        <item>いろいろ</item>
+    </string-array>
+
+
+    <string-array name="lesson20_kanji">
+        <item>要ります</item>
+        <item>調べます</item>
+        <item>直します</item>
+        <item>修理します</item>
+        <item>電話します</item>
+
+        <item>僕</item>
+        <item>君</item>
+        <item>～君</item>
+        <item></item>
+        <item></item>
+
+        <item></item>
+        <item></item>
+        <item>物価</item>
+        <item>着物</item>
+        <item></item>
+
+        <item>始め</item>
+        <item>終わり</item>
+        <item></item>
+        <item></item>
+        <item></item>
+
+        <item></item>
+        <item>この間</item>
+        <item></item>
+        <item></item>
+        <item>国へ帰るの？</item>
+
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+
+    <string-array name="lesson20_meaning">
+        <item>cần</item>
+        <item>tìm hiểu, điều tra, xem</item>
+        <item>sửa, chữa</item>
+        <item>sửa chữa, tu sửa</item>
+        <item>gọi điện thoại</item>
+
+        <item>tớ (cách xưng thân mật của nam giới, cùng nghĩa với [わたし])</item>
+        <item>cậu, bạn (cách gọi thân mật dùng cho nam giới, cùng nghĩa với 「あなた」 )</item>
+        <item>anh~, cậu~ (cách gọi thân mật dùng cho nam giới, cùng nghĩa với 「～さん」 )</item>
+        <item>ừ (cách nói thân mật của 「はい」 )</item>
+        <item>không (cách nói thân mật của 「いいえ」 )</item>
+
+        <item>người làm việc cho các công ty</item>
+        <item>từ, tiếng</item>
+        <item>giá cả, mức giá, vật giá</item>
+        <item>Kimono (trang phục truyền thống của Nhật Bản)</item>
+        <item>thị thực, Visa</item>
+
+        <item>ban đầu, đầu tiên</item>
+        <item>kết thúc</item>
+        <item>phía này, chỗ này (cách nói thân mật của 「こちら」 )</item>
+        <item>phía đó, chỗ đó (cách nói thân mật của 「そちら」 )</item>
+        <item>phía kia, chỗ kia (cách nói thân mật của 「あちら」 )</item>
+
+        <item>cái nào, phía nào, đâu (cách nói thân mật của 「どちら」 )</item>
+        <item>vừa rồi, hôm nọ</item>
+        <item>mọi người cùng</item>
+        <item>~,nhưng (cách nói thân mật của 「が」 )</item>
+        <item>Anh/chị có về nước không?</item>
+
+        <item>Anh/ chị tính sao? Anh/chị sẽ làm gì?</item>
+        <item>Tính sao đây nhỉ?/để tôi xem.</item>
+        <item>Nếu anh/chị thích thì</item>
+        <item>nhiều thứ</item>
+    </string-array>
+</resources>
