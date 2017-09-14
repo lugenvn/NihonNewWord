@@ -194,7 +194,7 @@ public class NewWordLessonFragment extends BaseFragment implements View.OnClickL
                 showMeaning();
                 break;
             case NewWordDataUtils.POS_READING:
-                readWord();
+                readWord(init ? true : false);
                 break;
         }
     }
@@ -212,7 +212,7 @@ public class NewWordLessonFragment extends BaseFragment implements View.OnClickL
                 showMeaning();
                 break;
             case R.id.btn_reading:
-                readWord();
+                readWord(true);
                 break;
             case R.id.btn_next:
                 next();
@@ -243,16 +243,15 @@ public class NewWordLessonFragment extends BaseFragment implements View.OnClickL
         initView();
     }
 
-    private void readWord() {
-        tvTitle.setText(R.string.reading);
-        tvContent.setText(R.string.listen);
-        dataUtils.speechWord(dataUtils.getRecentPos(), mCurrentLesson, mediaPlayer);
+    private void readWord(boolean isRead) {
+        showAllData(NewWordDataUtils.POS_READING, R.string.reading, getString(R.string.listen));
+        if (isRead) {
+            dataUtils.speechWord(dataUtils.getRecentPos(), mCurrentLesson, mediaPlayer);
+        }
     }
 
     private void showMeaning() {
-        mCurrentDisplayPos = NewWordDataUtils.POS_MEANING;
-        tvTitle.setText(R.string.meaning);
-        tvContent.setText(mCurrent.get(NewWordDataUtils.POS_MEANING));
+        showAllData(NewWordDataUtils.POS_MEANING, R.string.meaning, mCurrent.get(NewWordDataUtils.POS_MEANING));
     }
 
     private void showKanji() {

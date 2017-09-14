@@ -51,26 +51,26 @@
             android:id="@+id/btn_kana"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="kana"
+            android:text="@string/kana"
             android:layout_weight="1"/>
         <Button
             android:id="@+id/btn_kanji"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="kanji"/>
+            android:text="@string/kanji"/>
         <Button
             android:id="@+id/btn_meaning"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="meaning"/>
+            android:text="@string/meaning"/>
         <Button
             android:id="@+id/btn_reading"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="reading"/>
+            android:text="@string/reading"/>
     </LinearLayout>
     <Button
         android:id="@+id/btn_next"
