@@ -2,6 +2,7 @@ package self.lugen.nihonnewword.utils;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.os.Environment;
 
 /**
  * Created by lugen on 3/11/17.
@@ -33,5 +34,20 @@ public class Utils {
 
     public static Character getChar(int id) {
         return (char) (Constants.FIRST_CHARACTER_A + id);
+    }
+    private static boolean isExternalStorageReadOnly() {
+        String extStorageState = Environment.getExternalStorageState();
+        if (Environment.MEDIA_MOUNTED_READ_ONLY.equals(extStorageState)) {
+            return true;
+        }
+        return false;
+    }
+
+    private static boolean isExternalStorageAvailable() {
+        String extStorageState = Environment.getExternalStorageState();
+        if (Environment.MEDIA_MOUNTED.equals(extStorageState)) {
+            return true;
+        }
+        return false;
     }
 }

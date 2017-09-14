@@ -91,7 +91,7 @@ public class GroupDialog extends DialogFragment {
                 dismiss();
             }
         });
-        mAdapter.setListenner(new CompoundButton.OnCheckedChangeListener() {
+        mAdapter.setCheckChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if (currentList.isEmpty()) {

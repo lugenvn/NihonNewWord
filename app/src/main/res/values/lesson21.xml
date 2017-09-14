@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lesson21_kana">
+        <item>おもいます</item>
+        <item>いいます</item>
+        <item>たります</item>
+        <item>かちます</item>
+        <item>まけます</item>
+
+        <item>あります \n [おまつりが～] </item>
+        <item>やくにたちます</item>
+        <item>むだ[な]</item>
+        <item>ふべん[な]</item>
+        <item>おなじ</item>
+
+        <item>すごい</item>
+        <item>しゅしょう</item>
+        <item>だいとうりょう</item>
+        <item>せいじ</item>
+        <item>ニュース</item>
+
+        <item>スピーチ</item>
+        <item>しあい</item>
+        <item>アルバイト</item>
+        <item>いけん</item>
+        <item>[お]はなし</item>
+
+        <item>ユーモア</item>
+        <item>むだ</item>
+        <item>デザイン</item>
+        <item>こうつう</item>
+        <item>ラッシュ</item>
+
+        <item>さいきん</item>
+        <item>たぶん</item>
+        <item>きっと</item>
+        <item>ほんとうに</item>
+        <item>そんなに</item>
+
+        <item>～について</item>
+        <item>しかたが ありません。</item>
+        <item>しばらくですね。</item>
+        <item>～でものみませんか。</item>
+        <item>みないと…。</item>
+
+        <item>もちろん</item>
+    </string-array>
+
+
+    <string-array name="lesson21_kanji">
+        <item>思います</item>
+        <item>言います</item>
+        <item>足ります</item>
+        <item>勝ちます</item>
+        <item>負けます</item>
+
+        <item></item>
+        <item>役に立ちます</item>
+        <item></item>
+        <item>不便[な]</item>
+        <item></item>
+
+        <item></item>
+        <item>首相</item>
+        <item>大統領</item>
+        <item>政治</item>
+        <item></item>
+
+        <item></item>
+        <item>試合</item>
+        <item></item>
+        <item>意見</item>
+        <item>[お]話</item>
+
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>交通</item>
+        <item></item>
+
+        <item>最近</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>～でも飲みませんか。</item>
+        <item>見ないと…。</item>
+
+        <item></item>
+    </string-array>
+
+
+    <string-array name="lesson21_meaning">
+        <item>nghĩ</item>
+        <item>nói</item>
+        <item>đủ</item>
+        <item>thắng</item>
+        <item>thua</item>
+
+        <item>được tổ chức, diễn ra, có [lễ hội~]</item>
+        <item>giúp ích</item>
+        <item>lãng phí, vô ích</item>
+        <item>bất tiện</item>
+        <item>giống</item>
+
+        <item>ghê quá, giỏi quá</item>
+        <item>thủ tướng</item>
+        <item>tổng thống</item>
+        <item>chính trị</item>
+        <item>tin tức, bản tin</item>
+
+        <item>bài diễn thuyết, bài phát biểu (～をします: diễn thuyết)</item>
+        <item>trận đấu</item>
+        <item>công việc làm thêm (～をします: làm thêm)</item>
+        <item>ý kiến</item>
+        <item>câu chuyện, bài nói chuyện (～をします: Nói chuyện)</item>
+
+        <item>hài hước</item>
+        <item>sự lãng phí</item>
+        <item>thiết kế</item>
+        <item>giao thông, đi lại</item>
+        <item>giờ cao điểm</item>
+
+        <item>gần đây</item>
+        <item>Chắc, có thể</item>
+        <item>chắc chắn, nhất định</item>
+        <item>thật sự</item>
+        <item>(không)~ lắm</item>
+
+        <item>về~</item>
+        <item>Không có cách nào khác./đành chịu vậy/ Chuyện đã rồi.</item>
+        <item>Lâu không gặp nhỉ.</item>
+        <item>Anh/chị uống~ (cà-phê, rựu hay cái gì đó) nhé.</item>
+        <item>Tôi phải xem</item>
+
+        <item>tất nhiên</item>
+    </string-array>
+</resources>

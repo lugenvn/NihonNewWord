@@ -51,7 +51,7 @@ public class GroupAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
         return groupNumber;
     }
 
-    public void setListenner(CompoundButton.OnCheckedChangeListener listenner) {
+    public void setCheckChangeListener(CompoundButton.OnCheckedChangeListener listenner) {
         this.listenner = listenner;
     }
 
@@ -63,8 +63,8 @@ public class GroupAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
         }
 
         @Override
-        public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-            if (b) {
+        public void onCheckedChanged(CompoundButton compoundButton, boolean isChecked) {
+            if (isChecked) {
                 boolean check = false;
                 for (Character i :
                         currentList) {
@@ -84,7 +84,7 @@ public class GroupAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
                     }
                 }
             }
-            if (listenner != null) listenner.onCheckedChanged(compoundButton, b);
+            if (listenner != null) listenner.onCheckedChanged(compoundButton, isChecked);
         }
     }
 

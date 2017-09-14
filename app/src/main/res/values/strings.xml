@@ -13,6 +13,8 @@
     <string name="kana">Kana</string>
     <string name="kanji">Kanji</string>
     <string name="meaning">Meaning</string>
+    <string name="reading">Reading</string>
+    <string name="listen">Listen</string>
     <string name="no_kanji">&lt;= NO KANJI =&gt;</string>
     <string name="new_word">New word</string>
     <string name="study_mode">Study mode</string>
@@ -21,4 +23,6 @@
     <string name="dl_number_in_session">number in session : %d</string>
     <string name="dl_number_in_group">number in group : %d</string>
     <string name="number_left">current left : %d</string>
+    <string name="random">Random</string>
+    <string name="which_one">which one you want to show first ?</string>
 </resources>

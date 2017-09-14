@@ -1,11 +1,16 @@
 package self.lugen.nihonnewword.datamanager;
 
 import android.content.Context;
+import android.media.MediaPlayer;
+import android.os.Environment;
 import android.os.Parcel;
 import android.os.Parcelable;
+import android.support.v4.content.ContextCompat;
+import android.util.Log;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Random;
 
 import self.lugen.nihonnewword.utils.Constants;
 import self.lugen.nihonnewword.utils.Utils;
@@ -16,6 +21,7 @@ public class NewWordDataUtils extends LessonDataUtilsBase{
     public static final int POS_KANA = 0;
     public static final int POS_KANJI = 1;
     public static final int POS_MEANING = 2;
+    public static final int POS_READING = 3;
 
     private int lessonId;
 
@@ -49,6 +55,20 @@ public class NewWordDataUtils extends LessonDataUtilsBase{
         returnData.add(kanji[pos]);
         returnData.add(meaning[pos]);
         return returnData;
+    }
+
+    public void speechWord(int pos, int lesson, final MediaPlayer mp) {
+        try {
+            mp.reset();
+            String primary_sd = Environment.getExternalStorageDirectory().getPath();
+            String path = primary_sd + File.separator + Constants.APP_FOLDER + File.separator
+                    + lesson + File.separator + (pos + 1) + ".mp3";
+            mp.setDataSource(path);
+            mp.prepare();
+            mp.start();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     @Override

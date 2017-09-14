@@ -17,6 +17,7 @@ public class LessonDataUtilsBase implements Parcelable {
     private ArrayList<Integer> sessionList;
     private int sessionCount = 1;
     private int itemCountInSession = 0;
+    private int recentPos = 0;
 
     public LessonDataUtilsBase() {
         availBank = new ArrayList<>();
@@ -48,9 +49,18 @@ public class LessonDataUtilsBase implements Parcelable {
         if (availBank.isEmpty()) setup(context);
         Random r = new Random();
         int pos = r.nextInt(availBank.size());
-        ArrayList<String> returnValue = getRealData(context, availBank.get(pos));
+        recentPos = availBank.get(pos);
+        ArrayList<String> returnValue = getRealData(context, recentPos);
         availBank.remove(pos);
         return returnValue;
+    }
+
+    /**
+     * get the recent generate item position
+     * @return recent position
+     */
+    public int getRecentPos() {
+        return recentPos;
     }
 
     private boolean isInSessionList(int checkValue, int length) {

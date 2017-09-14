@@ -65,6 +65,12 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="meaning"/>
+        <Button
+            android:id="@+id/btn_reading"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="reading"/>
     </LinearLayout>
     <Button
         android:id="@+id/btn_next"
@@ -82,5 +88,12 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:text="session"/>
+    <Button
+        android:id="@+id/btn_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/ll_switch_bar"
+        android:layout_toRightOf="@id/btn_session"
+        android:text="setting"/>
 
 </RelativeLayout>
