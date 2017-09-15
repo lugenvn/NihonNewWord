@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lesson22_kana">
+        <item>きます\n[シャツを～]</item>
+        <item>はきます\n[くつを～]</item>
+        <item>かぶります\n[ぼうしを～]</item>
+        <item>かけます\n[めがねを～]</item>
+        <item>うまれます</item>
+
+        <item>コート</item>
+        <item>スーツ</item>
+        <item>セーター</item>
+        <item>ぼうし</item>
+        <item>めがね</item>
+
+        <item>よく</item>
+        <item>おめでとう ございます。</item>
+        <item>こちら</item>
+        <item>やちん</item>
+        <item>うーん。</item>
+
+        <item>ダイニングキチン</item>
+        <item>わしつ</item>
+        <item>おしいれ</item>
+        <item>ふとん</item>
+        <item>アパート</item>
+    </string-array>
+
+
+    <string-array name="lesson22_kanji">
+        <item>着ます</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>生まれます</item>
+
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>帽子</item>
+        <item>眼鏡</item>
+
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>家賃</item>
+        <item></item>
+
+        <item></item>
+        <item>和室</item>
+        <item>押入れ</item>
+        <item>布団</item>
+        <item></item>
+    </string-array>
+
+
+    <string-array name="lesson22_meaning">
+        <item>mặc [áo sơ mi, v.v.]</item>
+        <item>đi, mặc [giầy, quần âu, v.v.]</item>
+        <item>đội [mũ, v.v.]</item>
+        <item>đeo [kính]</item>
+        <item>sinh ra</item>
+
+        <item>áo khoác</item>
+        <item>com-lê</item>
+        <item>áo len</item>
+        <item>mũ</item>
+        <item>kính</item>
+
+        <item>thường, hay</item>
+        <item>Chúc mừng. (dùng để nói trong dịp sinh nhật, lễ cưới, năm mới v.v.)</item>
+        <item>cái này (cách nói lịch sự của [これ])</item>
+        <item>tiền thuê nhà</item>
+        <item>ừ~./ Để tôi xem./ Thế nào nhỉ.</item>
+
+        <item>bếp kèm phòng ăn</item>
+        <item>phòng kiểu Nhật</item>
+        <item>Chổ để chăn gối trong một căn phòng kiểu Nhật</item>
+        <item>chăn, đệm</item>
+        <item>nhà chung cư</item>
+    </string-array>
+</resources>

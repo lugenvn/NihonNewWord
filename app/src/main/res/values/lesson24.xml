@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lesson24_kana">
+        <item>くれます</item>
+        <item>つれていきます</item>
+        <item>つれてきます</item>
+        <item>おくります\n[ひとを～]</item>
+        <item>しょうかいします</item>
+
+        <item>あんないします</item>
+        <item>せつめいします</item>
+        <item>いれます\n[コーヒーを～]</item>
+        <item>おじいさん／おじいちゃん</item>
+        <item>おばあさん／おばあちゃん</item>
+
+        <item>じゅんび</item>
+        <item>いみ</item>
+        <item>[お]かし</item>
+        <item>ぜんぶ</item>
+        <item>じぶんで</item>
+
+        <item>ほかに</item>
+        <item>ワゴンしゃ</item>
+        <item>[お]べんとう</item>
+    </string-array>
+
+
+    <string-array name="lesson24_kanji">
+        <item></item>
+        <item>連れて行きます</item>
+        <item>連れて来ます</item>
+        <item>送ります\n[人を～]</item>
+        <item>紹介します</item>
+
+        <item>案内します</item>
+        <item>説明します</item>
+        <item></item>
+        <item></item>
+        <item></item>
+
+        <item>準備</item>
+        <item>意味</item>
+        <item>[お]菓子</item>
+        <item>全部</item>
+        <item>自分で</item>
+
+        <item></item>
+        <item>ワゴン車</item>
+        <item>[お]弁当</item>
+    </string-array>
+
+
+    <string-array name="lesson24_meaning">
+        <item>cho, tặng (tôi)</item>
+        <item>dẫn đi</item>
+        <item>dẫn đến</item>
+        <item>đưa đi, đưa đến, tiễn [một ai đó]</item>
+        <item>giới thiệu</item>
+
+        <item>hướng dẫn, giới thiệu, dẫn đường</item>
+        <item>giải thích, trình bày</item>
+        <item>pha [cà-phê]</item>
+        <item>ông nội, ông ngoại, ông</item>
+        <item>bà nội, bà ngoại, bà</item>
+
+        <item>chuẩn bị [～します:chuẩn bị]</item>
+        <item>ý nghĩa</item>
+        <item>bánh kẹo</item>
+        <item>toàn bộ, tất cả</item>
+        <item>tự (mình)</item>
+
+        <item>ngoài ra, bên cạnh đó</item>
+        <item>xe ô-tô kiểu Wagon (có thùng đóng kín)</item>
+        <item>cơm hộp</item>
+    </string-array>
+</resources>

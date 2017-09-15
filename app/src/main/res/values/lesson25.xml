@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lesson25_kana">
+        <item>かんがえます</item>
+        <item>つきます\n[えきに～]</item>
+        <item>りゅうがくします</item>
+        <item>とります\n[としを～]</item>
+        <item>いなか</item>
+
+        <item>たいしかん</item>
+        <item>グループ</item>
+        <item>チャンス</item>
+        <item>おく</item>
+        <item>もし[～たら]</item>
+
+        <item>いくら[～ても]</item>
+        <item>てんきん</item>
+        <item>こと</item>
+        <item>いちぱいのみましょう。</item>
+        <item>[いろいろ]おせわになりました。</item>
+
+        <item>がんぱります</item>
+        <item>どうぞおげんきで。</item>
+    </string-array>
+
+
+    <string-array name="lesson25_kanji">
+        <item>考えます</item>
+        <item>着きます\n[駅に～]</item>
+        <item>留学します</item>
+        <item>取ります\n[年を～]</item>
+        <item>田舎</item>
+
+        <item>大使館</item>
+        <item></item>
+        <item></item>
+        <item>億</item>
+        <item></item>
+
+        <item></item>
+        <item>転勤</item>
+        <item></item>
+        <item>一杯飲みましょう。</item>
+        <item>[いろいろ]お世話になりました。</item>
+
+        <item>頑張ります</item>
+        <item>どうぞお元気で。</item>
+    </string-array>
+
+
+    <string-array name="lesson25_meaning">
+        <item>nghĩ, suy nghĩ</item>
+        <item>đến [ga]</item>
+        <item>du học</item>
+        <item>thêm [tuổi]</item>
+        <item>quê, nông thôn</item>
+
+        <item>đại sứ quán</item>
+        <item>nhóm, đoàn</item>
+        <item>cơ hội</item>
+        <item>một trăm triệu</item>
+        <item>nếu [~ thì]</item>
+
+        <item>cho dù, thế nào [~ đi nữa]</item>
+        <item>việc chuyển địa điểm làm việc (～します：chuyển địa điểm làm việc)</item>
+        <item>việc (~の こと: việc ~)</item>
+        <item>Chúng ta cùng uống nhé</item>
+        <item>Anh/chị đã giúp tôi (nhiều).</item>
+
+        <item>cố, cố gắng</item>
+        <item>Chúc anh/chị mạnh khỏe. (câu nói trước khi chia tay với ai đó mà có lẽ lâu nữa mới gặp lại)</item>
+    </string-array>
+</resources>

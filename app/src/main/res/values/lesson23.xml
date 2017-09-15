@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lesson23_kana">
+        <item>ききます</item>
+        <item>まわします</item>
+        <item>ひきます</item>
+        <item>かえます</item>
+        <item>さわります\n[ドアに～]</item>
+
+        <item>でます\n[おつりが～]</item>
+        <item>うごきます\n[とけいが～]</item>
+        <item>あるきます\n[みちを～]</item>
+        <item>わたります\n[はしを～]</item>
+        <item>きを つけます\n[くるまに～]</item>
+
+        <item>ひっこしします</item>
+        <item>でんきや</item>
+        <item>～や</item>
+        <item>サイズ</item>
+        <item>おと</item>
+
+        <item>きかい</item>
+        <item>つまみ</item>
+        <item>こしょう</item>
+        <item>みち</item>
+        <item>こうさてん</item>
+
+        <item>しんごう</item>
+        <item>かど</item>
+        <item>はし</item>
+        <item>ちゅうしゃじょう</item>
+        <item>―め</item>
+
+        <item>[お]しょうがつ</item>
+        <item>ごちそうさま[でした]。</item>
+        <item>たてもの</item>
+        <item>がいこくじんとうろくしょう</item>
+    </string-array>
+
+
+    <string-array name="lesson23_kanji">
+        <item>聞きます</item>
+        <item>回します</item>
+        <item>引きます</item>
+        <item>変えます</item>
+        <item>触ります</item>
+
+        <item>出ます\n[お釣りが～]</item>
+        <item>動きます\n[時計が～]</item>
+        <item>歩きます\n[道を～]</item>
+        <item>渡ります\n[橋を～]</item>
+        <item>気をつけます\n[車に～]</item>
+
+        <item>引っ越しします</item>
+        <item>電気屋</item>
+        <item>～屋</item>
+        <item></item>
+        <item>音</item>
+
+        <item>機械</item>
+        <item></item>
+        <item>故障</item>
+        <item>道</item>
+        <item>交差点</item>
+
+        <item>信号</item>
+        <item>角</item>
+        <item>橋</item>
+        <item>駐車場</item>
+        <item>―目</item>
+
+        <item>[お]正月</item>
+        <item></item>
+        <item>建物</item>
+        <item>外国人登録証</item>
+    </string-array>
+
+
+    <string-array name="lesson23_meaning">
+        <item>hỏi [giáo viên]</item>
+        <item>vặn (núm)</item>
+        <item>kéo</item>
+        <item>đổi</item>
+        <item>sờ, chạm vào [cửa]</item>
+
+        <item>ra, đi ra [tiền thừa ~]</item>
+        <item>chuyển động, chạy [đồng hồ ~]</item>
+        <item>đi bộ [trên đường]</item>
+        <item>qua, đi qua [cầu]</item>
+        <item>chú ý, cẩn thận [với ô-tô]</item>
+
+        <item>chuyển nhà</item>
+        <item>cửa hàng đồ điện</item>
+        <item>cửa hàng ~</item>
+        <item>cỡ, kích thước</item>
+        <item>âm thanh</item>
+
+        <item>máy, máy móc</item>
+        <item>núm vặn</item>
+        <item>hỏng (~します：bị hỏng)</item>
+        <item>đường</item>
+        <item>ngã tư</item>
+
+        <item>đèn tín hiệu</item>
+        <item>góc</item>
+        <item>cầu</item>
+        <item>bãi đỗ xe</item>
+        <item>thứ - , số - (biểu thị thứ tự)</item>
+
+        <item>Tết (Dương lịch)</item>
+        <item>Xin cám ơn anh/chị đã đãi tôi bữa cơm. (câu nói dùng khi ăn xong bữa cơm)</item>
+        <item>tòa nhà</item>
+        <item>thẻ đăng ký người nước ngoài, thẻ đăng ký ngoại kiều</item>
+    </string-array>
+</resources>
