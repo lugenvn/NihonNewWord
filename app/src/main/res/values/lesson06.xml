@@ -6,166 +6,192 @@
         <item>すいます</item>
         <item>みます</item>
         <item>ききます</item>
+
         <item>よみます</item>
         <item>かきます</item>
         <item>かいます</item>
         <item>とります</item>
         <item>します</item>
+
         <item>あいます</item>
         <item>ごはん</item>
         <item>あさごはん</item>
         <item>ひるごはん</item>
         <item>ばんごはん</item>
+
         <item>パン</item>
         <item>たまご</item>
         <item>にく</item>
         <item>さかな</item>
         <item>やさい</item>
+
         <item>くだもの</item>
         <item>みず</item>
         <item>おちゃ</item>
         <item>こうちゃ</item>
         <item>ぎゅうにゅう\n(ミルク)</item>
+
         <item>ジュース</item>
         <item>ビール</item>
         <item>[お]さけ</item>
         <item>ビデオ</item>
         <item>えいが</item>
+
         <item>CD</item>
         <item>てがみ</item>
         <item>レポート</item>
         <item>しゃしん</item>
         <item>みせ</item>
+
         <item>レストラン</item>
         <item>にわ</item>
         <item>しゅくだい</item>
         <item>テニス</item>
         <item>サッカー</item>
+
         <item>[お]はなみ</item>
         <item>なに</item>
         <item>いっしょに</item>
         <item>ちょっと</item>
         <item>いつも</item>
+
         <item>ときどき</item>
         <item>それから</item>
         <item>ええ</item>
         <item>いいですね。</item>
         <item>わかりました。</item>
+
         <item>なんですか</item>
         <item>じゃ、また[あした]。</item>
-        <item>メキシコ</item>
-        <item>おおさかじょうこうえん</item>
     </string-array>
+
     <string-array name="lesson6_kanji">
         <item>食べます</item>
         <item>飲みます</item>
         <item>吸います</item>
         <item>見ます</item>
         <item>聞きます</item>
+
         <item>読みます</item>
         <item>書きます</item>
         <item>買います</item>
         <item>撮ります</item>
         <item></item>
+
         <item>会います</item>
         <item></item>
         <item>朝ごはん</item>
         <item>昼ごはん</item>
         <item>晩ごはん</item>
+
         <item></item>
         <item>卵</item>
         <item>肉</item>
         <item>魚</item>
         <item>野菜</item>
+
         <item>果物</item>
         <item>水</item>
         <item>お茶</item>
         <item>紅茶</item>
         <item>牛乳</item>
+
         <item></item>
         <item></item>
         <item>[お]酒</item>
         <item></item>
         <item>映画</item>
+
         <item></item>
         <item>手紙</item>
         <item></item>
         <item>写真</item>
         <item>店</item>
+
         <item></item>
         <item>庭</item>
         <item>宿題</item>
         <item></item>
         <item></item>
+
         <item>[お]花見</item>
         <item>何</item>
         <item></item>
         <item></item>
         <item></item>
+
         <item>時々</item>
         <item></item>
         <item></item>
         <item></item>
         <item></item>
+
         <item>何ですか</item>
         <item></item>
-        <item></item>
-        <item>大阪城公園"</item>
     </string-array>
+
     <string-array name="lesson6_meaning">
         <item>ăn</item>
         <item>uống</item>
         <item>hút</item>
         <item>xem, nhìn, trông</item>
         <item>nghe</item>
+
         <item>đọc</item>
         <item>viết, vẽ</item>
         <item>mua</item>
         <item>chụp [ảnh]</item>
         <item>làm</item>
+
         <item>gặp [bạn]</item>
         <item>cơm, bữa ăn</item>
         <item>cơm sáng</item>
         <item>cơm trưa</item>
         <item>cơm tối</item>
+
         <item>bánh mì</item>
         <item>trứng</item>
         <item>thịt</item>
         <item>cá</item>
         <item>rau</item>
+
         <item>hoa quả, trái cây</item>
         <item>nước</item>
         <item>trà (nói chung)</item>
         <item>trà đen</item>
         <item>sữa bò</item>
+
         <item>nước hoa quả</item>
         <item>bia</item>
         <item>rượu, rượu sake</item>
         <item>video, băng video, đầu video</item>
         <item>phim, điện ảnh</item>
+
         <item>đĩa CD</item>
         <item>thư</item>
         <item>báo cáo</item>
         <item>ảnh</item>
         <item>cửa hàng, tiệm</item>
+
         <item>nhà hàng</item>
         <item>vườn</item>
         <item>bài tập về nhà\n(~をします: làm bài tập)</item>
         <item>quần vợt\n(~をします: đánh quần vợt)</item>
         <item>bóng đá\n(~をします: chơi bóng đá)</item>
+
         <item>việc ngắm hoa anh đào\n(~をし ます: ngắm hoa anh đào)</item>
         <item>cái gì, gì</item>
         <item>cùng, cùng nhau</item>
         <item>một chút</item>
         <item>luôn luôn, lúc nào cũng</item>
+
         <item>thỉnh thoảng</item>
         <item>sau đó, tiếp theo</item>
         <item>vâng, được (cách nói thân mật của 「はい」)</item>
         <item>Được đấy nhỉ./ hay quá.</item>
         <item>Tôi hiểu rồi/ vâng ạ.</item>
+
         <item>Có gì đấy ạ/ Cái gì vậy/ Vâng có tôi</item>
         <item>Hẹn gặp lại [ngày mai].</item>
-        <item>Mexico</item>
-        <item>Công viên lâu đài Osaka</item>
     </string-array>
 </resources>

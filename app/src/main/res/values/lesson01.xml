@@ -4,56 +4,41 @@
         <item>わたし</item>
         <item>わたしたち</item>
         <item>あなた</item>
-        <item>あのひと</item>
-        <item>あのかた</item>
-
+        <item>あのひと(あのかた)</item>
         <item>みなさん</item>
+
         <item>~さん</item>
         <item>~ちゃん</item>
         <item>~くん</item>
         <item>~じん</item>
-
         <item>せんせい</item>
+
         <item>きょうし</item>
         <item>がくせい</item>
         <item>かいしゃいん</item>
         <item>しゃいん</item>
-
         <item>ぎんこういん</item>
+
         <item>いしゃ</item>
         <item>けんきゅうしゃ</item>
         <item>エンジニア</item>
         <item>だいがく</item>
-
         <item>びょういん</item>
-        <item>でんき</item>
-        <item>だれ</item>
-        <item>どなた</item>
-        <item>―さい</item>
 
-        <item>なんさい</item>
-        <item>おいくつ</item>
+        <item>でんき</item>
+        <item>だれ(どなた)</item>
+        <item>―さい</item>
+        <item>なんさい (おいくつ)</item>
         <item>はい</item>
+
+        <item>いいえ</item>
         <item>しつれいですが</item>
         <item>おなまえは?</item>
-
         <item>はじめまして。</item>
         <item>どうぞよろしく[おねがいします]。</item>
+
         <item>こちらは~さんです。</item>
         <item>~からきました。</item>
-        <item>アメリカ</item>
-
-        <item>イギリス</item>
-        <item>インド</item>
-        <item>インドネシア</item>
-        <item>かんこく</item>
-        <item>タイ</item>
-
-        <item>ちゅうごく</item>
-        <item>ドイツ</item>
-        <item>にほん</item>
-        <item>フランス</item>
-        <item>ブラジル</item>
     </string-array>
 
 
@@ -61,56 +46,41 @@
         <item></item>
         <item></item>
         <item></item>
-        <item>あの人</item>
-        <item>あの方</item>
-
+        <item>あの人(あの方)</item>
         <item>皆さん</item>
+
         <item></item>
         <item></item>
         <item>~君</item>
         <item>~人</item>
-
         <item>先生</item>
+
         <item>教師</item>
         <item>学生</item>
         <item>会社員</item>
         <item>社員</item>
-
         <item>銀行員</item>
+
         <item>医者</item>
         <item>研究者</item>
         <item></item>
         <item>大学</item>
-
         <item>病院</item>
+
         <item>電気</item>
         <item></item>
-        <item></item>
         <item>-歳</item>
-
         <item>何歳</item>
         <item></item>
+
         <item></item>
         <item>失礼ですが</item>
         <item>お名前は?</item>
-
         <item>初めまして。</item>
         <item>どうぞよろしく[お願いします]。</item>
+
         <item></item>
         <item>~から来ました。</item>
-        <item></item>
-
-        <item></item>
-        <item></item>
-        <item></item>
-        <item>韓国</item>
-        <item></item>
-
-        <item>中国</item>
-        <item></item>
-        <item>日本</item>
-        <item></item>
-        <item></item>
     </string-array>
 
 
@@ -118,56 +88,41 @@
         <item>tôi</item>
         <item>chúng tôi, chúng ta</item>
         <item>anh/ chị/ ông/ bà, bạn ngôi thứ 2 số ít</item>
-        <item>người kia, người đó</item>
-        <item>vị kia</item>
-
+        <item>người kia, người đó(vị kia)</item>
         <item>các anh chị, các ông bà, các bạn, quý vị</item>
+
         <item>anh, chị, ông, bà</item>
         <item>(hậu tố thêm vào sau tên của trẻ em thay cho 「~さん」)</item>
         <item>(hậu tố thêm vào sau tên của em trai)</item>
         <item>(hậu tố mang nghĩa “người (nước)~”</item>
-
         <item>thầy/ cô</item>
+
         <item>giáo viên</item>
         <item>học sinh, sinh viên</item>
         <item>nhân viên công ty</item>
         <item>Nhân viên công ty ~ </item>
-
         <item>Nhân viên ngân hàng</item>
+
         <item>Bác Sĩ</item>
         <item>nhà nghiên cứu</item>
         <item>kỹ sư</item>
         <item>đại học, trường đại học</item>
-
         <item>bệnh viện</item>
+
         <item>điện, đèn điện</item>
-        <item>ai</item>
-        <item>ai (polite)</item>
+        <item>ai(ai (polite))</item>
         <item>― tuổi</item>
-
         <item>mấy tuổi, bao nhiêu tuổi </item>
-        <item>mấy tuổi, bao nhiêu tuổi (polite)</item>
         <item>vâng, dạ</item>
-        <item>xin lỗi,...</item>
-        <item>Tên anh/chị là gì?</item>
 
+        <item>không</item>
+        <item>xin lỗi,…</item>
+        <item>Tên anh/chị là gì?</item>
         <item>Rất hân hạnh được gặp anh/chị </item>
         <item>Rất mong được sự giúp đỡ của anh/chị, rất vui được làm quen với anh/chị </item>
+
         <item>Đây là anh/chị/ông/bà ~.</item>
         <item>(tôi) đến từ ~.</item>
-        <item>Mỹ</item>
-
-        <item>Anh</item>
-        <item>Ấn Độ</item>
-        <item>Indonesia</item>
-        <item>Hàn Quốc</item>
-        <item>Thái Lan</item>
-
-        <item>Trung Quốc</item>
-        <item>Đức</item>
-        <item>Nhật Bản</item>
-        <item>Pháp</item>
-        <item>Braxin</item>
     </string-array>
 
 </resources>

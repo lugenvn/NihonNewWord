@@ -66,14 +66,7 @@
         <item>かしこまりました。</item>
         <item>おといあわせのばんごう</item>
         <item>[どうも]ありがとうございました。</item>
-
-        <item>ニューヨーク</item>
-        <item>ペキン</item>
-        <item>ロンドン</item>
-        <item>バンコク</item>
-        <item>ロサンゼルス</item>
     </string-array>
-
 
     <string-array name="lesson4_kanji">
         <item>起きます</item>
@@ -141,14 +134,7 @@
         <item></item>
         <item>お問い合わせの番号</item>
         <item></item>
-
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
     </string-array>
-
 
     <string-array name="lesson4_meaning">
         <item>dậy, thức dậy</item>
@@ -216,11 +202,5 @@
         <item>Tôi hiểu rồi ạ./ vâng, được rồi ạ.</item>
         <item>Số điện thoại mà ông/ bà muốn hỏi</item>
         <item>Xin cám ơn ông/bà</item>
-
-        <item>New York</item>
-        <item>Bắc Kinh</item>
-        <item>Luân Đôn</item>
-        <item>Băng Cốc</item>
-        <item>Los Angeles</item>
     </string-array>
 </resources>

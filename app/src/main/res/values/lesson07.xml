@@ -56,8 +56,6 @@
         <item>りょこう</item>
 
         <item>おみやげ</item>
-        <item>ヨーロッパ</item>
-        <item>スペイン</item>
     </string-array>
 
 
@@ -117,8 +115,6 @@
         <item>旅行</item>
 
         <item>お土産</item>
-        <item></item>
-        <item></item>
     </string-array>
 
 
@@ -178,7 +174,5 @@
         <item>Du lịch, chuyến du lịch (~をし ます: đi du lịch)</item>
 
         <item>quà (mua khi đi xa về hoặc mang đi khi thăm nhà người nào đó)</item>
-        <item>Châu Âu</item>
-        <item>Tây Ban Nha</item>
     </string-array>
 </resources>

@@ -66,13 +66,7 @@
         <item>つぎの</item>
         <item>どういたしまして。</item>
         <item>―ばんせん</item>
-
-        <item>はかた</item>
-        <item>ふしみ</item>
-        <item>こうしえん</item>
-        <item>おおさかじょう</item>
     </string-array>
-
 
     <string-array name="lesson5_kanji">
         <item>行きます</item>
@@ -140,13 +134,7 @@
         <item>次の</item>
         <item></item>
         <item>―番線</item>
-
-        <item>博多</item>
-        <item>伏見</item>
-        <item>甲子園</item>
-        <item>大阪城</item>
     </string-array>
-
 
     <string-array name="lesson5_meaning">
         <item>đi</item>
@@ -214,10 +202,5 @@
         <item>tiếp theo</item>
         <item>Không có gì.</item>
         <item>sân ga số-</item>
-
-        <item>tên một khu phố ở Kyushu</item>
-        <item>tên một khu phố ở Kyoto</item>
-        <item>tên một khu phố ở Osaka</item>
-        <item>Lâu đài Osaka, một lâu đài nổi tiếng ở Osaka</item>
     </string-array>
 </resources>
