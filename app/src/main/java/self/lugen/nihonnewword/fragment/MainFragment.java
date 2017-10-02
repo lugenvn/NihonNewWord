@@ -9,6 +9,9 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.RelativeLayout;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 import self.lugen.nihonnewword.R;
 import self.lugen.nihonnewword.utils.Constants;
 import self.lugen.nihonnewword.utils.Utils;
@@ -17,6 +20,7 @@ public class MainFragment extends BaseFragment implements View.OnClickListener {
 
     private RelativeLayout rlNewWord;
     private RelativeLayout rlKanji;
+    private AdView mAdView;
 
     public MainFragment() {
         // Required empty public constructor
@@ -66,6 +70,11 @@ public class MainFragment extends BaseFragment implements View.OnClickListener {
 
         rlNewWord.setOnClickListener(this);
         rlKanji.setOnClickListener(this);
+
+        mAdView = (AdView) view.findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
+
     }
 
     @Override

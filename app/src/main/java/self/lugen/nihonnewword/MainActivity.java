@@ -11,6 +11,8 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.gms.ads.MobileAds;
+
 import self.lugen.nihonnewword.fragment.KanjiMainFragment;
 import self.lugen.nihonnewword.fragment.MainFragment;
 import self.lugen.nihonnewword.fragment.NewWordFragment;
@@ -43,6 +45,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             fmTr.add(R.id.content_main, fm);
             fmTr.commit();
         }
+
+        MobileAds.initialize(this, getString(R.string.ad_app_id));
     }
 
     private void initSlideMenuView() {
