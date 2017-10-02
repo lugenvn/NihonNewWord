@@ -12,17 +12,18 @@
     <string name="kanji_lesson_name_full">lesson %1$s</string>
     <string name="kana">Kana</string>
     <string name="kanji">Kanji</string>
-    <string name="meaning">Meaning</string>
+    <string name="meaning">Mean</string>
     <string name="reading">Reading</string>
     <string name="listen">Listen</string>
     <string name="no_kanji">&lt;= NO KANJI =&gt;</string>
-    <string name="new_word">New word</string>
+    <string name="new_word">Từ mới</string>
     <string name="study_mode">Study mode</string>
     <string name="session_item">session %d</string>
     <string name="group_item">group %s</string>
-    <string name="dl_number_in_session">number in session : %d</string>
-    <string name="dl_number_in_group">number in group : %d</string>
-    <string name="number_left">current left : %d</string>
+    <string name="dl_number_in_session">Số từ mới được chia ra những nhóm nhỏ (session) để dễ học và nhớ hơn. Bạn có thể chọn một hoặc nhiều nhóm để ôn luyện. trong 1 nhóm có lượng từ mới là : %d</string>
+    <string name="dl_number_in_group">Lượng kanji là khá nhiều nên được chia ra thành những nhóm lớn (group). Mỗi nhóm lớn lại có thể chia thành những nhóm nhỏ.</string>
+    <string name="number_left">Số từ mới còn lại của lượt này : %d</string>
     <string name="random">Random</string>
-    <string name="which_one">which one you want to show first ?</string>
+    <string name="which_one">bạn muốn ưu tiên cái gì được hiện ra trước ? (lưu ý là kanji có thể không hiện được)</string>
+    <string name="menu_title">Cùng học tiếng Nhật</string>
 </resources>

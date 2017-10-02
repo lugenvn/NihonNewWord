@@ -4,10 +4,27 @@
                 android:layout_height="match_parent"
                 tools:context="self.lugen.nihonnewword.fragment.MainFragment">
 
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#dddddd">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/main_title"
+            android:text="Choose one"/>
+    </RelativeLayout>
+
     <LinearLayout
         android:id="@+id/row_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@id/header"
         android:orientation="horizontal"
         android:padding="@dimen/main_layout_padding">
         <self.lugen.nihonnewword.view.SquareRelativeLayout

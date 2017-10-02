@@ -10,4 +10,5 @@
     <color name="main_title">#ff000000</color>
     <color name="main_item">#ffccccff</color>
     <color name="main_item_press">#aaccccff</color>
+    <color name="lesson_background">#d7eae8</color>
 </resources>

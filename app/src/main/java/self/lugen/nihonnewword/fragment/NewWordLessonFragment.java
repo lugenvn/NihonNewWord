@@ -9,6 +9,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.io.File;
@@ -39,7 +41,7 @@ public class NewWordLessonFragment extends BaseFragment implements View.OnClickL
     Button btnSetting;
     Button btnKana;
     Button btnKanji;
-    Button btnReading;
+    ImageButton btnReading;
     Button btnMeaning;
     NewWordDataUtils dataUtils;
     ArrayList<String> mCurrent;
@@ -82,7 +84,7 @@ public class NewWordLessonFragment extends BaseFragment implements View.OnClickL
         tvNumberLeft = (TextView) view.findViewById(R.id.tv_number_left);
         btnKana = (Button) view.findViewById(R.id.btn_kana);
         btnKanji = (Button) view.findViewById(R.id.btn_kanji);
-        btnReading = (Button) view.findViewById(R.id.btn_reading);
+        btnReading = (ImageButton) view.findViewById(R.id.btn_reading);
         btnMeaning = (Button) view.findViewById(R.id.btn_meaning);
         btnNext = (Button) view.findViewById(R.id.btn_next);
         btnSession = (Button) view.findViewById(R.id.btn_session);

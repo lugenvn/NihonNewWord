@@ -44,33 +44,37 @@
     <LinearLayout
         android:id="@+id/ll_switch_bar"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_alignParentBottom="true"
         android:orientation="horizontal">
         <Button
             android:id="@+id/btn_kana"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:text="@string/kana"
+            android:gravity="center"
             android:layout_weight="1"/>
         <Button
             android:id="@+id/btn_kanji"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
+            android:gravity="center"
             android:text="@string/kanji"/>
         <Button
             android:id="@+id/btn_meaning"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
+            android:gravity="center"
             android:text="@string/meaning"/>
-        <Button
+        <ImageButton
             android:id="@+id/btn_reading"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="@string/reading"/>
+            android:gravity="center"
+            android:src="@drawable/speak"/>
     </LinearLayout>
     <Button
         android:id="@+id/btn_next"

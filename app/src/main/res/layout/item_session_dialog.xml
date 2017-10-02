@@ -5,8 +5,12 @@
               android:layout_height="wrap_content">
     <CheckBox
         android:id="@+id/item_check"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="16sp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
         android:text="item"/>
 
 </LinearLayout>

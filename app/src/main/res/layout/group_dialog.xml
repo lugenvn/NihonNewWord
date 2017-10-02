@@ -5,10 +5,18 @@
               android:orientation="vertical"
               android:padding="@dimen/main_layout_padding">
 
+    <TextView
+        android:id="@+id/dl_tv_session_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dl_number_in_group"
+        android:textSize="12sp"/>
+
     <android.support.v7.widget.RecyclerView
         android:id="@+id/dl_rv_group"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:clipChildren="true"/>
 
     <Button
