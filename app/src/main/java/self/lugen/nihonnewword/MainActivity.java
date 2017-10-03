@@ -11,8 +11,10 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.crashlytics.android.Crashlytics;
 import com.google.android.gms.ads.MobileAds;
 
+import io.fabric.sdk.android.Fabric;
 import self.lugen.nihonnewword.fragment.KanjiMainFragment;
 import self.lugen.nihonnewword.fragment.MainFragment;
 import self.lugen.nihonnewword.fragment.NewWordFragment;
@@ -30,6 +32,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Fabric.with(this, new Crashlytics());
 
 
         // Populate the Navigtion Drawer with options
