@@ -12,6 +12,9 @@
         android:layout_height="wrap_content"
         android:text="lesson"
         android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/menu_text_color"
+        android:textAllCaps="true"
         android:layout_centerInParent="true"/>
 
 </self.lugen.nihonnewword.view.SquareRelativeLayout>

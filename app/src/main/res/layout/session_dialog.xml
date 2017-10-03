@@ -2,44 +2,73 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:padding="@dimen/main_layout_padding">
+    android:background="@color/background">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/menu_text_color"
+        android:background="@color/base_background"
+        android:text="@string/session_dialog_title"/>
 
     <TextView
         android:id="@+id/dl_tv_session_number"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@id/title"
         android:text="show session number : "
+        android:padding="10dp"
         android:textSize="12sp"/>
 
-    <Button
-        android:id="@+id/dl_btn_ok"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/bottom_button"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:layout_alignParentBottom="true"
-        android:text="OK"/>
+        android:orientation="horizontal">
 
-    <Button
-        android:id="@+id/dl_btn_select_all"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_toRightOf="@id/dl_btn_ok"
-        android:text="select all"/>
+        <Button
+            style="@style/buttonStyle"
+            android:id="@+id/dl_btn_ok"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="OK"/>
 
-    <Button
-        android:id="@+id/dl_btn_deselect_all"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_toRightOf="@id/dl_btn_select_all"
-        android:text="deselect all"/>
+        <Button
+            style="@style/buttonStyle"
+            android:id="@+id/dl_btn_select_all"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="1dp"
+            android:text="@string/check_all"/>
+
+        <Button
+            style="@style/buttonStyle"
+            android:id="@+id/dl_btn_deselect_all"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="1dp"
+            android:text="@string/uncheck_all"/>
+    </LinearLayout>
+
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/dl_rv_session"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:clipChildren="true"
-        android:layout_marginTop="10dp"
-        android:layout_below="@id/dl_tv_session_number"
-        android:layout_above="@id/dl_btn_ok"/>
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/dl_tv_session_number"
+        android:layout_above="@id/bottom_button"
+        android:layout_centerHorizontal="true"/>
 </RelativeLayout>

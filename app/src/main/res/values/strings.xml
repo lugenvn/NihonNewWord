@@ -24,8 +24,13 @@
     <string name="dl_number_in_group">Lượng kanji là khá nhiều nên được chia ra thành những nhóm lớn (group). Mỗi nhóm lớn lại có thể chia thành những nhóm nhỏ.</string>
     <string name="number_left">Số từ mới còn lại của lượt này : %d</string>
     <string name="random">Random</string>
-    <string name="which_one">bạn muốn ưu tiên cái gì được hiện ra trước ? (lưu ý là kanji có thể không hiện được)</string>
+    <string name="which_one">Chọn Mục ưu tiên</string>
+    <string name="which_one_des">bạn muốn ưu tiên cái gì được hiện ra trước ? (lưu ý là kanji có thể không hiện được)</string>
     <string name="menu_title">Cùng học tiếng Nhật</string>
     <string name="ad_unit_banner_1">ca-app-pub-7034676815737306/2073384527</string>
     <string name="ad_app_id">ca-app-pub-7034676815737306~2129224846</string>
+    <string name="check_all">check all</string>
+    <string name="uncheck_all">uncheck all</string>
+    <string name="session_dialog_title">Chọn session</string>
+    <string name="group_dialog_title">Chọn group</string>
 </resources>

@@ -36,16 +36,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         mDrawerPane = (RelativeLayout) findViewById(R.id.drawer_pane);
         initSlideMenuView();
-
-        FragmentManager frm = getSupportFragmentManager();
-
-        if (frm.getFragments() == null || frm.getFragments().size() == 0) {
-            FragmentTransaction fmTr = frm.beginTransaction();
-            Fragment fm = MainFragment.newInstance();
-            fmTr.add(R.id.content_main, fm);
-            fmTr.commit();
-        }
-
         MobileAds.initialize(this, getString(R.string.ad_app_id));
     }
 
@@ -99,5 +89,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             return true;
         }
         return false;
+    }
+
+    @Override
+    public void onBackPressed() {
+        FragmentManager frm = getSupportFragmentManager();
+        if (frm.getFragments().size() <= 1) {
+            finish();
+        } else {
+            super.onBackPressed();
+        }
     }
 }

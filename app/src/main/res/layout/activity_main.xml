@@ -8,12 +8,8 @@
     android:fitsSystemWindows="true"
     tools:context="self.lugen.nihonnewword.MainActivity">
 
-    <FrameLayout
-        android:id="@+id/content_main"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
 
-    </FrameLayout>
+    <include layout="@layout/content_main"/>
 
     <RelativeLayout
         android:layout_width="280dp"

@@ -10,7 +10,6 @@ import self.lugen.nihonnewword.R;
 
 public abstract class BaseFragment extends Fragment {
 
-
     public void disableSideBar() {
         Activity activity = getActivity();
         if (activity instanceof MainActivity) {

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="horizontal"
+              android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="wrap_content">
     <CheckBox
@@ -9,8 +9,15 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:textSize="16sp"
-        android:layout_marginTop="3dp"
-        android:layout_marginBottom="3dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:button="@drawable/setting_radio_selector"
         android:text="item"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/normal_split_color"/>
 
 </LinearLayout>

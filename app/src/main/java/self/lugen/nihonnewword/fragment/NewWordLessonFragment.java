@@ -109,10 +109,10 @@ public class NewWordLessonFragment extends BaseFragment implements View.OnClickL
         btnSession.setOnClickListener(this);
         btnSetting.setOnClickListener(this);
         if (init) {
-            initView();
+            initView(false);
             init = false;
         } else {
-            displayValue(mCurrentDisplayPos);
+            displayValue(mCurrentDisplayPos, false);
         }
 
         if (!hasAudio) {
@@ -150,7 +150,7 @@ public class NewWordLessonFragment extends BaseFragment implements View.OnClickL
         }
     }
 
-    private void initView() {
+    private void initView(boolean isNext) {
         int pos = NewWordDataUtils.POS_KANA;
         switch (prioritySetting) {
             case SettingDialog.PRIORITY_RANDOM:
@@ -180,10 +180,10 @@ public class NewWordLessonFragment extends BaseFragment implements View.OnClickL
                 pos = NewWordDataUtils.POS_READING;
                 break;
         }
-        displayValue(pos);
+        displayValue(pos, isNext);
     }
 
-    private void displayValue(int pos) {
+    private void displayValue(int pos, boolean isNext) {
         tvNumberLeft.setText(String.format(getString(R.string.number_left), dataUtils.getNumberLeft()));
         switch (pos) {
             case NewWordDataUtils.POS_KANA:
@@ -196,7 +196,7 @@ public class NewWordLessonFragment extends BaseFragment implements View.OnClickL
                 showMeaning();
                 break;
             case NewWordDataUtils.POS_READING:
-                readWord(init ? true : false);
+                readWord(init || isNext);
                 break;
         }
     }
@@ -242,7 +242,7 @@ public class NewWordLessonFragment extends BaseFragment implements View.OnClickL
     private void next() {
         mediaPlayer.stop();
         mCurrent = dataUtils.getCard(getContext());
-        initView();
+        initView(true);
     }
 
     private void readWord(boolean isRead) {

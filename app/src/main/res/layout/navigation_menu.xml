@@ -4,48 +4,72 @@
               android:id="@+id/navList"
               android:layout_width="280dp"
               android:layout_height="match_parent"
-              android:background="#ffffffff">
+              android:background="@color/base_background">
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="30dp"
-        android:paddingBottom="30dp">
+        android:paddingBottom="30dp"
+        android:paddingLeft="20dp">
         <TextView
             android:id="@+id/tv_menu_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/menu_title"
-            android:textSize="20sp"
-            android:layout_centerInParent="true"/>
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/menu_text_color"
+            android:layout_centerVertical="true"/>
     </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/menu_split_color"/>
     <RelativeLayout
         android:id="@+id/rl_menu_kanji"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:clickable="true"
-        android:padding="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
         android:background="@drawable/menu_item_selector_1">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
             android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/menu_text_color"
             android:text="@string/kanji"/>
     </RelativeLayout>
 
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/menu_split_color"/>
     <RelativeLayout
         android:id="@+id/rl_menu_new_word"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:clickable="true"
-        android:padding="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
         android:background="@drawable/menu_item_selector_2">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
             android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/menu_text_color"
             android:text="@string/new_word"/>
     </RelativeLayout>
 
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/menu_split_color"/>
 </LinearLayout>
