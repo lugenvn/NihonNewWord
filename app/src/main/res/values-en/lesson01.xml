@@ -4,8 +4,7 @@
         <item>I</item>
         <item>we</item>
         <item>you</item>
-        <item>that person, he, she (normal)</item>
-        <item>that person, he, she (more polite)</item>
+        <item>that person, he, she (normal)\nthat person, he, she (more polite)</item>
         <item>ladies and gentlemen, all of you</item>
 
         <item>Mr. Ms. (title of respect addded to a name)</item>
@@ -27,11 +26,9 @@
         <item>hospital</item>
 
         <item>electricity, light</item>
-        <item>who</item>
-        <item>who (polite)</item>
+        <item>who\nwho (polite)</item>
         <item>~years old</item>
-        <item>how old</item>
-        <item>how old (polite)</item>
+        <item>how old\nhow old (polite)</item>
         <item>yes</item>
 
         <item>no</item>

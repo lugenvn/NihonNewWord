@@ -85,7 +85,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="session"/>
+            android:text="@string/session"/>
 
         <View
             android:layout_width="1dp"
@@ -113,6 +113,6 @@
         android:layout_height="wrap_content"
         android:layout_above="@id/switch_bar_spliter"
         android:layout_alignParentRight="true"
-        android:text="next"/>
+        android:text="@string/next"/>
 
 </RelativeLayout>

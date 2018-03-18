@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lesson3_meaning">
+        <item>here, this place</item>
+        <item>there, that place near you</item>
+        <item>that place over there</item>
+        <item>where, what place?</item>
+        <item>this way, this place (polite)</item>
+
+        <item>that way, that place near you (polite)</item>
+        <item>that way, that place over there (polite)</item>
+        <item>which way, where (polite)</item>
+        <item>classroom</item>
+        <item>dining hall, canteen</item>
+
+        <item>office</item>
+        <item>conference room, assembly room</item>
+        <item>reception desk</item>
+        <item>lobby</item>
+        <item>room</item>
+
+        <item>toilet, restroom</item>
+        <item>staircase</item>
+        <item>elevator, lift</item>
+        <item>escalator</item>
+        <item>country</item>
+
+        <item>company</item>
+        <item>house, home</item>
+        <item>telephone, telephone call</item>
+        <item>shoes</item>
+        <item>necktie</item>
+
+        <item>wine</item>
+        <item>tobacco, cigarette</item>
+        <item>department, counter (in a department store)</item>
+        <item>basement</item>
+        <item>~th floor</item>
+
+        <item>what floor</item>
+        <item>- yen</item>
+        <item>how much</item>
+        <item>hundred</item>
+        <item>thousand</item>
+
+        <item>ten thousand</item>
+        <item>Excuse me</item>
+        <item>(polite form of "desu")</item>
+        <item>Please show me ~</item>
+        <item>well, then, in that case</item>
+
+        <item>Give me ~, please.</item>
+    </string-array>
+</resources>

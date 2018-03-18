@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lesson2_meaning">
+        <item>this (thing here)</item>
+        <item>that (thing near you)</item>
+        <item>that (thing over there)</item>
+        <item>this ~, this ~ here</item>
+        <item>that ~, that ~ there</item>
+
+        <item>that ~, that ~ over there</item>
+        <item>book</item>
+        <item>dictionary</item>
+        <item>magazine</item>
+        <item>newspaper</item>
+
+        <item>notebook</item>
+        <item>pocket notebook</item>
+        <item>business card</item>
+        <item>card</item>
+        <item>telephone card</item>
+
+        <item>pencil</item>
+        <item>ballpoint pen</item>
+        <item>mechanical pencil</item>
+        <item>key</item>
+        <item>watch, clock</item>
+
+        <item>umbrella</item>
+        <item>bag, briefcase</item>
+        <item>(cassette) tape</item>
+        <item>tape recorder</item>
+        <item>television</item>
+
+        <item>Radio</item>
+        <item>camera</item>
+        <item>computer</item>
+        <item>automobile, car</item>
+        <item>desk</item>
+
+        <item>chair</item>
+        <item>chocolate</item>
+        <item>coffee</item>
+        <item>the English language</item>
+        <item>the Japanese language</item>
+
+        <item>~ language</item>
+        <item>what</item>
+        <item>so</item>
+        <item>No it isn't, You are wrong</item>
+        <item>I see, Is that so?</item>
+
+        <item>well (used to show hesitation)</item>
+        <item>It's nothing, It's a token of my gratitude</item>
+        <item>Please, Here you are (when offering someone something)</item>
+        <item>Well, thanks</item>
+        <item>Thank you very much</item>
+
+        <item>I hope for your kind assistance hereafter</item>
+        <item>I am pleased to meet you</item>
+    </string-array>
+</resources>

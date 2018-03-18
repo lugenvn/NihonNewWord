@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lesson7_meaning">
+        <item>cut, slice</item>
+        <item>send</item>
+        <item>give</item>
+        <item>receive</item>
+        <item>lend</item>
+
+        <item>borrow</item>
+        <item>teach</item>
+        <item>learn</item>
+        <item>make a telephone call</item>
+        <item>hand, arm</item>
+
+        <item>chopsticks</item>
+        <item>spoon</item>
+        <item>knife</item>
+        <item>fork</item>
+        <item>scissors</item>
+
+        <item>fax</item>
+        <item>word procecessor</item>
+        <item>personal computer</item>
+        <item>punch</item>
+        <item>stapler</item>
+
+        <item>Scotch tape, clear adhesive tape</item>
+        <item>eraser</item>
+        <item>paper</item>
+        <item>flower, blossom</item>
+        <item>shirt</item>
+
+        <item>present, gift</item>
+        <item>baggage, parcel</item>
+        <item>money</item>
+        <item>ticket</item>
+        <item>Christmas</item>
+
+        <item>(my) father</item>
+        <item>(my) mother</item>
+        <item>(someone else's) father</item>
+        <item>(someone else's) mother</item>
+        <item>already</item>
+
+        <item>not yet</item>
+        <item>from now on, soon</item>
+        <item>What a nice ~!</item>
+        <item>Excuse me, Anybody home?, May I come in? (an expression used by a visitor)</item>
+        <item>How nice of you to come (lit. Welcome)</item>
+
+        <item>Do come in</item>
+        <item>Thank you, May I? (lit. I'm afraid I'll be disturbing you)</item>
+        <item>Won't you have ~?, Would you like to have ~? (used when offering something)</item>
+        <item>Thank you, I accept (said before starting to eat or drink)</item>
+        <item>trip, tour (~をし ます: make a trip)</item>
+
+        <item>souvenir, present</item>
+    </string-array>
+</resources>

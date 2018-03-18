@@ -18,7 +18,7 @@
             android:textSize="@dimen/title_text_size"
             android:textStyle="bold"
             android:textColor="@color/main_title"
-            android:text="Main"/>
+            android:text="@string/main"/>
     </RelativeLayout>
 
     <com.google.android.gms.ads.AdView
