@@ -11,6 +11,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import self.lugen.nihonnewword.fragment.KanaMainFragment;
 import self.lugen.nihonnewword.fragment.KanjiMainFragment;
 import self.lugen.nihonnewword.fragment.MainFragment;
 import self.lugen.nihonnewword.fragment.NewWordFragment;
@@ -22,6 +23,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private TextView tvMenuTitle;
     private RelativeLayout rlMenuNewWord;
     private RelativeLayout rlMenuKanji;
+    private RelativeLayout rlMenuKana;
 
 
     @Override
@@ -49,9 +51,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         tvMenuTitle = (TextView) findViewById(R.id.tv_menu_title);
         rlMenuNewWord = (RelativeLayout) findViewById(R.id.rl_menu_new_word);
         rlMenuKanji = (RelativeLayout) findViewById(R.id.rl_menu_kanji);
+        rlMenuKana = (RelativeLayout) findViewById(R.id.rl_menu_kana);
 
         rlMenuNewWord.setOnClickListener(this);
         rlMenuKanji.setOnClickListener(this);
+        rlMenuKana.setOnClickListener(this);
     }
 
     @Override
@@ -65,6 +69,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.rl_menu_kanji:
                 mDrawerLayout.closeDrawers();
                 openFragment(KanjiMainFragment.newInstance());
+                break;
+            case R.id.rl_menu_kana:
+                mDrawerLayout.closeDrawers();
+                openFragment(KanaMainFragment.newInstance());
                 break;
         }
     }

@@ -14,7 +14,7 @@
             android:id="@+id/tv_menu_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Let's learn japanese"
+            android:text="@string/let_s_learn_japanese"
             android:textSize="20sp"
             android:layout_centerInParent="true"/>
     </RelativeLayout>
@@ -30,7 +30,7 @@
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:textSize="20dp"
-            android:text="Kanji Learn"/>
+            android:text="@string/kanji_learn"/>
     </RelativeLayout>
 
     <RelativeLayout
@@ -46,7 +46,23 @@
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:textSize="20dp"
-            android:text="New word"/>
+            android:text="@string/new_word"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_menu_kana"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:padding="10dp"
+        android:background="@drawable/menu_item_selector_1"
+        android:layout_marginTop="1dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="20dp"
+            android:text="@string/kana"/>
     </RelativeLayout>
 
 </LinearLayout>

@@ -9,15 +9,13 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.RelativeLayout;
 
+import butterknife.BindView;
+import butterknife.OnClick;
 import self.lugen.nihonnewword.R;
 import self.lugen.nihonnewword.utils.Constants;
 import self.lugen.nihonnewword.utils.Utils;
 
-public class MainFragment extends BaseFragment implements View.OnClickListener {
-
-    private RelativeLayout rlNewWord;
-    private RelativeLayout rlKanji;
-
+public class MainFragment extends BaseFragment {
     public MainFragment() {
         // Required empty public constructor
     }
@@ -49,26 +47,16 @@ public class MainFragment extends BaseFragment implements View.OnClickListener {
     }
 
     @Override
-    public View onCreateView(
-            LayoutInflater inflater, ViewGroup container,
-            Bundle savedInstanceState)
-    {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_main, container, false);
+    protected int getLayoutId() {
+        return R.layout.fragment_main;
     }
 
     @Override
-    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
-        super.onViewCreated(view, savedInstanceState);
-
-        rlNewWord = (RelativeLayout) view.findViewById(R.id.rl_new_world);
-        rlKanji = (RelativeLayout) view.findViewById(R.id.rl_kanji);
-
-        rlNewWord.setOnClickListener(this);
-        rlKanji.setOnClickListener(this);
+    protected void initView() {
+        super.initView();
     }
 
-    @Override
+    @OnClick({R.id.rl_new_world, R.id.rl_kanji, R.id.rl_kana})
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.rl_new_world:
@@ -77,7 +65,14 @@ public class MainFragment extends BaseFragment implements View.OnClickListener {
             case R.id.rl_kanji:
                 onClickKanji();
                 break;
+            case R.id.rl_kana:
+                onClickKana();
+                break;
         }
+    }
+
+    private void onClickKana() {
+        addFragment(KanaMainFragment.newInstance());
     }
 
     private void onClickKanji() {

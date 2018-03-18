@@ -1,10 +1,15 @@
 package self.lugen.nihonnewword.fragment;
 
 import android.app.Activity;
+import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
 
+import butterknife.ButterKnife;
 import self.lugen.nihonnewword.MainActivity;
 import self.lugen.nihonnewword.R;
 
@@ -24,6 +29,25 @@ public abstract class BaseFragment extends Fragment {
             ((MainActivity) activity).enableSideBar();
         }
     }
+
+    protected abstract int getLayoutId();
+
+
+    @Override
+    public View onCreateView(
+            LayoutInflater inflater, ViewGroup container,
+            Bundle savedInstanceState)
+    {
+        View v = inflater.inflate(getLayoutId(), container, false);
+        ButterKnife.bind(this, v);
+        initView();
+        return v;
+    }
+
+    protected void initView() {
+     // TODO Do something in extended class
+    }
+
 
     public void addFragment(Fragment fragment) {
 

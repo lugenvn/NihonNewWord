@@ -25,4 +25,7 @@
     <string name="number_left">current left : %d</string>
     <string name="random">Random</string>
     <string name="which_one">which one you want to show first ?</string>
+    <string name="let_s_learn_japanese">Let\'s learn japanese</string>
+    <string name="kanji_learn">Kanji Learn</string>
+    <string name="romaji">romaji</string>
 </resources>

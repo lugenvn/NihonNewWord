@@ -28,4 +28,30 @@
         </self.lugen.nihonnewword.view.SquareRelativeLayout>
     </LinearLayout>
 
+    <LinearLayout
+        android:id="@+id/row_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/row_1"
+        android:padding="@dimen/main_layout_padding">
+        <self.lugen.nihonnewword.view.SquareRelativeLayout
+            android:id="@+id/rl_kana"
+            style="@style/MainItem">
+            <TextView
+                style="@style/MainItemTextView"
+                android:text="@string/kana"/>
+
+        </self.lugen.nihonnewword.view.SquareRelativeLayout>
+        <self.lugen.nihonnewword.view.SquareRelativeLayout
+            android:id="@+id/none"
+            style="@style/MainItem"
+            android:visibility="invisible">
+            <TextView
+                style="@style/MainItemTextView"
+                android:text="@string/kana"/>
+
+        </self.lugen.nihonnewword.view.SquareRelativeLayout>
+    </LinearLayout>
+
 </RelativeLayout>
