@@ -3,11 +3,20 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="menu_item_gray_1">#ffdddddd</color>
-    <color name="menu_item_gray_1_press">#99dddddd</color>
-    <color name="menu_item_gray_2">#ffccdddd</color>
-    <color name="menu_item_gray_2_press">#99ccdddd</color>
-    <color name="main_title">#ff000000</color>
-    <color name="main_item">#ffccccff</color>
-    <color name="main_item_press">#aaccccff</color>
+    <color name="menu_item_gray_1">#00ffffff</color>
+    <color name="menu_item_gray_1_press">#51ffffff</color>
+    <color name="menu_item_gray_2">#00ffffff</color>
+    <color name="menu_item_gray_2_press">#51ffffff</color>
+    <color name="button">#0277BD</color>
+    <color name="button_disable">#640277bd</color>
+    <color name="button_press">#258fcf</color>
+    <color name="main_title">#ffffff</color>
+    <color name="main_item">#0277BD</color>
+    <color name="main_item_press">#258fcf</color>
+    <color name="base_background">#0277BD</color>
+    <color name="menu_text_color">#ffffff</color>
+    <color name="menu_split_color">#b1e2ff</color>
+    <color name="normal_split_color">#cacaca</color>
+    <color name="background">#ededed</color>
+    <color name="content_color">#01579b</color>
 </resources>

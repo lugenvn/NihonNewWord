@@ -1,35 +1,39 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             xmlns:tools="http://schemas.android.com/tools"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent"
-             tools:context="self.lugen.nihonnewword.fragment.NewWordLessonFragment">
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/background"
+                android:clickable="true"
+                tools:context="self.lugen.nihonnewword.fragment.NewWordLessonFragment">
 
-    <TextView
-        android:id="@+id/tv_type_title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="24sp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_margin="20dp"/>
 
-    <TextView
-        android:id="@+id/tv_lesson_title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="24sp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_margin="20dp"/>
-
-    <TextView
-        android:id="@+id/tv_card_content"
+    <RelativeLayout
+        android:id="@+id/header"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:textAlignment="center"
-        android:layout_margin="40dp"
-        android:textSize="50sp"/>
+        android:layout_height="@dimen/title_height"
+        android:background="@color/base_background"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/tv_type_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/menu_text_color"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@+id/tv_lesson_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/menu_text_color"
+            android:textSize="24sp"/>
+
+    </RelativeLayout>
 
     <LinearLayout
         android:id="@+id/ll_switch_bar"
@@ -37,34 +41,78 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:orientation="horizontal">
+
         <Button
             android:id="@+id/btn_kana"
+            style="@style/buttonStyle"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/kana"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/menu_split_color"/>
+
         <Button
             android:id="@+id/btn_romaji"
+            style="@style/buttonStyle"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/romaji"/>
     </LinearLayout>
+
+
+    <View
+        android:id="@+id/switch_bar_spliter"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@id/ll_switch_bar"
+        android:background="@color/menu_split_color"/>
+
+    <LinearLayout
+        android:id="@+id/ll_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_above="@id/switch_bar_spliter"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_session"
+            style="@style/buttonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="session"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/menu_split_color"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_card_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/ll_setting"
+        android:layout_below="@id/header"
+        android:layout_margin="40dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/content_color"
+        android:textSize="30sp"/>
+
+
     <Button
         android:id="@+id/btn_next"
+        style="@style/buttonStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@id/ll_switch_bar"
-        android:layout_alignParentEnd="true"
+        android:layout_above="@id/switch_bar_spliter"
         android:layout_alignParentRight="true"
         android:text="next"/>
 
-    <Button
-        android:id="@+id/btn_session"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@id/ll_switch_bar"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:text="session"/>
 </RelativeLayout>

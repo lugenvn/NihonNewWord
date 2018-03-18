@@ -11,11 +11,19 @@ import android.widget.RelativeLayout;
 
 import butterknife.BindView;
 import butterknife.OnClick;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 import self.lugen.nihonnewword.R;
 import self.lugen.nihonnewword.utils.Constants;
 import self.lugen.nihonnewword.utils.Utils;
 
 public class MainFragment extends BaseFragment {
+
+    private RelativeLayout rlNewWord;
+    private RelativeLayout rlKanji;
+    private AdView mAdView;
+
     public MainFragment() {
         // Required empty public constructor
     }
@@ -52,8 +60,13 @@ public class MainFragment extends BaseFragment {
     }
 
     @Override
-    protected void initView() {
-        super.initView();
+    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+
+        mAdView = (AdView) view.findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
+
     }
 
     @OnClick({R.id.rl_new_world, R.id.rl_kanji, R.id.rl_kana})

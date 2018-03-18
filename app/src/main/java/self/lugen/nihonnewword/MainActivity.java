@@ -12,6 +12,10 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import self.lugen.nihonnewword.fragment.KanaMainFragment;
+import com.crashlytics.android.Crashlytics;
+import com.google.android.gms.ads.MobileAds;
+
+import io.fabric.sdk.android.Fabric;
 import self.lugen.nihonnewword.fragment.KanjiMainFragment;
 import self.lugen.nihonnewword.fragment.MainFragment;
 import self.lugen.nihonnewword.fragment.NewWordFragment;
@@ -31,20 +35,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Fabric.with(this, new Crashlytics());
+
 
         // Populate the Navigtion Drawer with options
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         mDrawerPane = (RelativeLayout) findViewById(R.id.drawer_pane);
         initSlideMenuView();
-
-        FragmentManager frm = getSupportFragmentManager();
-
-        if (frm.getFragments() == null || frm.getFragments().size() == 0) {
-            FragmentTransaction fmTr = frm.beginTransaction();
-            Fragment fm = MainFragment.newInstance();
-            fmTr.add(R.id.content_main, fm);
-            fmTr.commit();
-        }
+        MobileAds.initialize(this, getString(R.string.ad_app_id));
     }
 
     private void initSlideMenuView() {
@@ -103,5 +101,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             return true;
         }
         return false;
+    }
+
+    @Override
+    public void onBackPressed() {
+        FragmentManager frm = getSupportFragmentManager();
+        if (frm.getFragments().size() <= 1) {
+            finish();
+        } else {
+            super.onBackPressed();
+        }
     }
 }

@@ -4,7 +4,8 @@
         <item>わたし</item>
         <item>わたしたち</item>
         <item>あなた</item>
-        <item>あのひと(あのかた)</item>
+        <item>あのひと</item>
+        <item>あのかた</item>
         <item>みなさん</item>
 
         <item>~さん</item>
@@ -26,9 +27,11 @@
         <item>びょういん</item>
 
         <item>でんき</item>
-        <item>だれ(どなた)</item>
+        <item>だれ</item>
+        <item>どなた</item>
         <item>―さい</item>
-        <item>なんさい (おいくつ)</item>
+        <item>なんさい</item>
+        <item>おいくつ</item>
         <item>はい</item>
 
         <item>いいえ</item>
@@ -46,7 +49,8 @@
         <item></item>
         <item></item>
         <item></item>
-        <item>あの人(あの方)</item>
+        <item>あの人</item>
+        <item>あの方</item>
         <item>皆さん</item>
 
         <item></item>
@@ -69,7 +73,9 @@
 
         <item>電気</item>
         <item></item>
+        <item></item>
         <item>-歳</item>
+        <item>何歳</item>
         <item>何歳</item>
         <item></item>
 
@@ -88,7 +94,8 @@
         <item>tôi</item>
         <item>chúng tôi, chúng ta</item>
         <item>anh/ chị/ ông/ bà, bạn ngôi thứ 2 số ít</item>
-        <item>người kia, người đó(vị kia)</item>
+        <item>người kia, người đó</item>
+        <item>vị kia</item>
         <item>các anh chị, các ông bà, các bạn, quý vị</item>
 
         <item>anh, chị, ông, bà</item>
@@ -110,9 +117,11 @@
         <item>bệnh viện</item>
 
         <item>điện, đèn điện</item>
-        <item>ai(ai (polite))</item>
+        <item>ai</item>
+        <item>ai (polite)</item>
         <item>― tuổi</item>
         <item>mấy tuổi, bao nhiêu tuổi </item>
+        <item>mấy tuổi, bao nhiêu tuổi (polite) </item>
         <item>vâng, dạ</item>
 
         <item>không</item>

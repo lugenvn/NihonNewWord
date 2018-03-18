@@ -2,14 +2,45 @@
                 xmlns:tools="http://schemas.android.com/tools"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:background="@color/background"
                 tools:context="self.lugen.nihonnewword.fragment.MainFragment">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="@color/base_background">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="@dimen/title_text_size"
+            android:textStyle="bold"
+            android:textColor="@color/main_title"
+            android:text="Main"/>
+    </RelativeLayout>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/ad_unit_banner_1">
+    </com.google.android.gms.ads.AdView>
 
     <LinearLayout
         android:id="@+id/row_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@id/header"
         android:orientation="horizontal"
-        android:padding="@dimen/main_layout_padding">
+        android:paddingLeft="@dimen/main_layout_padding"
+        android:paddingRight="@dimen/main_layout_padding"
+        android:paddingBottom="@dimen/main_layout_padding">
         <self.lugen.nihonnewword.view.SquareRelativeLayout
             android:id="@+id/rl_new_world"
             style="@style/MainItem">
@@ -34,10 +65,12 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_below="@id/row_1"
-        android:padding="@dimen/main_layout_padding">
+        android:paddingLeft="@dimen/main_layout_padding"
+        android:paddingRight="@dimen/main_layout_padding">
         <self.lugen.nihonnewword.view.SquareRelativeLayout
             android:id="@+id/rl_kana"
-            style="@style/MainItem">
+            style="@style/MainItem"
+            android:layout_marginTop="0dp">
             <TextView
                 style="@style/MainItemTextView"
                 android:text="@string/kana"/>
@@ -46,6 +79,7 @@
         <self.lugen.nihonnewword.view.SquareRelativeLayout
             android:id="@+id/none"
             style="@style/MainItem"
+            android:layout_marginTop="0dp"
             android:visibility="invisible">
             <TextView
                 style="@style/MainItemTextView"

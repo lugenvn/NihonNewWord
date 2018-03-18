@@ -58,7 +58,7 @@ public class KanaLessonFragment extends BaseFragment implements
         tvLessonTitle.setText(String.format(getString(R.string.kanji_lesson_name_full), mCurrentLesson));
 
         if (init) {
-            initView();
+            initData();
             init = false;
         } else {
             displayValue(mCurrentDisplayPos);
@@ -94,8 +94,7 @@ public class KanaLessonFragment extends BaseFragment implements
         }
     }
 
-    @Override
-    protected void initView() {
+    protected void initData() {
         displayValue(KanaDataUtils.POS_KANA);
     }
 

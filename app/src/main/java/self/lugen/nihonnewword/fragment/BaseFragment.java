@@ -2,6 +2,7 @@ package self.lugen.nihonnewword.fragment;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
@@ -14,7 +15,6 @@ import self.lugen.nihonnewword.MainActivity;
 import self.lugen.nihonnewword.R;
 
 public abstract class BaseFragment extends Fragment {
-
 
     public void disableSideBar() {
         Activity activity = getActivity();
@@ -40,8 +40,13 @@ public abstract class BaseFragment extends Fragment {
     {
         View v = inflater.inflate(getLayoutId(), container, false);
         ButterKnife.bind(this, v);
-        initView();
         return v;
+    }
+
+    @Override
+    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        initView();
     }
 
     protected void initView() {

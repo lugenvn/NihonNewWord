@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+import butterknife.BindView;
 import self.lugen.nihonnewword.R;
 import self.lugen.nihonnewword.datamanager.KanjiDataUtils;
 import self.lugen.nihonnewword.datamanager.NativeData;
@@ -26,13 +27,21 @@ public class KanjiLessonFragment extends BaseFragment implements View.OnClickLis
     private static final String CURRENT_DISPLAY = "CURRENT_DISPLAY";
     private static final String CURRENT_LESSON = "CURRENT_LESSON";
 
+    @BindView(R.id.tv_type_title)
     TextView tvTitle;
+    @BindView(R.id.tv_lesson_title)
     TextView tvLessonTitle;
+    @BindView(R.id.tv_card_content)
     TextView tvContent;
+    @BindView(R.id.btn_next)
     Button btnNext;
+    @BindView(R.id.btn_session)
     Button btnSession;
+    @BindView(R.id.btn_group)
     Button btnGroup;
+    @BindView(R.id.btn_kanji)
     Button btnKanji;
+    @BindView(R.id.btn_meaning)
     Button btnMeaning;
     KanjiDataUtils dataUtils;
     ArrayList<String> mCurrent;
@@ -60,14 +69,6 @@ public class KanjiLessonFragment extends BaseFragment implements View.OnClickLis
 
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
-        tvTitle = (TextView) view.findViewById(R.id.tv_type_title);
-        tvLessonTitle = (TextView) view.findViewById(R.id.tv_lesson_title);
-        tvContent = (TextView) view.findViewById(R.id.tv_card_content);
-        btnKanji = (Button) view.findViewById(R.id.btn_kanji);
-        btnMeaning = (Button) view.findViewById(R.id.btn_meaning);
-        btnNext = (Button) view.findViewById(R.id.btn_next);
-        btnSession = (Button) view.findViewById(R.id.btn_session);
-        btnGroup = (Button) view.findViewById(R.id.btn_group);
 
         tvLessonTitle.setText(String.format(getString(R.string.kanji_lesson_name_full), mCurrentLesson));
 
@@ -77,7 +78,7 @@ public class KanjiLessonFragment extends BaseFragment implements View.OnClickLis
         btnSession.setOnClickListener(this);
         btnGroup.setOnClickListener(this);
         if (init) {
-            initView();
+            initData();
             init = false;
         } else {
             displayValue(mCurrentDisplayPos);
@@ -117,8 +118,7 @@ public class KanjiLessonFragment extends BaseFragment implements View.OnClickLis
         }
     }
 
-    @Override
-    protected void initView() {
+    protected void initData() {
         displayValue(KanjiDataUtils.POS_KANJI);
     }
 

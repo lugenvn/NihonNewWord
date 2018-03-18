@@ -5,10 +5,9 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.support.annotation.Nullable;
 import android.text.TextUtils;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import java.io.File;
@@ -39,7 +38,7 @@ public class NewWordLessonFragment extends BaseFragment implements View.OnClickL
     Button btnSetting;
     Button btnKana;
     Button btnKanji;
-    Button btnReading;
+    ImageButton btnReading;
     Button btnMeaning;
     NewWordDataUtils dataUtils;
     ArrayList<String> mCurrent;
@@ -76,7 +75,7 @@ public class NewWordLessonFragment extends BaseFragment implements View.OnClickL
         tvNumberLeft = (TextView) view.findViewById(R.id.tv_number_left);
         btnKana = (Button) view.findViewById(R.id.btn_kana);
         btnKanji = (Button) view.findViewById(R.id.btn_kanji);
-        btnReading = (Button) view.findViewById(R.id.btn_reading);
+        btnReading = (ImageButton) view.findViewById(R.id.btn_reading);
         btnMeaning = (Button) view.findViewById(R.id.btn_meaning);
         btnNext = (Button) view.findViewById(R.id.btn_next);
         btnSession = (Button) view.findViewById(R.id.btn_session);
@@ -101,10 +100,10 @@ public class NewWordLessonFragment extends BaseFragment implements View.OnClickL
         btnSession.setOnClickListener(this);
         btnSetting.setOnClickListener(this);
         if (init) {
-            initView();
+            initData(false);
             init = false;
         } else {
-            displayValue(mCurrentDisplayPos);
+            displayValue(mCurrentDisplayPos, false);
         }
 
         if (!hasAudio) {
@@ -142,8 +141,7 @@ public class NewWordLessonFragment extends BaseFragment implements View.OnClickL
         }
     }
 
-    @Override
-    protected void initView() {
+    private void initData(boolean isNext) {
         int pos = NewWordDataUtils.POS_KANA;
         switch (prioritySetting) {
             case SettingDialog.PRIORITY_RANDOM:
@@ -173,10 +171,10 @@ public class NewWordLessonFragment extends BaseFragment implements View.OnClickL
                 pos = NewWordDataUtils.POS_READING;
                 break;
         }
-        displayValue(pos);
+        displayValue(pos, isNext);
     }
 
-    private void displayValue(int pos) {
+    private void displayValue(int pos, boolean isNext) {
         tvNumberLeft.setText(String.format(getString(R.string.number_left), dataUtils.getNumberLeft()));
         switch (pos) {
             case NewWordDataUtils.POS_KANA:
@@ -189,7 +187,7 @@ public class NewWordLessonFragment extends BaseFragment implements View.OnClickL
                 showMeaning();
                 break;
             case NewWordDataUtils.POS_READING:
-                readWord(init ? true : false);
+                readWord(init || isNext);
                 break;
         }
     }
@@ -235,7 +233,7 @@ public class NewWordLessonFragment extends BaseFragment implements View.OnClickL
     private void next() {
         mediaPlayer.stop();
         mCurrent = dataUtils.getCard(getContext());
-        initView();
+        initData(true);
     }
 
     private void readWord(boolean isRead) {
