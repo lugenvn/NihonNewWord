@@ -135,7 +135,7 @@ public class KanaLessonFragment extends BaseFragment implements
 
     private void next() {
         mCurrent = dataUtils.getCard(getContext());
-        initView();
+        initData();
     }
 
     private void showRomaji() {

@@ -172,7 +172,7 @@ public class KanjiLessonFragment extends BaseFragment implements View.OnClickLis
     private void next() {
         TrackingUtils.trackingButton(getContext(), TrackingUtils.ID_BUTTON, TrackingUtils.SCREEN_KANJI_DETAIL, TrackingUtils.NEXT);
         mCurrent = dataUtils.getCard(getContext());
-        initView();
+        initData();
     }
 
     private void showMeaning() {

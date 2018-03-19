@@ -22,8 +22,8 @@ android {
         applicationId "self.lugen.nihonnewword"
         minSdkVersion 14
         targetSdkVersion 24
-        versionCode 4
-        versionName "1.3"
+        versionCode 5
+        versionName "1.31"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
