@@ -13,9 +13,11 @@ import butterknife.BindView;
 import butterknife.OnClick;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.firebase.analytics.FirebaseAnalytics;
 
 import self.lugen.nihonnewword.R;
 import self.lugen.nihonnewword.utils.Constants;
+import self.lugen.nihonnewword.utils.TrackingUtils;
 import self.lugen.nihonnewword.utils.Utils;
 
 public class MainFragment extends BaseFragment {
@@ -89,10 +91,12 @@ public class MainFragment extends BaseFragment {
     }
 
     private void onClickKanji() {
+        TrackingUtils.trackingButton(getContext(), TrackingUtils.ID_BUTTON, TrackingUtils.SCREEN_MAIN, TrackingUtils.MAIN_KANJI);
         addFragment(KanjiMainFragment.newInstance());
     }
 
     private void onClickNewWord() {
+        TrackingUtils.trackingButton(getContext(), TrackingUtils.ID_BUTTON, TrackingUtils.SCREEN_MAIN, TrackingUtils.MAIN_NEW_WORD);
         addFragment(NewWordFragment.newInstance());
     }
 }

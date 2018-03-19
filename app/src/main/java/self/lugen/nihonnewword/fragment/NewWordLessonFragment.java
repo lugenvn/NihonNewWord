@@ -17,6 +17,7 @@ import java.util.Random;
 import self.lugen.nihonnewword.R;
 import self.lugen.nihonnewword.datamanager.NewWordDataUtils;
 import self.lugen.nihonnewword.utils.Constants;
+import self.lugen.nihonnewword.utils.TrackingUtils;
 import self.lugen.nihonnewword.view.SessionDialog;
 import self.lugen.nihonnewword.view.SettingDialog;
 
@@ -220,23 +221,28 @@ public class NewWordLessonFragment extends BaseFragment implements View.OnClickL
     }
 
     private void openSettingDialog() {
+        TrackingUtils.trackingButton(getContext(), TrackingUtils.ID_BUTTON, TrackingUtils.SCREEN_NEW_WORD_DETAIL, TrackingUtils.SETTING);
+
         SettingDialog dialog = SettingDialog.newInstance(prioritySetting, hasAudio, getClass().getName());
         dialog.show(getFragmentManager(), dialog.getClass().getName());
     }
 
     private void openSessionDialog() {
+        TrackingUtils.trackingButton(getContext(), TrackingUtils.ID_BUTTON, TrackingUtils.SCREEN_NEW_WORD_DETAIL, TrackingUtils.SESSION);
         SessionDialog dialog = SessionDialog.newInstance(dataUtils.getSessionCount(), dataUtils.getItemCountInSession
                 (), dataUtils.getCurrentEnableSessions(), getClass().getName());
         dialog.show(getFragmentManager(), dialog.getClass().getName());
     }
 
     private void next() {
+        TrackingUtils.trackingButton(getContext(), TrackingUtils.ID_BUTTON, TrackingUtils.SCREEN_NEW_WORD_DETAIL, TrackingUtils.NEXT);
         mediaPlayer.stop();
         mCurrent = dataUtils.getCard(getContext());
         initData(true);
     }
 
     private void readWord(boolean isRead) {
+        TrackingUtils.trackingButton(getContext(), TrackingUtils.ID_BUTTON, TrackingUtils.SCREEN_NEW_WORD_DETAIL, TrackingUtils.READING);
         showAllData(NewWordDataUtils.POS_READING, R.string.reading, getString(R.string.listen));
         if (isRead) {
             dataUtils.speechWord(dataUtils.getRecentPos(), mCurrentLesson, mediaPlayer);
@@ -244,10 +250,12 @@ public class NewWordLessonFragment extends BaseFragment implements View.OnClickL
     }
 
     private void showMeaning() {
+        TrackingUtils.trackingButton(getContext(), TrackingUtils.ID_BUTTON, TrackingUtils.SCREEN_NEW_WORD_DETAIL, TrackingUtils.MEANING);
         showAllData(NewWordDataUtils.POS_MEANING, R.string.meaning, mCurrent.get(NewWordDataUtils.POS_MEANING));
     }
 
     private void showKanji() {
+        TrackingUtils.trackingButton(getContext(), TrackingUtils.ID_BUTTON, TrackingUtils.SCREEN_NEW_WORD_DETAIL, TrackingUtils.KANJI);
         String data;
         if (TextUtils.isEmpty(mCurrent.get(NewWordDataUtils.POS_KANJI))) {
             data = getString(R.string.no_kanji);
@@ -258,6 +266,7 @@ public class NewWordLessonFragment extends BaseFragment implements View.OnClickL
     }
 
     private void showKana() {
+        TrackingUtils.trackingButton(getContext(), TrackingUtils.ID_BUTTON, TrackingUtils.SCREEN_NEW_WORD_DETAIL, TrackingUtils.KANA);
         showAllData(NewWordDataUtils.POS_KANA, R.string.kana, mCurrent.get(NewWordDataUtils.POS_KANA));
     }
 

@@ -15,6 +15,7 @@ import butterknife.BindView;
 import self.lugen.nihonnewword.R;
 import self.lugen.nihonnewword.datamanager.KanjiDataUtils;
 import self.lugen.nihonnewword.datamanager.NativeData;
+import self.lugen.nihonnewword.utils.TrackingUtils;
 import self.lugen.nihonnewword.view.GroupDialog;
 import self.lugen.nihonnewword.view.SessionDialog;
 
@@ -155,29 +156,34 @@ public class KanjiLessonFragment extends BaseFragment implements View.OnClickLis
     }
 
     private void openGroupDialog() {
+        TrackingUtils.trackingButton(getContext(), TrackingUtils.ID_BUTTON, TrackingUtils.SCREEN_KANJI_DETAIL, TrackingUtils.GROUP);
         GroupDialog dialog = GroupDialog.newInstance(dataUtils.getGroupCount(),
                 dataUtils.getGroupList(), getClass().getName());
         dialog.show(getFragmentManager(), dialog.getClass().getName());
     }
 
     private void openSessionDialog() {
+        TrackingUtils.trackingButton(getContext(), TrackingUtils.ID_BUTTON, TrackingUtils.SCREEN_KANJI_DETAIL, TrackingUtils.SESSION);
         SessionDialog dialog = SessionDialog.newInstance(dataUtils.getSessionCount(), dataUtils.getItemCountInSession(),
                 dataUtils.getCurrentEnableSessions(), getClass().getName());
         dialog.show(getFragmentManager(), dialog.getClass().getName());
     }
 
     private void next() {
+        TrackingUtils.trackingButton(getContext(), TrackingUtils.ID_BUTTON, TrackingUtils.SCREEN_KANJI_DETAIL, TrackingUtils.NEXT);
         mCurrent = dataUtils.getCard(getContext());
         initView();
     }
 
     private void showMeaning() {
+        TrackingUtils.trackingButton(getContext(), TrackingUtils.ID_BUTTON, TrackingUtils.SCREEN_KANJI_DETAIL, TrackingUtils.MEANING);
         mCurrentDisplayPos = KanjiDataUtils.POS_MEANING;
         tvTitle.setText(R.string.meaning);
         tvContent.setText(mCurrent.get(KanjiDataUtils.POS_MEANING));
     }
 
     private void showKanji() {
+        TrackingUtils.trackingButton(getContext(), TrackingUtils.ID_BUTTON, TrackingUtils.SCREEN_KANJI_DETAIL, TrackingUtils.KANJI);
         String data;
         if (TextUtils.isEmpty(mCurrent.get(KanjiDataUtils.POS_KANJI))) {
             data = getString(R.string.no_kanji);
