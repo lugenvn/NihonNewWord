@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lesson1_meaning">
+        <item>I</item>
+        <item>we</item>
+        <item>you</item>
+        <item>that person, he, she (normal)\nthat person, he, she (more polite)</item>
+        <item>ladies and gentlemen, all of you</item>
+
+        <item>Mr. Ms. (title of respect addded to a name)</item>
+        <item>(suffix often added to a child's name)</item>
+        <item>(suffix often added to a boy's name)</item>
+        <item>(suffix meaning "a national of")</item>
+        <item>teacher, instructor (not used when referring to one's own job)</item>
+
+        <item>teacher, instructor</item>
+        <item>student</item>
+        <item>company employee</item>
+        <item>employee of ~ company (used with a company name)</item>
+        <item>bank employee</item>
+
+        <item>medical doctor</item>
+        <item>researcher, scholar</item>
+        <item>engineer</item>
+        <item>university</item>
+        <item>hospital</item>
+
+        <item>electricity, light</item>
+        <item>who\nwho (polite)</item>
+        <item>~years old</item>
+        <item>how old\nhow old (polite)</item>
+        <item>yes</item>
+
+        <item>no</item>
+        <item>Excuse me, but</item>
+        <item>May I have your name?</item>
+        <item>How do you do? (introducing oneself for the first time) </item>
+        <item>Pleased to meet you</item>
+
+        <item>This is Mr. (Ms.) ~</item>
+        <item>I came (come) from ~</item>
+    </string-array>
+
+</resources>

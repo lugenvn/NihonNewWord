@@ -18,7 +18,7 @@
             android:textSize="@dimen/title_text_size"
             android:textStyle="bold"
             android:textColor="@color/main_title"
-            android:text="Main"/>
+            android:text="@string/main"/>
     </RelativeLayout>
 
     <com.google.android.gms.ads.AdView
@@ -37,9 +37,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/header"
-        android:layout_above="@id/adView"
         android:orientation="horizontal"
-        android:padding="@dimen/main_layout_padding">
+        android:paddingLeft="@dimen/main_layout_padding"
+        android:paddingRight="@dimen/main_layout_padding"
+        android:paddingBottom="@dimen/main_layout_padding">
         <self.lugen.nihonnewword.view.SquareRelativeLayout
             android:id="@+id/rl_new_world"
             style="@style/MainItem">
@@ -54,6 +55,35 @@
             <TextView
                 style="@style/MainItemTextView"
                 android:text="@string/kanji"/>
+
+        </self.lugen.nihonnewword.view.SquareRelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/row_1"
+        android:paddingLeft="@dimen/main_layout_padding"
+        android:paddingRight="@dimen/main_layout_padding">
+        <self.lugen.nihonnewword.view.SquareRelativeLayout
+            android:id="@+id/rl_kana"
+            style="@style/MainItem"
+            android:layout_marginTop="0dp">
+            <TextView
+                style="@style/MainItemTextView"
+                android:text="@string/kana"/>
+
+        </self.lugen.nihonnewword.view.SquareRelativeLayout>
+        <self.lugen.nihonnewword.view.SquareRelativeLayout
+            android:id="@+id/none"
+            style="@style/MainItem"
+            android:layout_marginTop="0dp"
+            android:visibility="invisible">
+            <TextView
+                style="@style/MainItemTextView"
+                android:text="@string/kana"/>
 
         </self.lugen.nihonnewword.view.SquareRelativeLayout>
     </LinearLayout>

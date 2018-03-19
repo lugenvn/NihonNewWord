@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lesson4_meaning">
+        <item>get up, wake up</item>
+        <item>sleep, go to bed</item>
+        <item>work</item>
+        <item>take a rest, take a holiday</item>
+        <item>study</item>
+
+        <item>finish</item>
+        <item>department store</item>
+        <item>bank</item>
+        <item>post office</item>
+        <item>library</item>
+
+        <item>art museum</item>
+        <item>now</item>
+        <item> ~o'clock</item>
+        <item>- minute</item>
+        <item>half</item>
+
+        <item>what time</item>
+        <item>what minute</item>
+        <item>a.m., morning</item>
+        <item>p.m., afternoon</item>
+        <item>morning</item>
+
+        <item>daytime, noon</item>
+        <item>night, evening (soon)</item>
+        <item>night, evening (late)</item>
+        <item>the day before yesterday</item>
+        <item>yesterday</item>
+
+        <item>today</item>
+        <item>tomorrow</item>
+        <item>the day after tomorrow</item>
+        <item>this morning</item>
+        <item>this evening, tonight</item>
+
+        <item>rest, a holiday, a day off</item>
+        <item>lunchtime</item>
+        <item>every morning</item>
+        <item>every evening</item>
+        <item>every day</item>
+
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+
+        <item>Saturday</item>
+        <item>Sunday</item>
+        <item>what day of the week</item>
+        <item>number (phone, room)</item>
+        <item>what number</item>
+
+        <item>from ~</item>
+        <item>up to ~, until ~</item>
+        <item>and (used to connect nouns)</item>
+        <item>your place</item>
+        <item>That's tough, isn't it? (used when expressing sympathy)</item>
+
+        <item>well, let me see</item>
+        <item>Please. (lit. ask for a favor)</item>
+        <item>Certainly (sir, madam)</item>
+        <item>the number being inquired about</item>
+        <item>Thank you very much</item>
+    </string-array>
+</resources>

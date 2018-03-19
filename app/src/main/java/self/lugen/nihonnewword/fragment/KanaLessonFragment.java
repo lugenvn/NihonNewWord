@@ -2,25 +2,20 @@ package self.lugen.nihonnewword.fragment;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.text.TextUtils;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.TextView;
 
 import java.util.ArrayList;
 
 import butterknife.BindView;
+import butterknife.OnClick;
 import self.lugen.nihonnewword.R;
-import self.lugen.nihonnewword.datamanager.KanjiDataUtils;
+import self.lugen.nihonnewword.datamanager.KanaDataUtils;
 import self.lugen.nihonnewword.datamanager.NativeData;
-import self.lugen.nihonnewword.utils.TrackingUtils;
-import self.lugen.nihonnewword.view.GroupDialog;
 import self.lugen.nihonnewword.view.SessionDialog;
 
-public class KanjiLessonFragment extends BaseFragment implements View.OnClickListener,
-        SessionDialog.IOnSelectSessionDone, GroupDialog.IOnSelectGroupDone
+public class KanaLessonFragment extends BaseFragment implements
+        SessionDialog.IOnSelectSessionDone
 {
     private static final String FIRST_INIT = "FIRST_INIT";
     private static final String DATA_UTILS = "DATA_UTILS";
@@ -34,29 +29,19 @@ public class KanjiLessonFragment extends BaseFragment implements View.OnClickLis
     TextView tvLessonTitle;
     @BindView(R.id.tv_card_content)
     TextView tvContent;
-    @BindView(R.id.btn_next)
-    Button btnNext;
-    @BindView(R.id.btn_session)
-    Button btnSession;
-    @BindView(R.id.btn_group)
-    Button btnGroup;
-    @BindView(R.id.btn_kanji)
-    Button btnKanji;
-    @BindView(R.id.btn_meaning)
-    Button btnMeaning;
-    KanjiDataUtils dataUtils;
+    KanaDataUtils dataUtils;
     ArrayList<String> mCurrent;
     int mCurrentDisplayPos;
     String mCurrentLesson;
 
     boolean init = true;
 
-    public KanjiLessonFragment() {
+    public KanaLessonFragment() {
         // Required empty public constructor
     }
 
-    public static KanjiLessonFragment newInstance(String currentLesson) {
-        KanjiLessonFragment fragment = new KanjiLessonFragment();
+    public static KanaLessonFragment newInstance(String currentLesson) {
+        KanaLessonFragment fragment = new KanaLessonFragment();
         Bundle args = new Bundle();
         args.putString(CURRENT_LESSON, currentLesson);
         fragment.setArguments(args);
@@ -65,28 +50,18 @@ public class KanjiLessonFragment extends BaseFragment implements View.OnClickLis
 
     @Override
     protected int getLayoutId() {
-        return R.layout.fragment_lesson_kanji;
+        return R.layout.fragment_lesson_kana;
     }
 
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
-
         tvLessonTitle.setText(String.format(getString(R.string.kanji_lesson_name_full), mCurrentLesson));
 
-        btnKanji.setOnClickListener(this);
-        btnMeaning.setOnClickListener(this);
-        btnNext.setOnClickListener(this);
-        btnSession.setOnClickListener(this);
-        btnGroup.setOnClickListener(this);
         if (init) {
             initData();
             init = false;
         } else {
             displayValue(mCurrentDisplayPos);
-        }
-
-        if (dataUtils.getGroupCount() <=1) {
-            btnGroup.setVisibility(View.GONE);
         }
     }
 
@@ -106,13 +81,13 @@ public class KanjiLessonFragment extends BaseFragment implements View.OnClickLis
             init = savedInstanceState.getBoolean(FIRST_INIT, true);
             dataUtils = savedInstanceState.getParcelable(DATA_UTILS);
             mCurrent = savedInstanceState.getStringArrayList(CURRENT_VALUE);
-            mCurrentDisplayPos = savedInstanceState.getInt(CURRENT_DISPLAY, KanjiDataUtils.POS_KANJI);
+            mCurrentDisplayPos = savedInstanceState.getInt(CURRENT_DISPLAY, KanaDataUtils.POS_KANA);
         }
 
-        mCurrentLesson = getArguments().getString(CURRENT_LESSON, NativeData.KANJI_N5);
+        mCurrentLesson = getArguments().getString(CURRENT_LESSON, NativeData.HIRAGANA);
 
         if (dataUtils == null) {
-            dataUtils = new KanjiDataUtils(getContext(), mCurrentLesson);
+            dataUtils = new KanaDataUtils(getContext(), mCurrentLesson);
         }
         if (mCurrent == null) {
             mCurrent = dataUtils.getCard(getContext());
@@ -120,28 +95,28 @@ public class KanjiLessonFragment extends BaseFragment implements View.OnClickLis
     }
 
     protected void initData() {
-        displayValue(KanjiDataUtils.POS_KANJI);
+        displayValue(KanaDataUtils.POS_KANA);
     }
 
     private void displayValue(int pos) {
         switch (pos) {
-            case KanjiDataUtils.POS_KANJI:
-                showKanji();
+            case KanaDataUtils.POS_KANA:
+                showKana();
                 break;
-            case KanjiDataUtils.POS_MEANING:
-                showMeaning();
+            case KanaDataUtils.POS_ROMAJI:
+                showRomaji();
                 break;
         }
     }
 
-    @Override
+    @OnClick({R.id.btn_kana, R.id.btn_romaji, R.id.btn_next, R.id.btn_session})
     public void onClick(View view) {
         switch (view.getId()) {
-            case R.id.btn_kanji:
-                showKanji();
+            case R.id.btn_kana:
+                showKana();
                 break;
-            case R.id.btn_meaning:
-                showMeaning();
+            case R.id.btn_romaji:
+                showRomaji();
                 break;
             case R.id.btn_next:
                 next();
@@ -149,48 +124,30 @@ public class KanjiLessonFragment extends BaseFragment implements View.OnClickLis
             case R.id.btn_session:
                 openSessionDialog();
                 break;
-            case R.id.btn_group:
-                openGroupDialog();
-                break;
         }
     }
 
-    private void openGroupDialog() {
-        TrackingUtils.trackingButton(getContext(), TrackingUtils.ID_BUTTON, TrackingUtils.SCREEN_KANJI_DETAIL, TrackingUtils.GROUP);
-        GroupDialog dialog = GroupDialog.newInstance(dataUtils.getGroupCount(),
-                dataUtils.getGroupList(), getClass().getName());
-        dialog.show(getFragmentManager(), dialog.getClass().getName());
-    }
-
     private void openSessionDialog() {
-        TrackingUtils.trackingButton(getContext(), TrackingUtils.ID_BUTTON, TrackingUtils.SCREEN_KANJI_DETAIL, TrackingUtils.SESSION);
         SessionDialog dialog = SessionDialog.newInstance(dataUtils.getSessionCount(), dataUtils.getItemCountInSession(),
                 dataUtils.getCurrentEnableSessions(), getClass().getName());
         dialog.show(getFragmentManager(), dialog.getClass().getName());
     }
 
     private void next() {
-        TrackingUtils.trackingButton(getContext(), TrackingUtils.ID_BUTTON, TrackingUtils.SCREEN_KANJI_DETAIL, TrackingUtils.NEXT);
         mCurrent = dataUtils.getCard(getContext());
         initView();
     }
 
-    private void showMeaning() {
-        TrackingUtils.trackingButton(getContext(), TrackingUtils.ID_BUTTON, TrackingUtils.SCREEN_KANJI_DETAIL, TrackingUtils.MEANING);
-        mCurrentDisplayPos = KanjiDataUtils.POS_MEANING;
-        tvTitle.setText(R.string.meaning);
-        tvContent.setText(mCurrent.get(KanjiDataUtils.POS_MEANING));
+    private void showRomaji() {
+        mCurrentDisplayPos = KanaDataUtils.POS_ROMAJI;
+        tvTitle.setText(R.string.romaji);
+        tvContent.setText(mCurrent.get(KanaDataUtils.POS_ROMAJI));
     }
 
-    private void showKanji() {
-        TrackingUtils.trackingButton(getContext(), TrackingUtils.ID_BUTTON, TrackingUtils.SCREEN_KANJI_DETAIL, TrackingUtils.KANJI);
+    private void showKana() {
         String data;
-        if (TextUtils.isEmpty(mCurrent.get(KanjiDataUtils.POS_KANJI))) {
-            data = getString(R.string.no_kanji);
-        } else {
-            data = mCurrent.get(KanjiDataUtils.POS_KANJI);
-        }
-        showAllData(KanjiDataUtils.POS_KANJI, R.string.kanji, data);
+        data = mCurrent.get(KanaDataUtils.POS_KANA);
+        showAllData(KanaDataUtils.POS_KANA, R.string.kana, data);
     }
 
     private void showAllData(int pos, int titleID, String contentData) {
@@ -205,9 +162,4 @@ public class KanjiLessonFragment extends BaseFragment implements View.OnClickLis
         next();
     }
 
-    @Override
-    public void onSelectGroupDone(ArrayList<Character> groupList) {
-        dataUtils.updateGroupList(getContext(), groupList);
-        next();
-    }
 }

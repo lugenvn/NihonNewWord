@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lesson6_meaning">
+        <item>eat</item>
+        <item>drink</item>
+        <item>smoke</item>
+        <item>see, look at, watch</item>
+        <item>hear, listen</item>
+
+        <item>read</item>
+        <item>write, draw, paint</item>
+        <item>buy</item>
+        <item>take (a photograph)</item>
+        <item>do</item>
+
+        <item>meet [a friend]</item>
+        <item>a meal, cooked rice</item>
+        <item>breakfast</item>
+        <item>lunch</item>
+        <item>dinner</item>
+
+        <item>bread</item>
+        <item>egg</item>
+        <item>meat</item>
+        <item>fish</item>
+        <item>vegetable</item>
+
+        <item>fruit</item>
+        <item>water</item>
+        <item>tea, green tea</item>
+        <item>black tea</item>
+        <item>milk</item>
+
+        <item>juice</item>
+        <item>beer</item>
+        <item>alcohol, Japanese rice wine</item>
+        <item>video</item>
+        <item>movie</item>
+
+        <item>CD</item>
+        <item>letter</item>
+        <item>report</item>
+        <item>photograph</item>
+        <item>store, shop</item>
+
+        <item>restaurant</item>
+        <item>garden</item>
+        <item>homework\n(~をします: do homework)</item>
+        <item>tennis\n(~をします: play tennis)</item>
+        <item>soccer, football\n(~をします: play soccer)</item>
+
+        <item>cherry-blossom viewing\n(~をします: go cherry-blossom viewing)</item>
+        <item>what</item>
+        <item>together</item>
+        <item>a little while, a little bit</item>
+        <item>always, usually</item>
+
+        <item>sometimes</item>
+        <item>after that, and then</item>
+        <item>yes</item>
+        <item>That's good.</item>
+        <item>I see</item>
+
+        <item>Yes?</item>
+        <item>See you tomorrow</item>
+    </string-array>
+</resources>

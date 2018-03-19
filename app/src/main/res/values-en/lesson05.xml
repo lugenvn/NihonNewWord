@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lesson5_meaning">
+        <item>go</item>
+        <item>come</item>
+        <item>go home, return</item>
+        <item>school</item>
+        <item>supermarket</item>
+
+        <item>station</item>
+        <item>airplane</item>
+        <item>ship</item>
+        <item>electric train</item>
+        <item>subway, underground</item>
+
+        <item>the Shinkansen, the bullet train</item>
+        <item>bus</item>
+        <item>taxi</item>
+        <item>bicycle</item>
+        <item>on foot</item>
+
+        <item>person, people</item>
+        <item>friend</item>
+        <item>he, boyfriend, lover</item>
+        <item>she, girlfriend, lover</item>
+        <item>family</item>
+
+        <item>alone, by oneself</item>
+        <item>last week</item>
+        <item>this week</item>
+        <item>next week</item>
+        <item>last month</item>
+
+        <item>this month</item>
+        <item>next month</item>
+        <item>last year</item>
+        <item>this year</item>
+        <item>next year</item>
+
+        <item>~th month of the year</item>
+        <item>what month</item>
+        <item>first day of the month</item>
+        <item>second, two days</item>
+        <item>third, three days</item>
+
+        <item>fourth, four days</item>
+        <item>fifth, five days</item>
+        <item>sixth, six days</item>
+        <item>seventh, seven days</item>
+        <item>eigth, eight days</item>
+
+        <item>ninth, nine days</item>
+        <item>tenth, ten days</item>
+        <item>fourteenth, fourteen days</item>
+        <item>twentieth, twenty days</item>
+        <item>twenty fourth, twenty four days</item>
+
+        <item>~th day of the month, ~ days</item>
+        <item>which day of the month, how many days</item>
+        <item>when</item>
+        <item>birthday</item>
+        <item>local (train)</item>
+
+        <item>rapid</item>
+        <item>express</item>
+        <item>next</item>
+        <item>You're welcome, Don't mention it</item>
+        <item>platform ~, ~th platform</item>
+    </string-array>
+</resources>

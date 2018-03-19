@@ -5,12 +5,9 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.support.annotation.Nullable;
 import android.text.TextUtils;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageButton;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.io.File;
@@ -67,18 +64,12 @@ public class NewWordLessonFragment extends BaseFragment implements View.OnClickL
     }
 
     @Override
-    public View onCreateView(
-            LayoutInflater inflater, ViewGroup container,
-            Bundle savedInstanceState)
-    {
-        View view = inflater.inflate(R.layout.fragment_lesson_new_word, container, false);
-        return view;
+    protected int getLayoutId() {
+        return R.layout.fragment_lesson_new_word;
     }
 
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
-        super.onViewCreated(view, savedInstanceState);
-
         tvTitle = (TextView) view.findViewById(R.id.tv_type_title);
         tvLessonTitle = (TextView) view.findViewById(R.id.tv_lesson_title);
         tvContent = (TextView) view.findViewById(R.id.tv_card_content);
@@ -110,7 +101,7 @@ public class NewWordLessonFragment extends BaseFragment implements View.OnClickL
         btnSession.setOnClickListener(this);
         btnSetting.setOnClickListener(this);
         if (init) {
-            initView(false);
+            initData(false);
             init = false;
         } else {
             displayValue(mCurrentDisplayPos, false);
@@ -151,7 +142,7 @@ public class NewWordLessonFragment extends BaseFragment implements View.OnClickL
         }
     }
 
-    private void initView(boolean isNext) {
+    private void initData(boolean isNext) {
         int pos = NewWordDataUtils.POS_KANA;
         switch (prioritySetting) {
             case SettingDialog.PRIORITY_RANDOM:
@@ -247,7 +238,7 @@ public class NewWordLessonFragment extends BaseFragment implements View.OnClickL
         TrackingUtils.trackingButton(getContext(), TrackingUtils.ID_BUTTON, TrackingUtils.SCREEN_NEW_WORD_DETAIL, TrackingUtils.NEXT);
         mediaPlayer.stop();
         mCurrent = dataUtils.getCard(getContext());
-        initView(true);
+        initData(true);
     }
 
     private void readWord(boolean isRead) {

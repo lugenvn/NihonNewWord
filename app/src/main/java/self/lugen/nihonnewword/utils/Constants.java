@@ -14,6 +14,7 @@ public class Constants {
     public static final String KANA = "_kana";
     public static final String KANJI = "_kanji";
     public static final String MEANING = "_meaning";
+    public static final String ROMAJI = "_romaji";
 
     public static final String APP_FOLDER = "nihonnewword";
 }

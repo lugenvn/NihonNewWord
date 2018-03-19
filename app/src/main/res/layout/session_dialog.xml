@@ -21,7 +21,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/title"
-        android:text="show session number : "
+        android:text="@string/show_session_number"
         android:padding="10dp"
         android:textSize="12sp"/>
 
@@ -39,7 +39,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="OK"/>
+            android:text="@string/ok"/>
 
         <Button
             style="@style/buttonStyle"
