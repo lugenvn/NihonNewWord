@@ -10,8 +10,10 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 import self.lugen.nihonnewword.R;
+import self.lugen.nihonnewword.utils.TrackingUtils;
 
-public class LessonAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
+public class LessonAdapter extends RecyclerView.Adapter<RecyclerView
+        .ViewHolder> {
     private LayoutInflater mInflater;
     private Context mContext;
     private ArrayList<Integer> mData;
@@ -25,7 +27,8 @@ public class LessonAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
     }
 
     @Override
-    public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+    public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent,
+                                                      int viewType) {
         View view = mInflater.inflate(R.layout.item_lesson, parent, false);
         ViewHolder viewHolder = new ViewHolder(view);
         initListener(viewHolder);
@@ -39,7 +42,9 @@ public class LessonAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
         if (holder instanceof ViewHolder) {
-            ((ViewHolder)holder).tvLessonName.setText(String.format(mContext.getString(R.string.lesson_name), mData.get(position)));
+            ((ViewHolder) holder).tvLessonName.setText(
+                    String.format(mContext.getString(R.string.lesson_name),
+                            mData.get(position)));
         }
     }
 
@@ -67,6 +72,9 @@ public class LessonAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
         @Override
         public void onClick(View view) {
             onItemClick(viewHolder.getAdapterPosition());
+            TrackingUtils.trackingButton(mContext, TrackingUtils.ID_BUTTON, TrackingUtils.SCREEN_NEW_WORD_LIST,
+                    TrackingUtils.LESSON_NEW_WORD + mData
+                            .get(viewHolder.getAdapterPosition()));
         }
     }
 
@@ -77,7 +85,8 @@ public class LessonAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
         ViewHolder(View itemView) {
             super(itemView);
             viewMain = itemView;
-            tvLessonName = (TextView) itemView.findViewById(R.id.tv_lesson_name);
+            tvLessonName = (TextView) itemView
+                    .findViewById(R.id.tv_lesson_name);
         }
     }
 

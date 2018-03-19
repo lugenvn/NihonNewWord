@@ -13,6 +13,7 @@ import android.widget.Toast;
 
 import com.crashlytics.android.Crashlytics;
 import com.google.android.gms.ads.MobileAds;
+import com.google.firebase.analytics.FirebaseAnalytics;
 
 import io.fabric.sdk.android.Fabric;
 import self.lugen.nihonnewword.fragment.KanjiMainFragment;
@@ -26,6 +27,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private TextView tvMenuTitle;
     private RelativeLayout rlMenuNewWord;
     private RelativeLayout rlMenuKanji;
+    private FirebaseAnalytics mFirebaseAnalytics;
 
 
     @Override
@@ -41,6 +43,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mDrawerPane = (RelativeLayout) findViewById(R.id.drawer_pane);
         initSlideMenuView();
         MobileAds.initialize(this, getString(R.string.ad_app_id));
+
+        // Obtain the FirebaseAnalytics instance.
+        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
     }
 
     private void initSlideMenuView() {

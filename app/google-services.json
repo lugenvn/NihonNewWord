@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "331015948145",
+    "firebase_url": "https://nihonnewword.firebaseio.com",
+    "project_id": "nihonnewword",
+    "storage_bucket": "nihonnewword.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:331015948145:android:5e73c2afce803372",
+        "android_client_info": {
+          "package_name": "self.lugen.nihonnewword"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "331015948145-9fbu6ucv9h6o4m65jblm0kshigrfk263.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "self.lugen.nihonnewword",
+            "certificate_hash": "3a79f955d404e5f1820f2b8404358ffd72be7184"
+          }
+        },
+        {
+          "client_id": "331015948145-c5citb2dr1tkm36b6ivbspa9dnp2bdqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQ0m75ThBZ2v8b3KJ_rumOf4F0M9nYlDI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "331015948145-c5citb2dr1tkm36b6ivbspa9dnp2bdqe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

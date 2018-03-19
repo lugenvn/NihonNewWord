@@ -10,6 +10,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 import self.lugen.nihonnewword.R;
+import self.lugen.nihonnewword.utils.TrackingUtils;
 
 public class KanjiMainAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     private LayoutInflater mInflater;
@@ -68,6 +69,9 @@ public class KanjiMainAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
         @Override
         public void onClick(View view) {
             onItemClick(viewHolder.getAdapterPosition());
+            TrackingUtils.trackingButton(mContext, TrackingUtils.ID_BUTTON, TrackingUtils.SCREEN_KANJI_LIST,
+                    TrackingUtils.LESSON_KANJI + mData
+                            .get(viewHolder.getAdapterPosition()));
         }
     }
 
